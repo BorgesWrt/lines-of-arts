@@ -1,0 +1,288 @@
+[
+  {
+    "id": "giotto-kiss",
+    "status": 200,
+    "url": "https://www.cappelladegliscrovegni.it/index.php/en/la-cappella-di-giotto",
+    "title": "The Scrovegni Chapel"
+  },
+  {
+    "id": "martini-christ",
+    "status": 200,
+    "url": "https://www.liverpoolmuseums.org.uk/artifact/christ-discovered-temple",
+    "title": "Christ Discovered in the Temple | National Museums Liverpool"
+  },
+  {
+    "id": "duccio-annunciation",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/duccio-the-annunciation",
+    "title": "Duccio | The Annunciation | NG1139 | National Gallery, London"
+  },
+  {
+    "id": "uccello-george",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/paolo-uccello-saint-george-and-the-dragon",
+    "title": "Paolo Uccello | Saint George and the Dragon | NG6294 | National Gallery, London"
+  },
+  {
+    "id": "uccello-battle",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/paolo-uccello-the-battle-of-san-romano",
+    "title": "Paolo Uccello | The Battle of San Romano | NG583 | National Gallery, London"
+  },
+  {
+    "id": "masaccio-madonna",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/masaccio-the-virgin-and-child",
+    "title": "Masaccio | The Virgin and Child | NG3046 | National Gallery, London"
+  },
+  {
+    "id": "giotto-ognissanti",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/virgin-and-child-enthroned-surrounded-by-angels-and-saints-ognissanti-maesta",
+    "title": "Virgin and Child enthroned, surrounded by angels and saints (Ognissanti Maestà) by Giotto"
+  },
+  {
+    "id": "martini-annunciation",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/annunciation-with-st-margaret-and-st-ansanus",
+    "title": "Annunciation by Simone Martini | Uffizi Galleries"
+  },
+  {
+    "id": "lippi-annunciation",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/fra-filippo-lippi-the-annunciation",
+    "title": "Fra Filippo Lippi | The Annunciation | NG666 | National Gallery, London"
+  },
+  {
+    "id": "piero-nativity",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/piero-della-francesca-the-nativity",
+    "title": "Piero della Francesca | The Nativity | NG908 | National Gallery, London"
+  },
+  {
+    "id": "piero-baptism",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/piero-della-francesca-the-baptism-of-christ",
+    "title": "Piero della Francesca | The Baptism of Christ | NG665 | National Gallery, London"
+  },
+  {
+    "id": "duccio-maesta",
+    "status": 200,
+    "url": "https://operaduomo.siena.it/en/cathedral-museum/",
+    "title": "CATHEDRAL MUSEUM &#8211; Opera Duomo Siena"
+  },
+  {
+    "id": "masaccio-tribute",
+    "status": 200,
+    "url": "https://musefirenze.it/en/museums-exhibitions-events-and-unique-experiences/",
+    "title": "MUS.E"
+  },
+  {
+    "id": "verrocchio-madonna",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/andrea-del-verrocchio-the-virgin-and-child-with-two-angels",
+    "title": "Andrea del Verrocchio | The Virgin and Child with Two Angels | NG2508 | National Gallery, London"
+  },
+  {
+    "id": "botticelli-nativity",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-mystic-nativity",
+    "title": "Sandro Botticelli | &#x27;Mystic Nativity&#x27; | NG1034 | National Gallery, London"
+  },
+  {
+    "id": "verrocchio-baptism",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/verrocchio-leonardo-baptism-of-christ",
+    "title": "The Baptism of Christ by Verrocchio and Leonardo"
+  },
+  {
+    "id": "lippi-madonna",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/lippi-madonna-and-child-with-two-angels",
+    "title": "Madonna with Child and two Angels by Filippo Lippi"
+  },
+  {
+    "id": "filippino-saints",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/filippino-lippi-the-virgin-and-child-with-saints-jerome-and-dominic",
+    "title": "Filippino Lippi | The Virgin and Child with Saints Jerome and Dominic | NG293 | National Gallery, London"
+  },
+  {
+    "id": "botticelli-primavera",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/botticelli-spring",
+    "title": "Spring by Botticelli | Uffizi Galleries"
+  },
+  {
+    "id": "perugino-keys",
+    "status": 200,
+    "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/parete-nord/storie-di-cristo/consegna-delle-chiavi.html",
+    "title": "Handing over of the keys"
+  },
+  {
+    "id": "ghirlandaio-magi",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/adoration-of-the-magi-ghirlandaio",
+    "title": "Adoration of the Magi by Ghirlandaio | Uffizi Galleries"
+  },
+  {
+    "id": "perugino-madonna",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/pietro-perugino-the-virgin-and-child-with-an-angel",
+    "title": "Pietro Perugino | The Virgin and Child with an Angel | NG288.1 | National Gallery, London"
+  },
+  {
+    "id": "ghirlandaio-old-man",
+    "status": 200,
+    "url": "https://collections.louvre.fr/en/ark:/53355/cl010064987",
+    "title": "Portrait d'un vieillard et d'un jeune garçon -\n  Louvre site des collections"
+  },
+  {
+    "id": "michelangelo-adam",
+    "status": 200,
+    "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/cappella-sistina/volta/storie-centrali/creazione-di-adamo.html",
+    "title": "Creation of Adam"
+  },
+  {
+    "id": "leonardo-rocks",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks",
+    "title": "Leonardo da Vinci | The Virgin of the Rocks | NG1093 | National Gallery, London"
+  },
+  {
+    "id": "raphael-transfiguration",
+    "status": 200,
+    "url": "https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/la-pinacoteca/sala-viii---secolo-xvi/raffaello-sanzio--trasfigurazione.html",
+    "title": "Raffaello Sanzio, The Transfiguration"
+  },
+  {
+    "id": "leonardo-mona",
+    "status": 200,
+    "url": "https://collections.louvre.fr/en/ark:/53355/cl010062370",
+    "title": "Portrait de Lisa Gherardini, épouse de Francesco del Giocondo, dit La Joconde ou Monna Lisa -\n  Louvre site des collections"
+  },
+  {
+    "id": "bellini-doge",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-doge-leonardo-loredan",
+    "title": "Giovanni Bellini | Doge Leonardo Loredan | NG189 | National Gallery, London"
+  },
+  {
+    "id": "filippino-magi",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/adoration-of-the-magi-filippino-lippi",
+    "title": "Adoration of the Magi by Filippino Lippi | Uffizi Galleries"
+  },
+  {
+    "id": "bellini-francis",
+    "status": 200,
+    "url": "https://www.frick.org/exhibitions/bellini_giorgione/2",
+    "title": "Client Challenge"
+  },
+  {
+    "id": "michelangelo-doni",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/holy-family-known-as-the-doni-tondo",
+    "title": "Holy Family (Tondo Doni) by Michelangelo | Uffizi Galleries"
+  },
+  {
+    "id": "giorgione-tempest",
+    "status": 200,
+    "url": "https://www.gallerieaccademia.it/opera/la-tempesta/",
+    "title": "La tempesta | Gallerie dell'Accademia di Venezia"
+  },
+  {
+    "id": "titian-bacchus",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne",
+    "title": "Titian | Bacchus and Ariadne | NG35 | National Gallery, London"
+  },
+  {
+    "id": "raphael-sistine",
+    "status": 200,
+    "url": "https://www.skd.museum/fileadmin/userfiles/SKD_allgemein/Publikationen/Jahresberichte/SKD_Annual_Report_2021.pdf"
+  },
+  {
+    "id": "giorgione-philosophers",
+    "status": 200,
+    "url": "https://www.khm.at/en/artworks/the-three-philosophers-823",
+    "title": "“The Three Philosophers” - Artworks - Kunsthistorisches Museum - KHM.at"
+  },
+  {
+    "id": "eyck-ghent",
+    "status": 200,
+    "url": "https://www.sintbaafskathedraal.be/en/folders/",
+    "title": "Folders | Saint Bavo&#039;s cathedral Ghent"
+  },
+  {
+    "id": "eyck-rolin",
+    "status": 200,
+    "url": "https://collections.louvre.fr/en/ark:/53355/cl010061856",
+    "title": "La Vierge du chancelier Rolin -\n  Louvre site des collections"
+  },
+  {
+    "id": "titian-venus",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/venus-urbino-titian",
+    "title": "Venus of Urbino by Titian | Uffizi Galleries"
+  },
+  {
+    "id": "durer-apostles",
+    "status": 200,
+    "url": "https://www.sammlung.pinakothek.de/de/artwork/Znxw0rvLXg/albrecht-duerer/vier-apostel-hll-markus-und-paulus",
+    "title": "Sammlung | Vier Apostel: Hll. Markus und Paulus"
+  },
+  {
+    "id": "bruegel-babel",
+    "status": 200,
+    "url": "https://www.khm.at/besuch/only-in-vienna",
+    "title": "Only in Vienna - KHM.at"
+  },
+  {
+    "id": "bruegel-wedding",
+    "status": 200,
+    "url": "https://www.khm.at/en/artworks/peasant-wedding-330",
+    "title": "Peasant Wedding - Artworks - Kunsthistorisches Museum - KHM.at"
+  },
+  {
+    "id": "pontormo-joseph",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/pontormo-joseph-with-jacob-in-egypt",
+    "title": "Pontormo | Joseph with Jacob in Egypt | NG1131 | National Gallery, London"
+  },
+  {
+    "id": "durer-magi",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/adoration-of-the-magi-durer",
+    "title": "Adoration of the Magi by Albrecht Dürer | Uffizi Galleries"
+  },
+  {
+    "id": "bronzino-allegory",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/bronzino-an-allegory-with-venus-and-cupid",
+    "title": "Bronzino | An Allegory with Venus and Cupid | NG651 | National Gallery, London"
+  },
+  {
+    "id": "parmigianino-self",
+    "status": 200,
+    "url": "https://www.khm.at/en/artworks/selbstbildnis-im-konvexspiegel-1407-1",
+    "title": "Selbstbildnis im Konvexspiegel - Artworks - Kunsthistorisches Museum - KHM.at"
+  },
+  {
+    "id": "pontormo-deposition",
+    "status": 200,
+    "url": "https://www.palazzostrozzi.org/wp-content/uploads/2026/01/Inganni.pdf"
+  },
+  {
+    "id": "bronzino-eleonora",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/eleonora-di-toledo",
+    "title": "Portrait of Eleonora di Toledo with her son Giovanni, Agnolo Bronzino"
+  },
+  {
+    "id": "parmigianino-cupid",
+    "status": 200,
+    "url": "https://www.khm.at/en/objectdb/detail/1411/",
+    "title": "Bow-carving Amor - Artworks - Kunsthistorisches Museum - KHM.at"
+  }
+]

@@ -1,0 +1,181 @@
+import React, { useEffect, useRef, useState } from 'react';
+import { createRoot } from 'react-dom/client';
+import { BookOpen, Check, ChevronLeft, ChevronRight, CircleHelp, ExternalLink, Focus, GitBranch, Grid2X2, Layers3, Minus, Plus, Search, SlidersHorizontal, X } from 'lucide-react';
+import { movements, paintings, connections, glossary } from '../data/content';
+import imageManifest from '../data/image-manifest.json';
+import '../styles/global.css';
+
+const START = 1280;
+const END = 1600;
+const ROW = 144;
+const TOP = 75;
+const BOTTOM = 70;
+const defaultSelection = 'botticelli';
+const initialPainting = new URLSearchParams(window.location.search).get('work');
+const initialSelection = paintings.some(p => p.id === initialPainting) ? initialPainting : defaultSelection;
+
+function ArtworkImage({ painting, className = '', ...props }) {
+  const [failed, setFailed] = useState(false);
+  const info = imageManifest[painting.id];
+  if (failed || !info) return <div className={`image-fallback ${className}`} role="img" aria-label={`Репродукция недоступна: ${painting.title}`}>Репродукция недоступна</div>;
+  return <img className={className} src={info.file} alt={`${painting.artist} — «${painting.title}»`} onError={() => setFailed(true)} {...props} />;
+}
+
+function App() {
+  const [view, setView] = useState('timeline');
+  const [selected, setSelected] = useState(initialSelection);
+  const [query, setQuery] = useState('');
+  const [active, setActive] = useState(movements.map(m => m.id));
+  const [showConnections, setShowConnections] = useState(true);
+  const [zoom, setZoom] = useState(1);
+  const [help, setHelp] = useState(false);
+  const [sources, setSources] = useState(false);
+  const [mobileDetail, setMobileDetail] = useState(false);
+  const [mobileFilters, setMobileFilters] = useState(false);
+  const scrollRef = useRef(null);
+  const modalRef = useRef(null);
+  const openerRef = useRef(null);
+  const current = paintings.find(p => p.id === selected);
+  const movement = movements.find(m => m.id === current.movement);
+  const normalized = query.trim().toLocaleLowerCase('ru');
+  const results = paintings.filter(p => active.includes(p.movement) && `${p.title} ${p.artist} ${p.date} ${p.tags.join(' ')} ${movements.find(m => m.id === p.movement).title}`.toLocaleLowerCase('ru').includes(normalized));
+  const visibleMovements = movements.filter(m => active.includes(m.id));
+  const width = Math.round(1040 * zoom);
+  const plotWidth = width - 100;
+  const xFor = year => 50 + (year - START) / (END - START) * plotWidth;
+  const laneFor = id => visibleMovements.findIndex(m => m.id === id);
+  const yFor = id => TOP + laneFor(id) * ROW + 46;
+  const height = TOP + visibleMovements.length * ROW + BOTTOM;
+  const related = connections.filter(c => c.from === selected || c.to === selected);
+
+  function choose(id, openMobile = true) {
+    setSelected(id);
+    if (openMobile && window.matchMedia('(max-width: 1100px)').matches) setMobileDetail(true);
+    const url = new URL(window.location.href);
+    url.searchParams.set('work', id);
+    window.history.replaceState({}, '', url);
+  }
+
+  function toggleMovement(id) {
+    setActive(value => value.includes(id) ? value.filter(item => item !== id) : movements.filter(m => m.id === id || value.includes(m.id)).map(m => m.id));
+  }
+
+  function reset() {
+    setQuery('');
+    setActive(movements.map(m => m.id));
+    setZoom(1);
+    if (scrollRef.current) scrollRef.current.scrollLeft = 0;
+  }
+
+  useEffect(() => {
+    const onPopState = () => {
+      const work = new URLSearchParams(window.location.search).get('work');
+      if (paintings.some(p => p.id === work)) setSelected(work);
+    };
+    window.addEventListener('popstate', onPopState);
+    return () => window.removeEventListener('popstate', onPopState);
+  }, []);
+
+  useEffect(() => {
+    const media = window.matchMedia('(max-width: 1100px)');
+    const onResize = () => { if (!media.matches) setMobileDetail(false); };
+    media.addEventListener('change', onResize);
+    return () => media.removeEventListener('change', onResize);
+  }, []);
+
+  const dialogOpen = help || sources || mobileDetail;
+  useEffect(() => {
+    if (!dialogOpen) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = previous; };
+  }, [dialogOpen]);
+  useEffect(() => {
+    if (!dialogOpen) return;
+    openerRef.current = document.activeElement;
+    const onKey = event => {
+      if (event.key === 'Escape') { setHelp(false); setSources(false); setMobileDetail(false); }
+      if (event.key === 'Tab' && modalRef.current) {
+        const focusable = [...modalRef.current.querySelectorAll('button, a[href], input')].filter(el => el.getClientRects().length);
+        const first = focusable[0]; const last = focusable.at(-1);
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    const timer = setTimeout(() => modalRef.current?.querySelector('button')?.focus(), 0);
+    return () => { clearTimeout(timer); window.removeEventListener('keydown', onKey); openerRef.current?.focus(); };
+  }, [dialogOpen]);
+
+  const panel = <>
+    <div className="detail-top"><span>В ФОКУСЕ</span><span className="detail-order">{String(paintings.findIndex(p => p.id === selected) + 1).padStart(2, '0')} / 10</span></div>
+    <div className="detail-image"><ArtworkImage key={current.id} painting={current} /><span className="image-date">{current.date}</span></div>
+    <div className="detail-content">
+      <button className="movement-label" style={{ color: movement.color }} onClick={() => { setActive([movement.id]); setView('timeline'); setMobileDetail(false); }}><i style={{ background: movement.color }} />{movement.title}</button>
+      <h2>{current.title}</h2>
+      <p className="artist-name">{current.artist}</p>
+      <div className="artwork-metadata"><span>{current.medium}</span><span>{current.place}</span></div>
+      <p className="description">{current.text}</p>
+      <div className="look-note"><span><Focus size={15} /> НА ЧТО СМОТРЕТЬ</span><p>{current.look}</p></div>
+      <div className="tags">{current.tags.map(tag => <button key={tag} onClick={() => { setQuery(tag); setActive(movements.map(m => m.id)); setMobileDetail(false); }}>{tag}</button>)}</div>
+      {related.length > 0 && <div className="related"><h3>Сравни с другой работой</h3>{related.map(c => { const p = paintings.find(p => p.id === (c.from === selected ? c.to : c.from)); return <button key={p.id} onClick={() => choose(p.id)}><span>{p.artist}<small>{c.label}</small></span><ChevronRight size={17}/></button>; })}</div>}
+      <a className="source-link" href={current.source} target="_blank" rel="noreferrer">{current.sourceName}<ExternalLink size={14} /></a>
+      <a className="image-credit" href={imageManifest[current.id]?.commonsPage} target="_blank" rel="noreferrer">Репродукция: Wikimedia Commons · {imageManifest[current.id]?.license}</a>
+    </div>
+    <div className="detail-pagination"><button aria-label="Предыдущая картина" onClick={() => choose(paintings[(paintings.findIndex(p => p.id === selected) + paintings.length - 1) % paintings.length].id)}><ChevronLeft size={18}/></button><span>Изучай в своём темпе</span><button aria-label="Следующая картина" onClick={() => choose(paintings[(paintings.findIndex(p => p.id === selected) + 1) % paintings.length].id)}><ChevronRight size={18}/></button></div>
+  </>;
+
+  return <div className="app-shell">
+    <a className="skip-link" href="#explorer">Перейти к хронологии</a>
+    <header className="header">
+      <a className="brand" href="/" aria-label="Линии искусства — главная"><span className="brand-icon"><i/><i/><i/></span><span>линии<span className="brand-second">искусства</span></span></a>
+      <nav aria-label="Представление"><button className={view === 'timeline' ? 'active' : ''} onClick={() => setView('timeline')}><GitBranch size={16}/>Хронология</button><button className={view === 'gallery' ? 'active' : ''} onClick={() => setView('gallery')}><Grid2X2 size={16}/>Картины<span className="count">10</span></button></nav>
+      <button className="help-button" aria-label="Как читать" onClick={() => setHelp(true)}><CircleHelp size={17}/><span>Как читать</span></button>
+    </header>
+    <div className="workspace">
+      <aside className={`sidebar ${mobileFilters ? 'filters-open' : ''}`} aria-label="Фильтры хронологии">
+        <div className="sidebar-heading"><span>ВИЗУАЛЬНЫЙ АТЛАС</span><span className="edition">01</span><button className="close-filters" aria-label="Закрыть фильтры" onClick={() => setMobileFilters(false)}><X size={18}/></button></div>
+        <div className="scope"><span className="scope-icon"><Layers3 size={18}/></span><div>Живопись<span>Ренессанс</span></div></div>
+        <div className="section-label">НАПРАВЛЕНИЯ <button onClick={() => setActive(movements.map(m => m.id))}>Все</button></div>
+        <div className="movement-filters">{movements.map(m => <button key={m.id} className={`movement-filter ${active.includes(m.id) ? 'enabled' : ''}`} aria-pressed={active.includes(m.id)} onClick={() => toggleMovement(m.id)}><span className="filter-check" style={{ '--color': m.color }}>{active.includes(m.id) && <Check size={12}/>}</span><span>{m.title}<small>{m.start}–{m.end}</small></span></button>)}</div>
+        <div className="sidebar-divider"/>
+        <div className="section-label">СЛОИ КАРТЫ</div>
+        <label className="switch-label"><GitBranch size={16}/>Связи идей<input type="checkbox" checked={showConnections} onChange={event => setShowConnections(event.target.checked)}/><span className="switch"/></label>
+        <p className="sidebar-hint">Связи помогают сравнить приёмы. Они не обозначают доказанное влияние одного художника на другого.</p>
+        <button className="reset-button" onClick={reset}>Сбросить фильтры</button>
+        <div className="sidebar-bottom"><div className="small-book"><BookOpen size={17}/></div><p>Искусство становится ближе,<br/>когда видишь связи.</p><button onClick={() => setSources(true)}>Об атласе и источниках<ExternalLink size={13}/></button></div>
+      </aside>
+      <main className="main" id="explorer">
+        <section className="intro"><div className="eyebrow"><span>ЕВРОПЕЙСКАЯ ЖИВОПИСЬ</span><span className="intro-date">ок. 1280–1600</span></div><h1>Ренессанс<span className="heading-dot">.</span></h1><p>От открытия объёма к свободе цвета.<br className="mobile-break"/> Проследи, как менялся взгляд художника.</p><div className="intro-bottom"><span><i/>6 направлений</span><span>10 картин</span><span>Одна большая история</span></div><div className="intro-decoration" aria-hidden="true"><span>R</span><i/></div></section>
+        <div className="toolbar"><div className="search-box"><Search size={17}/><input aria-label="Поиск картин, художников и приёмов" placeholder="Художник, картина, приём…" value={query} onChange={event => setQuery(event.target.value)}/>{query && <button onClick={() => setQuery('')} aria-label="Очистить поиск"><X size={15}/></button>}</div><button className="mobile-filter-button" aria-label="Фильтры" aria-expanded={mobileFilters} onClick={() => setMobileFilters(!mobileFilters)}><SlidersHorizontal size={18}/><span>Фильтры</span></button><div className="zoom-controls" hidden={view !== 'timeline'}><button disabled={zoom <= .8} aria-label="Уменьшить масштаб" onClick={() => setZoom(z => Math.max(.8, +(z - .2).toFixed(1)))}><Minus size={16}/></button><span>{Math.round(zoom * 100)}%</span><button disabled={zoom >= 2} aria-label="Увеличить масштаб" onClick={() => setZoom(z => Math.min(2, +(z + .2).toFixed(1)))}><Plus size={16}/></button><button aria-label="Исходный масштаб" title="Исходный масштаб" onClick={() => { setZoom(1); if (scrollRef.current) scrollRef.current.scrollLeft = 0; }}><Focus size={16}/></button></div></div>
+        <div className="map-caption"><span>{view === 'timeline' ? 'НАПРАВЛЕНИЯ И КЛЮЧЕВЫЕ РАБОТЫ' : 'КАРТИНЫ ПО ХРОНОЛОГИИ'}</span><span aria-live="polite">{results.length} из 10 работ</span></div>
+        {view === 'timeline' && <p className="map-instruction">Прокручивай карту по горизонтали и вертикали. Нажми на картину, чтобы узнать больше.</p>}
+        {results.length === 0 ? <div className="empty-state"><Search size={27}/><h2>Пока ничего не найдено</h2><p>Попробуй имя художника, «перспектива» или выбери другие направления.</p><button onClick={reset}>Показать все картины</button></div> : view === 'timeline' ? <>
+          <div className="timeline-scroll" ref={scrollRef} tabIndex="0" aria-label="Хронология. Прокручивайте горизонтально, чтобы увидеть весь период">
+            <div className="timeline" style={{ width, height }}>
+              <svg className="timeline-geometry" width={width} height={height} aria-hidden="true">
+                <defs>{visibleMovements.map(m => <linearGradient key={m.id} id={`gradient-${m.id}`}><stop offset="0%" stopColor={m.color} stopOpacity=".05"/><stop offset="40%" stopColor={m.color} stopOpacity=".18"/><stop offset="100%" stopColor={m.color} stopOpacity=".04"/></linearGradient>)}</defs>
+                {Array.from({ length: 17 }, (_, i) => 1280 + i * 20).map(year => <line key={year} x1={xFor(year)} x2={xFor(year)} y1="55" y2={height - 35} stroke="white" strokeOpacity={year % 100 === 0 ? '.12' : '.04'} strokeDasharray={year % 100 === 0 ? undefined : '2 5'}/>)}
+                {visibleMovements.map(m => <g key={m.id}><rect x={xFor(m.start)} y={yFor(m.id) - 19} width={xFor(m.end) - xFor(m.start)} height="38" rx="19" fill={`url(#gradient-${m.id})`}/><line x1={xFor(m.start)} x2={xFor(m.end)} y1={yFor(m.id)} y2={yFor(m.id)} stroke={m.color} strokeWidth="1.2" strokeOpacity=".52"/><circle cx={xFor(m.start)} cy={yFor(m.id)} r="3" fill={m.color}/><circle cx={xFor(m.end)} cy={yFor(m.id)} r="3" fill={m.color} fillOpacity=".6"/></g>)}
+                {showConnections && connections.map(c => { const from = results.find(p => p.id === c.from); const to = results.find(p => p.id === c.to); if (!from || !to) return null; const x1 = xFor(from.year); const x2 = xFor(to.year); const y1 = yFor(from.movement); const y2 = yFor(to.movement); const focused = c.from === selected || c.to === selected; return <path key={`${c.from}-${c.to}`} d={`M${x1},${y1} C${x1 + 65},${y1} ${x2 - 65},${y2} ${x2},${y2}`} fill="none" stroke={focused ? '#dfd2ae' : '#9d9ca8'} strokeOpacity={focused ? '.7' : '.22'} strokeWidth={focused ? '1.5' : '1'} strokeDasharray="4 5"/>; })}
+              </svg>
+              <div className="year-ruler">{[1280, 1300, 1350, 1400, 1450, 1500, 1550, 1600].map(year => <span key={year} style={{ left: xFor(year) }}>{year}</span>)}</div>
+              {visibleMovements.map(m => <div key={m.id} className="lane-caption" style={{ top: yFor(m.id) - 47, left: xFor(m.start) }}><span style={{ color: m.color }}>{m.title}</span><small>{m.start}–{m.end}</small></div>)}
+              {results.map(p => { const m = movements.find(m => m.id === p.movement); const lower = p.id === 'raphael' || p.id === 'durer'; return <button key={p.id} aria-label={`${p.artist}, ${p.title}, ${p.date}`} aria-pressed={selected === p.id} className={`art-node ${selected === p.id ? 'selected' : ''} ${lower ? 'lower' : ''}`} style={{ left: xFor(p.year), top: yFor(p.movement), '--color': m.color }} onClick={() => choose(p.id)}><span className="node-dot"/><span className="node-card"><ArtworkImage painting={p} loading="lazy"/><span className="node-copy"><small>{p.date}</small><strong>{p.artist}</strong><span>{p.title}</span></span></span></button>; })}
+              <div className="century-labels"><span style={{ left: xFor(1300) }}>XIV ВЕК</span><span style={{ left: xFor(1400) }}>XV ВЕК</span><span style={{ left: xFor(1500) }}>XVI ВЕК</span></div>
+            </div>
+          </div>
+          <div className="map-footnote"><span><span className="legend-line"/>Направление<span className="legend-dot"/>Картина{showConnections && <><span className="legend-dashed"/>Сравнение приёмов</>}</span><span>Время движется слева направо<ChevronRight size={14}/></span></div>
+        </> : <div className="gallery">{[...results].sort((a, b) => a.year - b.year).map(p => { const m = movements.find(m => m.id === p.movement); return <button key={p.id} className={`gallery-card ${selected === p.id ? 'selected' : ''}`} onClick={() => choose(p.id)}><div className="gallery-image"><ArtworkImage painting={p} loading="lazy"/><span>{p.date}</span></div><div className="gallery-copy"><small style={{ color: m.color }}>{m.title}</small><h2>{p.title}</h2><p>{p.artist}</p></div></button>; })}</div>}
+        <section className="context-note"><span className="note-number">i</span><p>Границы эпох условны, а направления пересекаются. Эта карта посвящена европейской живописи; проторенессанс показан как предыстория, маньеризм — как соседний этап.</p><button onClick={() => setHelp(true)}>Подробнее</button></section>
+        <section className="movement-summary"><div className="section-label">КЛЮЧ К НАПРАВЛЕНИЮ</div><div className="summary-title"><i style={{ background: movement.color }}/><h2>{movement.idea}</h2><span>{movement.title}</span></div><p>{movement.summary}</p><div className="summary-tags">{movement.traits.map(t => <span key={t}>{t}</span>)}</div><a href={movement.source} target="_blank" rel="noreferrer">{movement.sourceName}<ExternalLink size={13}/></a></section>
+        <footer className="footer"><span>Линии искусства · бесплатный учебный атлас</span><button onClick={() => setSources(true)}>Источники и репродукции</button></footer>
+      </main>
+      <aside className="detail-panel" aria-label="Выбранная картина">{panel}</aside>
+    </div>
+    {(help || sources) && <div className="modal-backdrop" onClick={() => { setHelp(false); setSources(false); }}><section className="modal" ref={modalRef} role="dialog" aria-modal="true" aria-labelledby="modal-title" onClick={event => event.stopPropagation()}><div className="modal-heading"><span className="eyebrow">ЛИНИИ ИСКУССТВА</span><button aria-label="Закрыть" onClick={() => { setHelp(false); setSources(false); }}><X size={20}/></button></div><h2 id="modal-title">{help ? 'Как читать эту карту' : 'Об атласе и источниках'}</h2>{help ? <><p>Шкала идёт слева направо. Каждая цветная линия — направление, а точка с картиной — пример работы в конкретный момент. Дата на шкале приблизительная для работ, созданных за несколько лет.</p><div className="help-steps"><p><b>01</b><span><strong>Смотри на параллельные линии</strong>Северный Ренессанс и Венеция развиваются одновременно с флорентийскими и римскими этапами.</span></p><p><b>02</b><span><strong>Открой картину</strong>В карточке — что изменилось в живописи и какую деталь стоит заметить.</span></p><p><b>03</b><span><strong>Сравни приёмы</strong>Пунктир соединяет учебные примеры. Это редакционное сравнение, не утверждение о прямом влиянии.</span></p></div><h3>Небольшой словарь</h3><div className="glossary">{glossary.map(([term, definition]) => <div key={term}><h4>{term}</h4><p>{definition}</p></div>)}</div><p className="modal-footnote">Даты направлений — ориентиры для обучения. Они различаются по региону и исследовательской традиции. Ренессанс здесь не обозначает «главный» или «лучший» период мирового искусства.</p></> : <><p>Бесплатная шпаргалка по европейской живописи Ренессанса. Первая редакция: 10 работ и 6 пересекающихся направлений. Архитектура и скульптура в карту не включены; фрески включены как живопись.</p><h3>Музейные каталоги</h3><p>Даты и материалы указаны по источникам в карточках. Краткие пояснения и связи — самостоятельная учебная редакция, а не цитаты из каталогов.</p><div className="sources-list">{paintings.map(p => <a key={p.id} href={p.source} target="_blank" rel="noreferrer"><span>{p.artist} · {p.title}<small>{p.sourceName}</small></span><ExternalLink size={15}/></a>)}</div><h3>Репродукции и права</h3><p>Локальные репродукции взяты с Wikimedia Commons. Для каждого файла сохранены исходная страница и её обозначение прав. Все 10 файлов помечены в Commons как Public domain.</p><div className="sources-list">{paintings.map(p => <a key={p.id} href={imageManifest[p.id]?.commonsPage} target="_blank" rel="noreferrer"><span>{p.title}<small>{imageManifest[p.id]?.license}</small></span><ExternalLink size={15}/></a>)}</div><h3>Вдохновение</h3><p>Общая идея хронологии — <a href="https://www.invaluable.com/blog/art-history-timeline/" target="_blank" rel="noreferrer">Invaluable</a>. Идея связанной визуальной карты — <a href="https://www.denizcemonduygu.com/philo/browse/" target="_blank" rel="noreferrer">History of Philosophy, Deniz Cem Önduygu</a>. Тексты и интерфейс созданы самостоятельно.</p><p className="modal-footnote">Редакция от 5 октября 2026. Регистрация, cookies и аналитика не используются. Внешние сайты открываются только по ссылкам.</p></>}</section></div>}
+    {mobileDetail && <div className="mobile-detail-backdrop" onClick={() => setMobileDetail(false)}><section className="mobile-detail" ref={!help && !sources ? modalRef : null} role="dialog" aria-modal="true" aria-label={`Картина: ${current.title}`} onClick={event => event.stopPropagation()}><button className="mobile-close" aria-label="Закрыть карточку" onClick={() => setMobileDetail(false)}><X size={19}/></button>{panel}</section></div>}
+  </div>;
+}
+
+createRoot(document.getElementById('root')).render(<App />);

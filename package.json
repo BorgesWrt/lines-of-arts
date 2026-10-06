@@ -1,0 +1,22 @@
+{
+  "name": "lines-of-arts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
+    "check:data": "node scripts/check-data.mjs",
+    "assets": "node scripts/fetch-artworks.mjs",
+    "check:interface": "node scripts/check-interface.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}
