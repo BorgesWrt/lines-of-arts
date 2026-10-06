@@ -1,5 +1,6 @@
+import {adjacentArtists,adjacentRelations} from './adjacent-eras.js';
 const gallery = slug => `https://www.nationalgallery.org.uk/artists/${slug}`;
-export const artists = [
+const renaissanceArtists = [
   { id: 'giotto', name: 'Джотто', movement: 'proto', start: 1265, end: 1337, date: 'ок. 1265–1337', text: 'Работал во Флоренции, Падуе и других итальянских городах. Его живопись выделяется объёмными фигурами и выразительными жестами.', source: gallery('giotto') },
   { id: 'duccio', name: 'Дуччо', movement: 'proto', start: 1278, end: 1319, date: 'активен с 1278; умер в 1319', period: 'activity', text: 'Крупный мастер Сиены. Его мастерская и алтарь «Маэста» стали важной частью истории сиенской живописи. Дата рождения неизвестна.', source: gallery('duccio') },
   { id: 'martini', name: 'Симоне Мартини', movement: 'proto', start: 1284, end: 1344, date: 'ок. 1284–1344', text: 'Сиенский живописец, работавший также в Ассизи и Авиньоне. Его картины соединяют выразительность образа и тонкую декоративную линию.', source: gallery('simone-martini') },
@@ -26,7 +27,8 @@ export const artists = [
   { id: 'bronzino', name: 'Бронзино', movement: 'mannerism', start: 1503, end: 1572, date: '1503–1572', text: 'Ученик Понтормо и придворный живописец Медичи. Его портреты и аллегории отличаются сложной, тщательно построенной формой.', source: gallery('bronzino') },
 ];
 
-export const relations = [
+export const artists=[...renaissanceArtists,...adjacentArtists];
+const renaissanceRelations = [
   { id: 'lippi-botticelli', from: 'lippi', to: 'botticelli', type: 'training', label: 'Учитель → ученик', text: 'Боттичелли обучался в мастерской Фра Филиппо Липпи.', source: gallery('sandro-botticelli'), status: 'confirmed' },
   { id: 'lippi-filippino', from: 'lippi', to: 'filippino', type: 'training', label: 'Учитель → ученик', text: 'Филиппино получил обучение в мастерской своего отца, Филиппо Липпи.', source: gallery('fra-filippo-lippi'), status: 'confirmed' },
   { id: 'botticelli-filippino', from: 'botticelli', to: 'filippino', type: 'training', label: 'Учитель → ученик', text: 'Музейная биография называет Филиппино учеником Боттичелли; он работал в его мастерской.', source: gallery('filippino-lippi'), status: 'confirmed' },
@@ -39,3 +41,5 @@ export const relations = [
   { id: 'pontormo-bronzino', from: 'pontormo', to: 'bronzino', type: 'training', label: 'Учитель → ученик', text: 'Бронзино был учеником Понтормо. Музейная биография отмечает их близкие отношения.', source: gallery('pontormo'), status: 'confirmed' },
   { id: 'perugino-raphael', from: 'perugino', to: 'raphael', type: 'workshop', label: 'Характер отношения обсуждается', text: 'Связь ранней живописи Рафаэля с Перуджино несомненна, но исследователи обсуждают, был ли Рафаэль учеником или сотрудником. Эта связь не показана как подтверждённое обучение.', source: 'https://resources.metmuseum.org/resources/metpublications/pdf/Raphael_at_the_Metropolitan_The_Colonna_Altarpiece.pdf', status: 'disputed' },
 ];
+
+export const relations=[...renaissanceRelations,...adjacentRelations];

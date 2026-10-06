@@ -8,6 +8,9 @@ import { cleanFavorites, emptyFavorites, toggleFavorite } from '../src/utils/fav
 import { makeLayout } from '../src/utils/canvas-layout.js';
 
 const catalog = { movements, artists, paintings };
+const adjacentSaved={movements:['rococo'],artists:['fragonard'],paintings:['fragonard-swing']};
+assert.deepEqual(cleanFavorites(adjacentSaved,catalog),adjacentSaved,'New eras must retain independent saved references');
+assert.deepEqual(cleanFavorites(toggleFavorite(adjacentSaved,'artists','fragonard'),catalog),{...adjacentSaved,artists:[]},'Removing a new artist must retain the movement and painting');
 let saved = toggleFavorite(emptyFavorites(), 'artists', 'masaccio');
 saved = toggleFavorite(saved, 'paintings', 'masaccio');
 saved = toggleFavorite(saved, 'paintings', 'masaccio');
@@ -23,6 +26,8 @@ function verifyEnglish(value) {
   else if (value && typeof value === 'object') Object.values(value).forEach(verifyEnglish);
 }
 [movements, paintings, artists, relations, glossary].forEach(verifyEnglish);
+assert.equal(translate(movements.find(m=>m.id==='high').title,'en'),'High Renaissance','Chronological sorting must not misalign existing translations');
+assert.equal(translate(movements.find(m=>m.id==='gothic').title,'de'),'Internationale Gotik');
 for(const locale of ['es','de']){
  for(const text of englishStrings())assert.ok(languages[locale][text],`Missing ${locale} translation: ${text}`);
  for(const p of paintings)for(const field of ['title','artist','look','medium'])assert.ok(!/[А-Яа-яЁё]/.test(translate(p[field],locale)),`Untranslated ${locale} painting: ${p.id}`);

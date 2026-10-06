@@ -1,0 +1,236 @@
+[
+  {
+    "id": "baroque",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus",
+    "title": "Michelangelo Merisi da Caravaggio | The Supper at Emmaus | NG172 | National Gallery, London"
+  },
+  {
+    "id": "dutch",
+    "status": 429,
+    "url": "https://www.metmuseum.org/en/exhibitions/in-praise-of-painting-dutch-masterpieces/visiting-guide",
+    "title": "Vercel Security Checkpoint"
+  },
+  {
+    "id": "rococo",
+    "status": 429,
+    "url": "https://www.metmuseum.org/en/essays/antoine-watteau-1684-1721",
+    "title": "Vercel Security Checkpoint"
+  },
+  {
+    "id": "gentile",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/gentile-da-fabriano",
+    "title": "Gentile da Fabriano (about 1385 - 1427) | National Gallery, London"
+  },
+  {
+    "id": "gothic",
+    "status": 403,
+    "url": "https://www.nga.gov/artworks/396-madonna-and-child-enthroned",
+    "title": "Just a moment..."
+  },
+  {
+    "id": "pisanello",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/pisanello",
+    "title": "Pisanello (about 1394? - 1455) | National Gallery, London"
+  },
+  {
+    "id": "caravaggio",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/michelangelo-merisi-da-caravaggio",
+    "title": "Michelangelo Merisi da Caravaggio (1571 - 1610) | National Gallery, London"
+  },
+  {
+    "id": "rubens",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/peter-paul-rubens",
+    "title": "Peter Paul Rubens (1577 - 1640) | National Gallery, London"
+  },
+  {
+    "id": "artemisia",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/artemisia-gentileschi",
+    "title": "Artemisia Gentileschi (1593 - 1654 or later) | National Gallery, London"
+  },
+  {
+    "id": "velazquez",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/diego-velazquez",
+    "title": "Diego Vel&#xE1;zquez (1599 - 1660) | National Gallery, London"
+  },
+  {
+    "id": "vermeer",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/johannes-vermeer",
+    "title": "Johannes Vermeer (1632 - 1675) | National Gallery, London"
+  },
+  {
+    "id": "rembrandt",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/rembrandt",
+    "title": "Rembrandt (1606 - 1669) | National Gallery, London"
+  },
+  {
+    "id": "watteau",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/jean-antoine-watteau",
+    "title": "Jean-Antoine Watteau (1684 - 1721) | National Gallery, London"
+  },
+  {
+    "id": "boucher",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/francois-boucher",
+    "title": "Fran&#xE7;ois Boucher (1703 - 1770) | National Gallery, London"
+  },
+  {
+    "id": "fragonard",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/jean-honore-fragonard",
+    "title": "Jean-Honor&#xE9; Fragonard (1732 - 1806) | National Gallery, London"
+  },
+  {
+    "id": "gentile-madonna",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/gentile-da-fabriano-the-quaratesi-madonna",
+    "title": "Gentile da Fabriano | The Quaratesi Madonna | L37 | National Gallery, London"
+  },
+  {
+    "id": "pisanello-eustace",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/pisanello-the-vision-of-saint-eustace",
+    "title": "Pisanello | The Vision of Saint Eustace | NG1436 | National Gallery, London"
+  },
+  {
+    "id": "caravaggio-emmaus",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus",
+    "title": "Michelangelo Merisi da Caravaggio | The Supper at Emmaus | NG172 | National Gallery, London"
+  },
+  {
+    "id": "caravaggio-salome",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-salome-receives-the-head-of-john-the-baptist",
+    "title": "Michelangelo Merisi da Caravaggio | Salome receives the Head of John the Baptist | NG6389 | National Gallery, London"
+  },
+  {
+    "id": "pisanello-princess",
+    "status": 200,
+    "url": "https://collections.louvre.fr/en/ark:/53355/cl010064951",
+    "title": "Portrait d'une princesse de la Maison d'Este -\n  Louvre site des collections"
+  },
+  {
+    "id": "artemisia-judith",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/judith-beheading-holofernes",
+    "title": "Judith Beheading Holofernes by Artemisia Gentileschi"
+  },
+  {
+    "id": "gentile-magi",
+    "status": 200,
+    "url": "https://www.uffizi.it/en/artworks/adoration-of-the-magi",
+    "title": "Adoration of the magi by Gentile da Fabriano"
+  },
+  {
+    "id": "artemisia-catherine",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/artemisia-gentileschi-self-portrait-as-saint-catherine-of-alexandria",
+    "title": "Artemisia Gentileschi | Self Portrait as Saint Catherine of Alexandria | NG6671 | National Gallery, London"
+  },
+  {
+    "id": "rubens-samson",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-samson-and-delilah",
+    "title": "Peter Paul Rubens | Samson and Delilah | NG6461 | National Gallery, London"
+  },
+  {
+    "id": "rubens-paris",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-judgement-of-paris",
+    "title": "Peter Paul Rubens | The Judgement of Paris | NG194 | National Gallery, London"
+  },
+  {
+    "id": "velazquez-venus",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-the-toilet-of-venus-the-rokeby-venus",
+    "title": "Diego Vel&#xE1;zquez | The Toilet of Venus (&#x27;The Rokeby Venus&#x27;) | NG2057 | National Gallery, London"
+  },
+  {
+    "id": "velazquez-meninas",
+    "status": 403,
+    "url": "https://www.museodelprado.es/coleccion/obra-de-arte/las-meninas/9fdc7800-9ade-48b0-ab8b-edee94ea877f",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "id": "rembrandt-feast",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/rembrandt-belshazzar-s-feast",
+    "title": "Rembrandt | Belshazzar&#x27;s Feast | NG6350 | National Gallery, London"
+  },
+  {
+    "id": "vermeer-pearl",
+    "status": 403,
+    "url": "https://www.mauritshuis.nl/en/our-collection/artworks/670-girl-with-a-pearl-earring",
+    "title": "Attention Required! | Cloudflare"
+  },
+  {
+    "id": "vermeer-milkmaid",
+    "status": 200,
+    "url": "https://www.rijksmuseum.nl/en/press/press-releases/vermeer-press-kit/list-of-paintings",
+    "title": "List of Paintings - Rijksmuseum"
+  },
+  {
+    "id": "watteau-cythera",
+    "status": 200,
+    "url": "https://collections.louvre.fr/en/ark:/53355/cl010061995",
+    "title": "Pèlerinage à l'île de Cythère -\n  Louvre site des collections"
+  },
+  {
+    "id": "boucher-toilet",
+    "status": 429,
+    "url": "https://www.metmuseum.org/art/collection/search/435739",
+    "title": "Vercel Security Checkpoint"
+  },
+  {
+    "id": "rembrandt-watch",
+    "status": 200,
+    "url": "https://www.rijksmuseum.nl/en/stories/10-things/story/10-things-about-rembrandt-s-night-watch",
+    "title": "10 things about Rembrandt&#x2019;s Night Watch"
+  },
+  {
+    "id": "boucher-mill",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/francois-boucher-landscape-with-a-watermill",
+    "title": "Fran&#xE7;ois Boucher | Landscape with a Watermill | NG6374 | National Gallery, London"
+  },
+  {
+    "id": "fragonard-reader",
+    "status": 403,
+    "url": "https://www.nga.gov/artworks/46303-young-girl-reading",
+    "title": "Just a moment..."
+  },
+  {
+    "id": "gentile-pisanello",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/artists/pisanello",
+    "title": "Pisanello (about 1394? - 1455) | National Gallery, London"
+  },
+  {
+    "id": "boucher-fragonard",
+    "status": 200,
+    "url": "https://www.nationalgallery.org.uk/paintings/jean-honore-fragonard-psyche-showing-her-sisters-her-gifts-from-cupid",
+    "title": "Jean-Honor&#xE9; Fragonard | Psyche showing her Sisters her Gifts from Cupid | NG6445 | National Gallery, London"
+  },
+  {
+    "id": "fragonard-swing",
+    "status": 200,
+    "url": "https://www.wallacecollection.org/explore/explore-in-depth/fragonards-the-swing/origins-of-the-swing/",
+    "title": "Origins of The Swing\n        \n        \n            \n                - The Wallace Collection"
+  },
+  {
+    "id": "watteau-pierrot",
+    "status": 200,
+    "url": "https://www.louvre.fr/expositions-et-evenements/expositions/revoir-watteau",
+    "title": "Revoir Watteau  - Un comédien sans réplique. Pierrot, dit le Gilles"
+  }
+]

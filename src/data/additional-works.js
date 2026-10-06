@@ -1,3 +1,4 @@
+import {adjacentKeyWorks} from './adjacent-eras.js';
 export const additionalWorks = [
 // id, artist, Russian title, English title, representative year, date, museum URL, Wikipedia title
 ['giotto-ognissanti','giotto','Мадонна Оньиссанти','Ognissanti Madonna',1310,'c. 1310','https://www.uffizi.it/en/artworks/virgin-and-child-enthroned-surrounded-by-angels-and-saints-ognissanti-maesta','Ognissanti Madonna'],
@@ -49,7 +50,7 @@ export const additionalWorks = [
 ['bronzino-allegory','bronzino','Аллегория с Венерой и Амуром','An Allegory with Venus and Cupid',1545,'c. 1545','https://www.nationalgallery.org.uk/paintings/bronzino-an-allegory-with-venus-and-cupid','Venus, Cupid, Folly and Time'],
 ['bronzino-eleonora','bronzino','Портрет Элеоноры Толедской с сыном','Portrait of Eleonora of Toledo with Her Son',1545,'c. 1545','https://www.uffizi.it/en/artworks/eleonora-di-toledo','Portrait of Eleanor of Toledo']
 ];
-export const keyWorks = {
+export const keyWorks = {...adjacentKeyWorks,
 proto:['giotto','duccio-maesta','martini-annunciation'],early:['masaccio','piero-baptism','botticelli-primavera'],high:['leonardo','raphael','michelangelo-adam'],venice:['bellini-francis','giorgione-tempest','titian'],north:['eyck','durer','bruegel'],mannerism:['pontormo-deposition','parmigianino','bronzino-allegory']
 };
 export const keyWorkReasons={

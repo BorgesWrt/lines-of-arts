@@ -33,7 +33,7 @@ const artistTexts = [
 'A painter from Parma who also worked in Rome and Bologna. Elongated forms become an expressive device in his pictures.',
 'A pupil of Pontormo and court painter to the Medici. His portraits and allegories feature complex, carefully constructed forms.'
 ];
-artists.forEach((a,i)=>{add(a.name,artistNames[i]);add(a.text,artistTexts[i]);});
+artists.filter(a=>!a.english).forEach((a,i)=>{add(a.name,artistNames[i]);add(a.text,artistTexts[i]);});
 const movementEnglish = [
 ['Proto-Renaissance','Italy · 13th–14th centuries','The image comes alive','In late medieval Italian painting, figures gain weight, space gains depth, and gestures become convincingly human. Giotto is a key figure in this transition.',['Solid figures','Expressive gestures','Early attempts at depth'],'Look at emotion and the weight of the figures: the scene already feels like an event involving real people.'],
 ['Early Renaissance','Florence · 15th century','The world can be measured','Florentine painters explore perspective, proportion and the human body. Classical subjects coexist with religious scenes, though not all masters pursue the same kind of naturalism.',['Linear perspective','Classical revival','Study of proportion'],'Look for a vanishing point and a sense of constructed space. In Botticelli, notice the expressive line as well.'],
@@ -42,7 +42,7 @@ const movementEnglish = [
 ['Northern Renaissance','Netherlands, Germany','The world in minute detail','Painters in the Netherlands and Germany closely observe materials, light and their surroundings. Oil painting allows delicate layers and detail. Van Eyck perfected the technique but did not invent oil paint.',['Precise details and textures','Oil glazes','Portraits and everyday life'],'Look closely at reflections, fabrics and objects; in Bruegel, at people within a vast landscape.'],
 ['Mannerism','Italy and Europe · 16th century','Harmony becomes complex','Some painters move away from serene balance, elongating figures, complicating poses and creating deliberately unusual space. Mannerism overlaps with the late Renaissance; its boundaries and definition remain debated.',['Elongated proportions','Complex poses','Unusual space'],'Strange proportions may be a deliberate artistic choice.']
 ];
-movements.forEach((m,i)=>{const [title,subtitle,idea,summary,traits,remember]=movementEnglish[i];for(const [key,value] of Object.entries({title,subtitle,idea,summary,remember}))add(m[key],value);m.traits.forEach((v,j)=>add(v,traits[j]));});
+movements.filter(m=>!m.english).forEach(m=>{const i=['proto','early','high','venice','north','mannerism'].indexOf(m.id);const [title,subtitle,idea,summary,traits,remember]=movementEnglish[i];for(const [key,value] of Object.entries({title,subtitle,idea,summary,remember}))add(m[key],value);m.traits.forEach((v,j)=>add(v,traits[j]));});
 const works = {
 giotto:['Lamentation','Scrovegni Chapel, Padua','Fresco','Grief is expressed through poses and gestures. The figures have weight, and the rocky slope directs attention to the faces of Christ and Mary.','Find the two figures seated with their backs to us: they create a sense of being present within the scene.'],
 masaccio:['Holy Trinity','Santa Maria Novella, Florence','Fresco','The painted illusion takes the viewer beyond the wall. Linear perspective unites the figures and vault in a coherent space.','Trace the vault lines as they converge at eye level. The date follows the Santa Maria Novella catalogue; other publications use different dates.'],
@@ -69,14 +69,17 @@ const relationTexts = [
 'Bronzino was Pontormo’s pupil. The museum biography notes their close relationship.',
 'The connection between Raphael’s early painting and Perugino is clear, but scholars debate whether Raphael was a pupil or collaborator. This relationship is not presented as confirmed training.'
 ];
-relations.forEach((r,i)=>add(r.text,relationTexts[i]));
+relations.filter(r=>!r.english).forEach((r,i)=>add(r.text,relationTexts[i]));
 const glossaryEnglish = [
 ['Linear perspective','A way to represent depth: parallel lines receding into the distance converge at vanishing points.'],
 ['Humanism','An interest in human beings, their abilities and classical culture. Religious subjects remain important.'],
 ['Glazing','A thin transparent layer of paint over a dry layer: it changes the hue and increases the depth of colour.'],
 ['Sfumato','Soft transitions of light and shade that blur contours, especially associated with Leonardo’s painting.'],
 ['Tempera','Paint using a water-based emulsion, often with egg as a binder. Widely used before and during the Renaissance.'],
-['Fresco','Painting on wet plaster. Not every wall painting uses this technique.']
+['Fresco','Painting on wet plaster. Not every wall painting uses this technique.'],
+['Tenebrism','A sharp contrast between illuminated figures and deep shadow that intensifies dramatic action, especially associated with Caravaggio and his followers.'],
+['Tronie','An image of a facial type, expression or unusual costume that is not necessarily a portrait of a specific person.'],
+['Fête galante','An elegant leisure scene in a garden or park, often involving music and courtship; especially associated with Watteau.']
 ];
 glossary.forEach((row,i)=>row.forEach((v,j)=>add(v,glossaryEnglish[i][j])));
 const ui = {
@@ -116,6 +119,8 @@ Object.entries({
 ' художника, ':' artists, ',' картин и ':' paintings and ',
 'Подборка включает не все сохранившиеся работы. Картины сгруппированы по основному направлению художника, поэтому некоторые даты выходят за условные границы эпох. Три ключевые работы — учебный выбор редакции. Биографии и даты даны по музейным каталогам.':'The selection does not include every surviving work. Paintings are grouped by each artist’s principal movement, so some dates fall outside the approximate period boundaries. The three key paintings are an editorial selection for learning. Biographies and dates follow museum catalogues.'
 }).forEach(([ru,en])=>add(ru,en));
+[...movements,...artists,...relations].forEach(item=>{if(item.english)for(const [key,en] of Object.entries(item.english)){if(Array.isArray(en))item[key].forEach((ru,i)=>add(ru,en[i]));else add(item[key],en);}});
+Object.entries({'Европейская живопись':'European painting','В атласе — ':'The atlas includes ',' направлений, ':' movements, ',' художников, ':' artists, ','Весь атлас':'Full atlas','XIII–XVIII века':'13th–18th centuries'}).forEach(([ru,en])=>add(ru,en));
 export const englishStrings = () => [...new Set(dictionary.values())];
 const phrases=[...dictionary].sort((a,b)=>b[0].length-a[0].length);
 export function translate(text,locale='en') {

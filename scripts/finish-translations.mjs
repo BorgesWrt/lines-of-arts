@@ -20,4 +20,6 @@ data.de['Examine the dress pattern and still pose: the portrait combines precisi
 data.es['Examine the dress pattern and still pose: the portrait combines precision with distance.']='Examina el estampado del vestido y la postura inmóvil: el retrato combina precisión y distancia.';
 for(const locale of ['es','de'])for(const [en,value] of Object.entries(data[locale]))if(/^c\. \d/.test(en))data[locale][en]=value.replace(/^c\.\s*/i,locale==='es'?'h. ':'um ');
 Object.assign(data.de,{'Paintings':'Gemälde','Artists':'Künstler','artists':'Künstler','artist':'Künstler','Renaissance painting':'Malerei der Renaissance','Titian':'Tizian'});
+Object.assign(data.es,{'Antoine Watteau':'Antoine Watteau','International Gothic':'Gótico internacional','Dutch painting of the 17th century':'Pintura neerlandesa del siglo XVII','European painting':'Pintura europea','Collapse':'Contraer','Expand':'Desplegar'});
+Object.assign(data.de,{'Collapse':'Einklappen','Expand':'Aufklappen'});
 await writeFile(file,JSON.stringify(data,null,2)+'\n');

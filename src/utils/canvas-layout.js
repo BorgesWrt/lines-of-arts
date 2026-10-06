@@ -1,7 +1,7 @@
 export const START = 1250;
-export const END = 1600;
+export const END = 1800;
 export const MIN_ZOOM = .7;
-export const MAX_ZOOM = 12;
+export const MAX_ZOOM = 20;
 export const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
 export function detailLevel(zoom, focused) { return zoom >= 5 ? 'works' : focused || zoom >= 2.2 ? 'artists' : 'overview'; }
 export function pixelsPerYear(width, zoom) { return Math.max(240, width - 120) / (END - START) * zoom; }
@@ -11,7 +11,7 @@ export function zoomAt(camera, newZoom, x, width) {
   const year = camera.center + (x - width / 2) / pixelsPerYear(width, camera.zoom);
   return { ...camera, zoom, center: clamp(year - (x - width / 2) / pixelsPerYear(width, zoom), START - 60, END + 60) };
 }
-export function makeLayout(movements, artists, level, rowSpacing, expanded) {
+export function makeLayout(movements, artists, level, rowSpacing, expanded, compactSpacing = 78) {
   let cursor = 130;
   const groups = [];
   const rows = new Map();
@@ -21,7 +21,7 @@ export function makeLayout(movements, artists, level, rowSpacing, expanded) {
     if (level === 'overview' || (expanded && !expanded.includes(movement.id))) {
       members.forEach(artist => rows.set(artist.id, cursor));
       groups.push({ movement, y: cursor, header, members, openness: 0 });
-      cursor += 78;
+      cursor += level === 'overview' ? compactSpacing : 78;
     } else {
       const first = cursor + 20;
       const spacing = rowSpacing ?? (level === 'works' ? 126 : 74);
