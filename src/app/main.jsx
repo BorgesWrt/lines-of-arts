@@ -54,8 +54,8 @@ function Dialog({ modal, onClose, children }) {
 
 function App() {
   const [preferences, setPreferences] = useState(() => {
-    try { const saved=JSON.parse(localStorage.getItem('art-atlas:preferences:v1'));return { locale:['ru','en','es','de'].includes(saved?.locale)?saved.locale:'ru', theme:['white','warm','dark','black'].includes(saved?.theme)?saved.theme:'dark' }; }
-    catch { return { locale:'ru',theme:'dark' }; }
+    try { const saved=JSON.parse(localStorage.getItem('art-atlas:preferences:v1'));return { locale:['ru','en','es','de'].includes(saved?.locale)?saved.locale:'en', theme:['white','warm','dark','black'].includes(saved?.theme)?saved.theme:'dark' }; }
+    catch { return { locale:'en',theme:'dark' }; }
   });
   const locale=preferences.locale;
   const [preferencesError,setPreferencesError]=useState(false);

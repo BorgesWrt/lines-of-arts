@@ -4,7 +4,7 @@ import { movements, paintings, glossary } from '../data/content.js';
 import { artists, relations } from '../data/artists.js';
 import {keyWorkReasons} from '../data/additional-works.js';
 import extraLanguages from '../data/languages.json' with {type:'json'};
-export const LocaleContext = createContext('ru');
+export const LocaleContext = createContext('en');
 const dictionary = new Map();
 const add = (ru,en) => dictionary.set(ru,en);
 const artistNames = ['Giotto','Duccio','Simone Martini','Paolo Uccello','Masaccio','Fra Filippo Lippi','Piero della Francesca','Andrea del Verrocchio','Sandro Botticelli','Domenico Ghirlandaio','Filippino Lippi','Pietro Perugino','Leonardo da Vinci','Michelangelo','Raphael','Giovanni Bellini','Giorgione','Titian','Jan van Eyck','Albrecht Dürer','Pieter Bruegel the Elder','Pontormo','Parmigianino','Bronzino'];
