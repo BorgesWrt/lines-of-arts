@@ -1,0 +1,164 @@
+[
+  [
+    "Музейный каталог",
+    "Museum catalogue",
+    "Catálogo del museo",
+    "Museumskatalog"
+  ],
+  [
+    "Обновлено",
+    "Updated",
+    "Actualizado",
+    "Aktualisiert"
+  ],
+  [
+    "Все доступные записи живописи из подключённых коллекций. Это не полный каталог творчества художника. Названия сохранены на языке музея.",
+    "All available painting records from connected collections. This is not the artist’s complete catalogue. Titles retain the museum’s original language.",
+    "Todos los registros de pintura disponibles en las colecciones conectadas. No es el catálogo completo del artista. Los títulos conservan el idioma del museo.",
+    "Alle verfügbaren Gemäldeeinträge der eingebundenen Sammlungen. Dies ist kein vollständiger Werkkatalog des Künstlers. Die Titel bleiben in der Originalsprache des Museums."
+  ],
+  [
+    "Поиск в музейном каталоге",
+    "Search museum catalogue",
+    "Buscar en el catálogo del museo",
+    "Museumskatalog durchsuchen"
+  ],
+  [
+    "Название или год",
+    "Title or year",
+    "Título o año",
+    "Titel oder Jahr"
+  ],
+  [
+    "Музей",
+    "Museum",
+    "Museo",
+    "Museum"
+  ],
+  [
+    "Найдено работ",
+    "Works found",
+    "Obras encontradas",
+    "Gefundene Werke"
+  ],
+  [
+    "Показать ещё",
+    "Show more",
+    "Mostrar más",
+    "Mehr anzeigen"
+  ],
+  [
+    "Продолжить в музейном каталоге",
+    "Continue in the museum catalogue",
+    "Continuar en el catálogo del museo",
+    "Im Museumskatalog weiterlesen"
+  ],
+  [
+    "Дата указана в музее",
+    "See museum for date",
+    "Consultar la fecha en el museo",
+    "Datierung im Museumskatalog"
+  ],
+  [
+    "Музейная запись. Название, техника и атрибуция приведены в оригинале источника.",
+    "Museum record. Title, medium and attribution retain the source’s original wording.",
+    "Registro del museo. El título, la técnica y la atribución conservan la redacción original de la fuente.",
+    "Museumseintrag. Titel, Technik und Zuschreibung entsprechen dem Original der Quelle."
+  ],
+  [
+    "Репродукция доступна на сайте музея",
+    "Image available on the museum website",
+    "Imagen disponible en la web del museo",
+    "Abbildung auf der Museumswebsite verfügbar"
+  ],
+  [
+    "Обратная связь",
+    "Feedback",
+    "Contacto",
+    "Kontakt"
+  ],
+  [
+    "Нашли неточность, хотите предложить картину или обсудить проект? Напишите мне.",
+    "Found an error, want to suggest a painting or discuss the project? Write to me.",
+    "¿Has encontrado un error, quieres sugerir una pintura o hablar del proyecto? Escríbeme.",
+    "Einen Fehler gefunden, ein Gemälde vorschlagen oder über das Projekt sprechen? Schreib mir."
+  ],
+  [
+    "Ваше имя",
+    "Your name",
+    "Tu nombre",
+    "Dein Name"
+  ],
+  [
+    "Ваша почта",
+    "Your email",
+    "Tu correo electrónico",
+    "Deine E-Mail-Adresse"
+  ],
+  [
+    "Сообщение",
+    "Message",
+    "Mensaje",
+    "Nachricht"
+  ],
+  [
+    "Форма откроет письмо в вашем почтовом приложении. Проверьте текст и отправьте его оттуда.",
+    "This form opens a draft in your email app. Review the text and send it from there.",
+    "El formulario abre un borrador en tu aplicación de correo. Revisa el texto y envíalo desde allí.",
+    "Das Formular öffnet einen Entwurf in deiner E-Mail-App. Prüfe den Text und sende ihn von dort."
+  ],
+  [
+    "Открыть письмо",
+    "Open email draft",
+    "Abrir borrador de correo",
+    "E-Mail-Entwurf öffnen"
+  ],
+  [
+    "Разработчик",
+    "Developer",
+    "Desarrollador",
+    "Entwickler"
+  ],
+  [
+    "Сайт разработчика",
+    "Developer website",
+    "Web del desarrollador",
+    "Website des Entwicklers"
+  ],
+  [
+    "Telegram-канал",
+    "Telegram channel",
+    "Canal de Telegram",
+    "Telegram-Kanal"
+  ],
+  [
+    "Учебные разборы и музейные записи. У каждой работы есть ссылка на первоисточник.",
+    "Learning guides and museum records. Every work links to its primary source.",
+    "Guías de estudio y registros de museos. Cada obra enlaza con su fuente original.",
+    "Lernhilfen und Museumseinträge. Jedes Werk verlinkt auf seine Originalquelle."
+  ],
+  [
+    "Это доступные записи четырёх коллекций, а не полный каталог всех известных работ.",
+    "These are available records from four collections, not a complete catalogue of all known works.",
+    "Son registros disponibles de cuatro colecciones, no un catálogo completo de todas las obras conocidas.",
+    "Dies sind verfügbare Einträge aus vier Sammlungen, kein vollständiger Katalog aller bekannten Werke."
+  ],
+  [
+    "Учебные репродукции и шрифты сохранены локально. Изображения музейного каталога загружаются с серверов музеев. Регистрации и аналитики нет.",
+    "Learning images and fonts are stored locally. Museum catalogue images load from museum servers. No registration or analytics.",
+    "Las imágenes educativas y las fuentes se guardan localmente. Las imágenes del catálogo se cargan desde los servidores de los museos. Sin registro ni analítica.",
+    "Lernabbildungen und Schriften sind lokal gespeichert. Katalogbilder werden von Museumsservern geladen. Keine Registrierung oder Analyse."
+  ],
+  [
+    "Дополнительно — ",
+    "Additional records: ",
+    "Registros adicionales: ",
+    "Zusätzliche Einträge: "
+  ],
+  [
+    " музейных записей. Обновлено: ",
+    " museum records. Updated: ",
+    " registros de museos. Actualizado: ",
+    " Museumseinträge. Aktualisiert: "
+  ]
+]

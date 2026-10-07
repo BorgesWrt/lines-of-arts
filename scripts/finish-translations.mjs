@@ -22,4 +22,5 @@ for(const locale of ['es','de'])for(const [en,value] of Object.entries(data[loca
 Object.assign(data.de,{'Paintings':'Gemälde','Artists':'Künstler','artists':'Künstler','artist':'Künstler','Renaissance painting':'Malerei der Renaissance','Titian':'Tizian'});
 Object.assign(data.es,{'Antoine Watteau':'Antoine Watteau','International Gothic':'Gótico internacional','Dutch painting of the 17th century':'Pintura neerlandesa del siglo XVII','European painting':'Pintura europea','Collapse':'Contraer','Expand':'Desplegar'});
 Object.assign(data.de,{'Collapse':'Einklappen','Expand':'Aufklappen'});
+for(const [ru,en,es,de] of JSON.parse(await readFile(new URL('../src/data/product-copy.json',import.meta.url)))){data.es[en]=es;data.de[en]=de;}
 await writeFile(file,JSON.stringify(data,null,2)+'\n');

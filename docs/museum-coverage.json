@@ -1,0 +1,574 @@
+{
+  "updated": "2026-10-07",
+  "total": 303,
+  "sources": [
+    "https://github.com/NationalGalleryOfArt/opendata",
+    "https://openaccess-api.clevelandart.org/",
+    "https://api.artic.edu/docs/",
+    "https://www.nationalgallery.org.uk/documentation/ngacuk/licences"
+  ],
+  "artists": [
+    {
+      "id": "giotto",
+      "records": 1
+    },
+    {
+      "id": "duccio",
+      "records": 6
+    },
+    {
+      "id": "martini",
+      "records": 6
+    },
+    {
+      "id": "uccello",
+      "records": 2
+    },
+    {
+      "id": "masaccio",
+      "records": 3
+    },
+    {
+      "id": "lippi",
+      "records": 10
+    },
+    {
+      "id": "piero",
+      "records": 3
+    },
+    {
+      "id": "verrocchio",
+      "records": 1
+    },
+    {
+      "id": "botticelli",
+      "records": 14
+    },
+    {
+      "id": "ghirlandaio",
+      "records": 4
+    },
+    {
+      "id": "filippino",
+      "records": 11
+    },
+    {
+      "id": "perugino",
+      "records": 11
+    },
+    {
+      "id": "leonardo",
+      "records": 4
+    },
+    {
+      "id": "michelangelo",
+      "records": 2
+    },
+    {
+      "id": "raphael",
+      "records": 15
+    },
+    {
+      "id": "bellini",
+      "records": 20
+    },
+    {
+      "id": "giorgione",
+      "records": 4
+    },
+    {
+      "id": "titian",
+      "records": 26
+    },
+    {
+      "id": "eyck",
+      "records": 4
+    },
+    {
+      "id": "durer",
+      "records": 4
+    },
+    {
+      "id": "bruegel",
+      "records": 1
+    },
+    {
+      "id": "pontormo",
+      "records": 5
+    },
+    {
+      "id": "parmigianino",
+      "records": 3
+    },
+    {
+      "id": "bronzino",
+      "records": 8
+    },
+    {
+      "id": "gentile",
+      "records": 3
+    },
+    {
+      "id": "pisanello",
+      "records": 2
+    },
+    {
+      "id": "caravaggio",
+      "records": 4
+    },
+    {
+      "id": "artemisia",
+      "records": 2
+    },
+    {
+      "id": "rubens",
+      "records": 34
+    },
+    {
+      "id": "velazquez",
+      "records": 13
+    },
+    {
+      "id": "rembrandt",
+      "records": 37
+    },
+    {
+      "id": "vermeer",
+      "records": 5
+    },
+    {
+      "id": "watteau",
+      "records": 5
+    },
+    {
+      "id": "boucher",
+      "records": 14
+    },
+    {
+      "id": "fragonard",
+      "records": 16
+    }
+  ],
+  "requests": [
+    {
+      "artist": "giotto",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "giotto",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "duccio",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "duccio",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "martini",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "martini",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "uccello",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "uccello",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "masaccio",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "masaccio",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "lippi",
+      "museum": "cleveland",
+      "count": 3,
+      "status": "ok"
+    },
+    {
+      "artist": "lippi",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "piero",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "piero",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "verrocchio",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "verrocchio",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "botticelli",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "botticelli",
+      "museum": "artic",
+      "count": 2,
+      "status": "ok"
+    },
+    {
+      "artist": "ghirlandaio",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "ghirlandaio",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "filippino",
+      "museum": "cleveland",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "artist": "filippino",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "perugino",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "perugino",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "leonardo",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "leonardo",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "michelangelo",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "michelangelo",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "raphael",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "raphael",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "bellini",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "bellini",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "giorgione",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "giorgione",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "titian",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "titian",
+      "museum": "artic",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "artist": "eyck",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "eyck",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "durer",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "durer",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "bruegel",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "bruegel",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "pontormo",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "pontormo",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "parmigianino",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "parmigianino",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "bronzino",
+      "museum": "cleveland",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "artist": "bronzino",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "gentile",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "gentile",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "pisanello",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "pisanello",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "caravaggio",
+      "museum": "cleveland",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "artist": "caravaggio",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "artemisia",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "artemisia",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "rubens",
+      "museum": "cleveland",
+      "count": 2,
+      "status": "ok"
+    },
+    {
+      "artist": "rubens",
+      "museum": "artic",
+      "count": 7,
+      "status": "ok"
+    },
+    {
+      "artist": "velazquez",
+      "museum": "cleveland",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "artist": "velazquez",
+      "museum": "artic",
+      "count": 2,
+      "status": "ok"
+    },
+    {
+      "artist": "rembrandt",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "rembrandt",
+      "museum": "artic",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "artist": "vermeer",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "vermeer",
+      "museum": "artic",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "watteau",
+      "museum": "cleveland",
+      "count": 0,
+      "status": "ok"
+    },
+    {
+      "artist": "watteau",
+      "museum": "artic",
+      "count": 2,
+      "status": "ok"
+    },
+    {
+      "artist": "boucher",
+      "museum": "cleveland",
+      "count": 5,
+      "status": "ok"
+    },
+    {
+      "artist": "boucher",
+      "museum": "artic",
+      "count": 2,
+      "status": "ok"
+    },
+    {
+      "artist": "fragonard",
+      "museum": "cleveland",
+      "count": 1,
+      "status": "ok"
+    },
+    {
+      "artist": "fragonard",
+      "museum": "artic",
+      "count": 1,
+      "status": "ok"
+    }
+  ]
+}

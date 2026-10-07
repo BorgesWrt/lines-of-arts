@@ -1,3 +1,4 @@
+import productCopy from '../data/product-copy.json' with {type:'json'};
 import { Children, createContext, cloneElement, isValidElement } from 'react';
 import { movements, paintings, glossary } from '../data/content.js';
 import { artists, relations } from '../data/artists.js';
@@ -123,6 +124,7 @@ Object.entries({
 Object.entries({'Европейская живопись':'European painting','В атласе — ':'The atlas includes ',' направлений, ':' movements, ',' художников, ':' artists, ','Весь атлас':'Full atlas','XIII–XVIII века':'13th–18th centuries'}).forEach(([ru,en])=>add(ru,en));
 add('Скрыть фильтры','Hide filters');
 add('Открыть фильтры','Open filters');
+productCopy.forEach(([ru,en])=>add(ru,en));
 export const englishStrings = () => [...new Set(dictionary.values())];
 const phrases=[...dictionary].sort((a,b)=>b[0].length-a[0].length);
 export function translate(text,locale='en') {

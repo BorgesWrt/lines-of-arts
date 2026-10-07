@@ -9,7 +9,9 @@
     "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
     "check:data": "node scripts/check-data.mjs",
     "assets": "node scripts/fetch-artworks.mjs",
-    "check:interface": "node scripts/check-interface.mjs"
+    "check:interface": "node scripts/check-interface.mjs",
+    "sync:museums": "node scripts/sync-museum-catalog.mjs",
+    "check:museums": "node scripts/check-museums.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

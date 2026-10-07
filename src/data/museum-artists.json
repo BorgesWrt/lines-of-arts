@@ -1,0 +1,119 @@
+{
+  "giotto": [
+    "Giotto",
+    "Giotto di Bondone"
+  ],
+  "duccio": [
+    "Duccio",
+    "Duccio di Buoninsegna"
+  ],
+  "martini": [
+    "Simone Martini"
+  ],
+  "uccello": [
+    "Paolo Uccello"
+  ],
+  "masaccio": [
+    "Masaccio"
+  ],
+  "lippi": [
+    "Fra Filippo Lippi",
+    "Filippo Lippi"
+  ],
+  "piero": [
+    "Piero della Francesca"
+  ],
+  "verrocchio": [
+    "Andrea del Verrocchio"
+  ],
+  "botticelli": [
+    "Sandro Botticelli"
+  ],
+  "ghirlandaio": [
+    "Domenico Ghirlandaio"
+  ],
+  "filippino": [
+    "Filippino Lippi"
+  ],
+  "perugino": [
+    "Pietro Perugino"
+  ],
+  "leonardo": [
+    "Leonardo da Vinci"
+  ],
+  "michelangelo": [
+    "Michelangelo",
+    "Michelangelo Buonarroti"
+  ],
+  "raphael": [
+    "Raphael"
+  ],
+  "bellini": [
+    "Giovanni Bellini"
+  ],
+  "giorgione": [
+    "Giorgione"
+  ],
+  "titian": [
+    "Titian"
+  ],
+  "eyck": [
+    "Jan van Eyck"
+  ],
+  "durer": [
+    "Albrecht Dürer"
+  ],
+  "bruegel": [
+    "Pieter Bruegel the Elder"
+  ],
+  "pontormo": [
+    "Pontormo",
+    "Jacopo da Pontormo",
+    "Jacopo Pontormo"
+  ],
+  "parmigianino": [
+    "Parmigianino",
+    "Francesco Mazzola (called Parmigianino)"
+  ],
+  "bronzino": [
+    "Bronzino",
+    "Agnolo Bronzino"
+  ],
+  "gentile": [
+    "Gentile da Fabriano"
+  ],
+  "pisanello": [
+    "Pisanello"
+  ],
+  "caravaggio": [
+    "Caravaggio",
+    "Michelangelo Merisi da Caravaggio"
+  ],
+  "artemisia": [
+    "Artemisia Gentileschi"
+  ],
+  "rubens": [
+    "Peter Paul Rubens"
+  ],
+  "velazquez": [
+    "Diego Velázquez",
+    "Diego Rodriguez de Silva y Velazquez"
+  ],
+  "rembrandt": [
+    "Rembrandt",
+    "Rembrandt van Rijn"
+  ],
+  "vermeer": [
+    "Johannes Vermeer"
+  ],
+  "watteau": [
+    "Antoine Watteau",
+    "Jean-Antoine Watteau"
+  ],
+  "boucher": [
+    "François Boucher"
+  ],
+  "fragonard": [
+    "Jean-Honoré Fragonard"
+  ]
+}

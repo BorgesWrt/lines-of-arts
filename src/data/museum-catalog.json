@@ -1,0 +1,5459 @@
+{
+  "updated": "2026-10-07",
+  "records": [
+    {
+      "id": "nga-10",
+      "artistIds": [
+        "duccio"
+      ],
+      "title": "The Nativity with the Prophets Isaiah and Ezekiel",
+      "date": "1308-1311",
+      "begin": 1308,
+      "end": 1311,
+      "medium": "tempera on single poplar panel",
+      "attribution": "Duccio di Buoninsegna",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.8",
+      "source": "https://www.nga.gov/artworks/10",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/e66c8f60-ee91-46eb-9f70-a87ea34b76d4/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-282",
+      "artistIds": [
+        "duccio"
+      ],
+      "title": "The Calling of the Apostles Peter and Andrew",
+      "date": "1308-1311",
+      "begin": 1308,
+      "end": 1311,
+      "medium": "tempera on panel",
+      "attribution": "Duccio di Buoninsegna",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.141",
+      "source": "https://www.nga.gov/artworks/282",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/8c36f19a-c3c2-450f-b6b7-5217d1eafc82/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-397",
+      "artistIds": [
+        "giotto"
+      ],
+      "title": "Madonna and Child",
+      "date": "c. 1310/1315",
+      "begin": 1310,
+      "end": 1315,
+      "medium": "tempera on poplar panel",
+      "attribution": "Giotto",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.256",
+      "source": "https://www.nga.gov/artworks/397",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/60f57752-0e44-477c-94e7-18cbf3a7d80f/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41633",
+      "artistIds": [
+        "martini"
+      ],
+      "title": "Saint Matthew",
+      "date": "c. 1315/1320",
+      "begin": 1315,
+      "end": 1320,
+      "medium": "tempera on panel",
+      "attribution": "Simone Martini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.5.23",
+      "source": "https://www.nga.gov/artworks/41633",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/7582d319-a8e3-461e-9386-9bbf0d1deb48/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41634",
+      "artistIds": [
+        "martini"
+      ],
+      "title": "Saint Simon",
+      "date": "c. 1315/1320",
+      "begin": 1315,
+      "end": 1320,
+      "medium": "tempera on panel",
+      "attribution": "Simone Martini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.5.24",
+      "source": "https://www.nga.gov/artworks/41634",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/1d4fe135-def0-4a61-89a5-ffa8b9ffa852/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41635",
+      "artistIds": [
+        "martini"
+      ],
+      "title": "Saint James Major",
+      "date": "c. 1315/1320",
+      "begin": 1315,
+      "end": 1320,
+      "medium": "tempera on panel",
+      "attribution": "Simone Martini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.5.25",
+      "source": "https://www.nga.gov/artworks/41635",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/c05d6828-ce1c-4333-8ec6-b79ba3472fef/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41636",
+      "artistIds": [
+        "martini"
+      ],
+      "title": "Saint Judas Thaddeus",
+      "date": "c. 1315/1320",
+      "begin": 1315,
+      "end": 1320,
+      "medium": "tempera on panel",
+      "attribution": "Simone Martini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.5.26",
+      "source": "https://www.nga.gov/artworks/41636",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/ce6b3e55-a43c-4555-949d-f6bf60600bce/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-357",
+      "artistIds": [
+        "martini"
+      ],
+      "title": "The Angel of the Annunciation",
+      "date": "c. 1330",
+      "begin": 1330,
+      "end": 1330,
+      "medium": "tempera on poplar panel",
+      "attribution": "Simone Martini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.216",
+      "source": "https://www.nga.gov/artworks/357",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/1b266771-5762-4ce0-8968-688cae2ba81e/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-396",
+      "artistIds": [
+        "gentile"
+      ],
+      "title": "Madonna and Child Enthroned",
+      "date": "c. 1420",
+      "begin": 1420,
+      "end": 1420,
+      "medium": "tempera on poplar panel",
+      "attribution": "Gentile da Fabriano",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.255",
+      "source": "https://www.nga.gov/artworks/396",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/ce4d7f93-8bcf-4f88-a9c1-bea5c5a9b425/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-9",
+      "artistIds": [
+        "masaccio"
+      ],
+      "title": "The Madonna of Humility",
+      "date": "c. 1423/1424",
+      "begin": 1423,
+      "end": 1424,
+      "medium": "tempera (?) on panel",
+      "attribution": "Masaccio",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.7",
+      "source": "https://www.nga.gov/artworks/9",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/955ee859-1172-48d6-b5b3-189857de82f0/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-411",
+      "artistIds": [
+        "gentile"
+      ],
+      "title": "The Crippled and Sick Cured at the Tomb of Saint Nicholas",
+      "date": "1425",
+      "begin": 1425,
+      "end": 1425,
+      "medium": "tempera on panel",
+      "attribution": "Gentile da Fabriano",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.268",
+      "source": "https://www.nga.gov/artworks/411",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/0d611df5-8ef3-4153-8df7-c6eb6a86bc38/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46",
+      "artistIds": [
+        "eyck"
+      ],
+      "title": "The Annunciation",
+      "date": "c. 1434/1436",
+      "begin": 1434,
+      "end": 1436,
+      "medium": "oil on canvas transferred from panel",
+      "attribution": "Jan van Eyck",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.39",
+      "source": "https://www.nga.gov/artworks/46",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/46633bd6-4834-40fb-8ce0-fb975c731dc1/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-12133",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "The Annunciation",
+      "date": "c. 1435/1440",
+      "begin": 1435,
+      "end": 1440,
+      "medium": "tempera on panel",
+      "attribution": "Fra Filippo Lippi",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1943.4.35",
+      "source": "https://www.nga.gov/artworks/12133",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/663949e0-a99e-497e-8f26-b337eaaea9de/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-433",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "Madonna and Child",
+      "date": "c. 1440",
+      "begin": 1440,
+      "end": 1440,
+      "medium": "tempera on poplar panel",
+      "attribution": "Fra Filippo Lippi",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.290",
+      "source": "https://www.nga.gov/artworks/433",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/2b5b0121-85d6-4c8e-9752-a83fb70d7995/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41620",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "Saint Benedict Orders Saint Maurus to the Rescue of Saint Placidus",
+      "date": "c. 1445/1450",
+      "begin": 1445,
+      "end": 1450,
+      "medium": "tempera on panel",
+      "attribution": "Fra Filippo Lippi",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.5.10",
+      "source": "https://www.nga.gov/artworks/41620",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/2782d749-73fa-477a-be42-ce1f155ae30d/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-422",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "The Nativity",
+      "date": "probably c. 1445",
+      "begin": 1445,
+      "end": 1445,
+      "medium": "oil and tempera (?) on panel",
+      "attribution": "Fra Filippo Lippi and Workshop",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.279",
+      "source": "https://www.nga.gov/artworks/422",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/4ffee5bd-7630-4386-9df0-768d980a8b86/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "cma-140148",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "Pair of Panels from a Triptych: The Archangel Michael and St. Anthony Abbot",
+      "date": "1458",
+      "begin": 1458,
+      "end": 1458,
+      "medium": "tempera on wood panel",
+      "attribution": "Fra Filippo Lippi (Italian, c. 1406–1469)",
+      "credit": "Leonard C. Hanna Jr. Fund",
+      "accession": "1964.150",
+      "source": "https://clevelandart.org/art/1964.150",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1964.150/1964.150_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "cma-140149",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "Panel from a Triptych: The Archangel Michael",
+      "date": "1458",
+      "begin": 1458,
+      "end": 1458,
+      "medium": "tempera on wood panel",
+      "attribution": "Fra Filippo Lippi (Italian, c. 1406–1469)",
+      "credit": "Leonard C. Hanna Jr. Fund",
+      "accession": "1964.150.1",
+      "source": "https://clevelandart.org/art/1964.150.1",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1964.150.1/1964.150.1_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "cma-140150",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "Panel from a Triptych: St. Anthony Abbot",
+      "date": "1458",
+      "begin": 1458,
+      "end": 1458,
+      "medium": "tempera on wood panel",
+      "attribution": "Fra Filippo Lippi (Italian, c. 1406–1469)",
+      "credit": "Leonard C. Hanna Jr. Fund",
+      "accession": "1964.150.2",
+      "source": "https://clevelandart.org/art/1964.150.2",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1964.150.2/1964.150.2_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "nga-23",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "Madonna and Child",
+      "date": "c. 1470",
+      "begin": 1470,
+      "end": 1470,
+      "medium": "tempera on panel",
+      "attribution": "Sandro Botticelli",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.21",
+      "source": "https://www.nga.gov/artworks/23",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/b648ebba-7bc6-45ab-a41d-7fd20b0918ea/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46148",
+      "artistIds": [
+        "ghirlandaio"
+      ],
+      "title": "Madonna and Child",
+      "date": "c. 1470/1475",
+      "begin": 1470,
+      "end": 1475,
+      "medium": "tempera on panel transferred to hardboard",
+      "attribution": "Domenico Ghirlandaio",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1961.9.49",
+      "source": "https://www.nga.gov/artworks/46148",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/244fe732-1479-4963-a716-ab62b8ac4879/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-50724",
+      "artistIds": [
+        "leonardo"
+      ],
+      "title": "Ginevra de' Benci [obverse]",
+      "date": "c. 1474/1478",
+      "begin": 1474,
+      "end": 1478,
+      "medium": "oil on panel",
+      "attribution": "Leonardo da Vinci",
+      "credit": "Ailsa Mellon Bruce Fund",
+      "accession": "1967.6.1.a",
+      "source": "https://www.nga.gov/artworks/50724",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/8f29e3c9-a289-4d53-abf0-31a66e9e98fa/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-50725",
+      "artistIds": [
+        "leonardo"
+      ],
+      "title": "Wreath of Laurel, Palm, and Juniper with a Scroll inscribed Virtutem Forma Decorat [reverse]",
+      "date": "c. 1474/1478",
+      "begin": 1474,
+      "end": 1478,
+      "medium": "tempera on panel",
+      "attribution": "Leonardo da Vinci",
+      "credit": "Ailsa Mellon Bruce Fund",
+      "accession": "1967.6.1.b",
+      "source": "https://www.nga.gov/artworks/50725",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/ff62e8d0-45c4-498f-ad36-6358de827e04/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-80530",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "Virgin and Child with an Angel",
+      "date": "1475–85",
+      "begin": 1475,
+      "end": 1485,
+      "medium": "Tempera on panel",
+      "attribution": "Sandro Botticelli (Italian, 1444/45–1510)",
+      "credit": "Max and Leola Epstein Collection",
+      "accession": "1954.283",
+      "source": "https://www.artic.edu/artworks/80530",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/b59cc3e9-a7c0-5aa1-1a22-bb472bb2e6d4/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-12134",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "The Coronation of the Virgin",
+      "date": "c. 1475",
+      "begin": 1475,
+      "end": 1475,
+      "medium": "tempera and oil on poplar panel",
+      "attribution": "Filippino Lippi",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1943.4.36",
+      "source": "https://www.nga.gov/artworks/12134",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/4f1c0f86-404b-41f3-81e3-75a35fea96eb/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-20",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "The Adoration of the Child",
+      "date": "c. 1475/1480",
+      "begin": 1475,
+      "end": 1480,
+      "medium": "oil on poplar panel",
+      "attribution": "Filippino Lippi",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.18",
+      "source": "https://www.nga.gov/artworks/20",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/d80a9e0f-0424-46ba-86f1-afd821e843b4/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-370",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "Tobias and the Angel",
+      "date": "c. 1475/1480",
+      "begin": 1475,
+      "end": 1480,
+      "medium": "oil and tempera on poplar panel",
+      "attribution": "Filippino Lippi",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.229",
+      "source": "https://www.nga.gov/artworks/370",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/17b4aa42-79e9-4356-8231-9299f1c3a279/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-24",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "The Adoration of the Magi",
+      "date": "c. 1478/1482",
+      "begin": 1478,
+      "end": 1482,
+      "medium": "tempera and oil on poplar panel",
+      "attribution": "Sandro Botticelli",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.22",
+      "source": "https://www.nga.gov/artworks/24",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/0fd27212-b70a-4a0b-9e7c-ed0d8bbe7ebf/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41671",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "Giuliano de' Medici",
+      "date": "c. 1478/1480",
+      "begin": 1478,
+      "end": 1480,
+      "medium": "tempera on panel",
+      "attribution": "Sandro Botticelli",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.5.56",
+      "source": "https://www.nga.gov/artworks/41671",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/6ef2731f-05c7-422c-be03-c49b37112e66/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-33254",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Madonna and Child in a Landscape",
+      "date": "c. 1480/1485",
+      "begin": 1480,
+      "end": 1485,
+      "medium": "oil on panel",
+      "attribution": "Giovanni Bellini",
+      "credit": "Ralph and Mary Booth Collection",
+      "accession": "1946.19.1",
+      "source": "https://www.nga.gov/artworks/33254",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/f297f282-edcc-4190-88ff-96de868ec881/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-36",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Portrait of a Young Man in Red",
+      "date": "c. 1480",
+      "begin": 1480,
+      "end": 1480,
+      "medium": "oil and tempera on panel",
+      "attribution": "Giovanni Bellini",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.29",
+      "source": "https://www.nga.gov/artworks/36",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/f38f8f22-620e-4ff3-a2bf-22b719002e17/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41583",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "The Virgin Adoring the Child",
+      "date": "1480/1490",
+      "begin": 1480,
+      "end": 1490,
+      "medium": "tempera on poplar panel",
+      "attribution": "Sandro Botticelli",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.2.4",
+      "source": "https://www.nga.gov/artworks/41583",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/7b4b4463-cf2d-4f19-b450-07e73c76b37c/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-496",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Madonna and Child",
+      "date": "c. 1480/1485",
+      "begin": 1480,
+      "end": 1485,
+      "medium": "oil on panel",
+      "attribution": "Giovanni Bellini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.352",
+      "source": "https://www.nga.gov/artworks/496",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/2ea2d362-7c35-4819-860d-d3c7de2db4b8/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-206127",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "The Crucifixion with the Virgin, Saint John, Saint Jerome, and Saint Mary Magdalene",
+      "date": "c. 1482/1485",
+      "begin": 1482,
+      "end": 1485,
+      "medium": "oil on panel transferred to canvas",
+      "attribution": "Pietro Perugino",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.27.a-c",
+      "source": "https://www.nga.gov/artworks/206127",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/823e1490-2c2a-41d6-9189-61c0a302f48f/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-21",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "Portrait of a Youth",
+      "date": "c. 1482/1485",
+      "begin": 1482,
+      "end": 1485,
+      "medium": "tempera on poplar panel",
+      "attribution": "Sandro Botticelli",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.19",
+      "source": "https://www.nga.gov/artworks/21",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/fb441731-b7ea-4972-a1f4-51184adaddc9/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-29",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "The Crucifixion with the Virgin, Saint John, Saint Jerome, and Saint Mary Magdalene [left panel]",
+      "date": "c. 1482/1485",
+      "begin": 1482,
+      "end": 1485,
+      "medium": "oil on panel transferred to canvas",
+      "attribution": "Pietro Perugino",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.27.a",
+      "source": "https://www.nga.gov/artworks/29",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/b43e331e-ede9-44ca-a276-0b8806630fbd/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-30",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "The Crucifixion with the Virgin, Saint John, Saint Jerome, and Saint Mary Magdalene [middle panel]",
+      "date": "c. 1482/1485",
+      "begin": 1482,
+      "end": 1485,
+      "medium": "oil on panel transferred to canvas",
+      "attribution": "Pietro Perugino",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.27.b",
+      "source": "https://www.nga.gov/artworks/30",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/63049d6b-06b2-4e4b-9443-532df5b30fa7/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-31",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "The Crucifixion with the Virgin, Saint John, Saint Jerome, and Saint Mary Magdalene [right panel]",
+      "date": "c. 1482/1485",
+      "begin": 1482,
+      "end": 1485,
+      "medium": "oil on panel transferred to canvas",
+      "attribution": "Pietro Perugino",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.27.c",
+      "source": "https://www.nga.gov/artworks/31",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/49cffd8d-5c06-4628-9369-1b6bdb3e7b90/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-80526",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "Virgin and Child with Two Angels",
+      "date": "1485–95",
+      "begin": 1485,
+      "end": 1495,
+      "medium": "Tempera on panel",
+      "attribution": "Sandro Botticelli (Italian, 1444/45–1510)",
+      "credit": "Max and Leola Epstein Collection",
+      "accession": "1954.282",
+      "source": "https://www.artic.edu/artworks/80526",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/eb49ab17-f2d9-275a-ee71-e8f0016b34aa/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-22",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "Portrait of a Youth",
+      "date": "c. 1485",
+      "begin": 1485,
+      "end": 1485,
+      "medium": "oil and tempera on panel",
+      "attribution": "Filippino Lippi",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.20",
+      "source": "https://www.nga.gov/artworks/22",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/48990066-145b-49d2-bf4e-186de168f7c9/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "cma-113202",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "The Holy Family with Saint John the Baptist and Saint Margaret",
+      "date": "c. 1488–93",
+      "begin": 1488,
+      "end": 1493,
+      "medium": "tempera and oil on wood",
+      "attribution": "Filippino Lippi (Italian, c. 1457–1504)",
+      "credit": "The Delia E. Holden Fund and a fund donated as a memorial to Mrs. Holden by her children: Guerdon S. Holden, Delia Holden White, Roberta Holden Bole, Emery Holden Greenough, Gertrude Holden McGinley",
+      "accession": "1932.227",
+      "source": "https://clevelandart.org/art/1932.227",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1932.227/1932.227_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "nga-1177",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "Portrait of Lorenzo di Credi",
+      "date": "1488",
+      "begin": 1488,
+      "end": 1488,
+      "medium": "oil on panel transferred to canvas",
+      "attribution": "Pietro Perugino",
+      "credit": "Widener Collection",
+      "accession": "1942.9.38",
+      "source": "https://www.nga.gov/artworks/1177",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/7681ffe3-535b-4e75-9d28-a288d7ce0cf5/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-323",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Portrait of a Young Man",
+      "date": "c. 1490",
+      "begin": 1490,
+      "end": 1490,
+      "medium": "oil on poplar panel",
+      "attribution": "Giovanni Bellini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.182",
+      "source": "https://www.nga.gov/artworks/323",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/cf1d1ebf-4149-4d9b-ab3c-bcbcc604893b/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41598",
+      "artistIds": [
+        "durer"
+      ],
+      "title": "Madonna and Child [obverse]",
+      "date": "c. 1496/1499",
+      "begin": 1496,
+      "end": 1499,
+      "medium": "oil on panel",
+      "attribution": "Albrecht Dürer",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.2.16.a",
+      "source": "https://www.nga.gov/artworks/41598",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/878db7e6-10ae-4cae-ba5d-6d6f5c413ae8/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41599",
+      "artistIds": [
+        "durer"
+      ],
+      "title": "Lot and His Daughters [reverse]",
+      "date": "c. 1496/1499",
+      "begin": 1496,
+      "end": 1499,
+      "medium": "oil on panel",
+      "attribution": "Albrecht Dürer",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.2.16.b",
+      "source": "https://www.nga.gov/artworks/41599",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/7565a449-f82a-414b-9bda-c93f55a51b4d/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-356",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "Madonna and Child",
+      "date": "c. 1500",
+      "begin": 1500,
+      "end": 1500,
+      "medium": "oil on poplar panel",
+      "attribution": "Pietro Perugino",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.215",
+      "source": "https://www.nga.gov/artworks/356",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/1ecf0487-06e6-4236-85c3-8f9d55da908c/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-395",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Portrait of a Venetian Gentleman",
+      "date": "c. 1500",
+      "begin": 1500,
+      "end": 1500,
+      "medium": "oil on panel transferred to panel",
+      "attribution": "Giovanni Bellini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.254",
+      "source": "https://www.nga.gov/artworks/395",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/7f89c7c7-a5cf-499d-a7ab-d2aa33e360d1/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41590",
+      "artistIds": [
+        "giorgione"
+      ],
+      "title": "The Holy Family",
+      "date": "probably c. 1500",
+      "begin": 1500,
+      "end": 1500,
+      "medium": "oil on panel transferred to hardboard",
+      "attribution": "Giorgione",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.2.8",
+      "source": "https://www.nga.gov/artworks/41590",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/cb225bd2-9148-4095-886c-5a2687bcb9e8/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41701",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "Pietà (The Dead Christ Mourned by Nicodemus and Two Angels)",
+      "date": "c. 1500",
+      "begin": 1500,
+      "end": 1500,
+      "medium": "oil (and possibly tempera) on panel",
+      "attribution": "Filippino Lippi",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.5.86",
+      "source": "https://www.nga.gov/artworks/41701",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/dd6589b3-550f-4d77-8628-422fa53430b1/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1196",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Small Cowper Madonna",
+      "date": "c. 1505",
+      "begin": 1505,
+      "end": 1505,
+      "medium": "oil on panel",
+      "attribution": "Raphael",
+      "credit": "Widener Collection",
+      "accession": "1942.9.57",
+      "source": "https://www.nga.gov/artworks/1196",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/314c647b-d36f-430c-8450-1ec66c05037a/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-358",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Saint Jerome Reading",
+      "date": "1505",
+      "begin": 1505,
+      "end": 1505,
+      "medium": "oil on linden panel",
+      "attribution": "Giovanni Bellini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.217",
+      "source": "https://www.nga.gov/artworks/358",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/1aa5a852-ac13-42ad-860d-e5606c0e8587/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-432",
+      "artistIds": [
+        "giorgione"
+      ],
+      "title": "The Adoration of the Shepherds",
+      "date": "1505/1510",
+      "begin": 1505,
+      "end": 1510,
+      "medium": "oil on panel",
+      "attribution": "Giorgione",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.289",
+      "source": "https://www.nga.gov/artworks/432",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/77d22f22-777b-456f-adc6-baf1e010b832/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46104",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "The Infant Bacchus",
+      "date": "probably 1505/1510",
+      "begin": 1505,
+      "end": 1510,
+      "medium": "oil on panel transferred to panel",
+      "attribution": "Giovanni Bellini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1961.9.5",
+      "source": "https://www.nga.gov/artworks/46104",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/c206c316-7e00-4d8d-a1f2-6017ba091463/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-286660",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Risen Christ",
+      "date": "c. 1511",
+      "begin": 1506,
+      "end": 1516,
+      "medium": "Oil on canvas",
+      "attribution": "Titian (Italian, c. 1488-1576)",
+      "credit": "Kenneth C. Griffin Collection",
+      "accession": "Obj: 286660",
+      "source": "https://www.artic.edu/artworks/286660",
+      "museum": "artic",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "nga-28",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "Saint George and the Dragon",
+      "date": "c. 1506",
+      "begin": 1506,
+      "end": 1506,
+      "medium": "oil on panel",
+      "attribution": "Raphael",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.26",
+      "source": "https://www.nga.gov/artworks/28",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/a6a8ceef-d4ab-4318-a6d1-9d369737156e/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41589",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "An Episode from the Life of Publius Cornelius Scipio",
+      "date": "after 1506",
+      "begin": 1506,
+      "end": 1506,
+      "medium": "oil on canvas",
+      "attribution": "Giovanni Bellini",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.2.7",
+      "source": "https://www.nga.gov/artworks/41589",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/9c048501-ff74-46f1-b3c7-890cc7d86dd0/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-27",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Niccolini-Cowper Madonna",
+      "date": "1508",
+      "begin": 1508,
+      "end": 1508,
+      "medium": "oil on panel",
+      "attribution": "Raphael",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.25",
+      "source": "https://www.nga.gov/artworks/27",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/2ac0a514-b560-4a49-b533-9b4951d5bf2c/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-26",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Alba Madonna",
+      "date": "c. 1510",
+      "begin": 1510,
+      "end": 1510,
+      "medium": "oil on panel transferred to canvas",
+      "attribution": "Raphael",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.24",
+      "source": "https://www.nga.gov/artworks/26",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/f033a552-2901-4c21-95ed-93d13e598632/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1138",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "The Feast of the Gods",
+      "date": "1514/1529",
+      "begin": 1514,
+      "end": 1529,
+      "medium": "oil on canvas",
+      "attribution": "Giovanni Bellini and Titian",
+      "credit": "Widener Collection",
+      "accession": "1942.9.1",
+      "source": "https://www.nga.gov/artworks/1138",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/3a640014-a2f0-4cd4-b440-979f62316da2/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-12131",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "Bindo Altoviti",
+      "date": "c. 1515",
+      "begin": 1515,
+      "end": 1515,
+      "medium": "oil on panel",
+      "attribution": "Raphael",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1943.4.33",
+      "source": "https://www.nga.gov/artworks/12131",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/b567bff1-506c-4c08-9689-c801fc55a35e/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-354",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Cupid with the Wheel of Time",
+      "date": "c. 1515/1520",
+      "begin": 1515,
+      "end": 1520,
+      "medium": "oil on canvas",
+      "attribution": "Titian",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.213",
+      "source": "https://www.nga.gov/artworks/354",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/65c3d1bf-46c0-439d-a489-d36e0471328d/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41600",
+      "artistIds": [
+        "durer"
+      ],
+      "title": "Portrait of a Clergyman (Johann Dorsch?)",
+      "date": "1516",
+      "begin": 1516,
+      "end": 1516,
+      "medium": "oil on parchment on fabric",
+      "attribution": "Albrecht Dürer",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.2.17",
+      "source": "https://www.nga.gov/artworks/41600",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/9931c64e-f49b-440b-9ca8-7eea19df3c1f/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-531",
+      "artistIds": [
+        "bronzino"
+      ],
+      "title": "The Holy Family",
+      "date": "c. 1527/1528",
+      "begin": 1527,
+      "end": 1528,
+      "medium": "oil on panel",
+      "attribution": "Agnolo Bronzino",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.387",
+      "source": "https://www.nga.gov/artworks/531",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/cb2fb43d-7057-4c8b-bcb7-66904ec64319/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41638",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Cardinal Pietro Bembo",
+      "date": "1539/1540",
+      "begin": 1539,
+      "end": 1540,
+      "medium": "oil on canvas",
+      "attribution": "Titian",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.5.28",
+      "source": "https://www.nga.gov/artworks/41638",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/bb7a8478-0dd2-4826-9c2b-6eccb60c60c2/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1143",
+      "artistIds": [
+        "bronzino"
+      ],
+      "title": "A Young Woman and Her Little Boy",
+      "date": "c. 1540",
+      "begin": 1540,
+      "end": 1540,
+      "medium": "oil on panel",
+      "attribution": "Agnolo Bronzino",
+      "credit": "Widener Collection",
+      "accession": "1942.9.6",
+      "source": "https://www.nga.gov/artworks/1143",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/bb63dde5-923f-4f5a-a814-7a6d96642b8e/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1223",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Venus and Adonis",
+      "date": "c. 1540s/c. 1560-1565",
+      "begin": 1540,
+      "end": 1565,
+      "medium": "oil on canvas",
+      "attribution": "Titian and Workshop",
+      "credit": "Widener Collection",
+      "accession": "1942.9.84",
+      "source": "https://www.nga.gov/artworks/1223",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/3ac12dea-a484-485d-9fc2-0b4a6841515b/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41593",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Ranuccio Farnese",
+      "date": "1541-1542",
+      "begin": 1541,
+      "end": 1542,
+      "medium": "oil on canvas",
+      "attribution": "Titian",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1952.2.11",
+      "source": "https://www.nga.gov/artworks/41593",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/acf2ae83-872b-4aee-b927-22913c5d06c1/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46182",
+      "artistIds": [
+        "pontormo"
+      ],
+      "title": "Monsignor della Casa",
+      "date": "probably 1541/1544",
+      "begin": 1541,
+      "end": 1544,
+      "medium": "oil on panel",
+      "attribution": "Pontormo",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1961.9.83",
+      "source": "https://www.nga.gov/artworks/46182",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/33edad58-6362-474a-9edd-7af0531cc258/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46144",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Doge Andrea Gritti",
+      "date": "c. 1546/1550",
+      "begin": 1546,
+      "end": 1550,
+      "medium": "oil on canvas",
+      "attribution": "Titian",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1961.9.45",
+      "source": "https://www.nga.gov/artworks/46144",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/63988a66-b4cb-44b5-9c07-4a28dfe9f426/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-43725",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Saint John the Evangelist on Patmos",
+      "date": "c. 1553/1555",
+      "begin": 1548,
+      "end": 1558,
+      "medium": "oil on canvas",
+      "attribution": "Titian and Workshop",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1957.14.6",
+      "source": "https://www.nga.gov/artworks/43725",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/71e09ac6-9143-49fe-b25b-bb4bf5b56dfc/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "cma-146469",
+      "artistIds": [
+        "bronzino"
+      ],
+      "title": "Portrait of a Woman",
+      "date": "c. 1550",
+      "begin": 1550,
+      "end": 1550,
+      "medium": "oil on wood",
+      "attribution": "Agnolo Bronzino (Italian, 1503–1572)",
+      "credit": "Leonard C. Hanna Jr. Fund",
+      "accession": "1972.121",
+      "source": "https://clevelandart.org/art/1972.121",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1972.121/1972.121_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "nga-435",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Woman Holding an Apple",
+      "date": "c. 1550",
+      "begin": 1550,
+      "end": 1550,
+      "medium": "oil on canvas",
+      "attribution": "Titian",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1939.1.292",
+      "source": "https://www.nga.gov/artworks/435",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/4b6a997d-410c-44af-a3f1-95ac4f103717/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-43722",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Vincenzo Cappello",
+      "date": "c. 1550/1560",
+      "begin": 1550,
+      "end": 1560,
+      "medium": "oil on canvas",
+      "attribution": "Titian and Workshop ",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1957.14.3",
+      "source": "https://www.nga.gov/artworks/43722",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/41d63b2f-972c-4ed9-9c28-b3d8b3d260d5/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-41",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Venus with a Mirror",
+      "date": "c. 1555",
+      "begin": 1555,
+      "end": 1555,
+      "medium": "oil on canvas",
+      "attribution": "Titian",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.34",
+      "source": "https://www.nga.gov/artworks/41",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/5174ca9a-42e7-4420-b5e5-ad063a9092f6/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46106",
+      "artistIds": [
+        "bronzino"
+      ],
+      "title": "Eleonora di Toledo",
+      "date": "c. 1560",
+      "begin": 1560,
+      "end": 1560,
+      "medium": "oil on panel",
+      "attribution": "Agnolo Bronzino",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1961.9.7",
+      "source": "https://www.nga.gov/artworks/46106",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/36cf52bf-6879-447f-b331-60f937d96053/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "cma-148758",
+      "artistIds": [
+        "caravaggio"
+      ],
+      "title": "The Crucifixion of Saint Andrew",
+      "date": "1606–7",
+      "begin": 1606,
+      "end": 1607,
+      "medium": "oil on canvas",
+      "attribution": "Caravaggio (Italian, 1571–1610)",
+      "credit": "Leonard C. Hanna Jr. Fund",
+      "accession": "1976.2",
+      "source": "https://clevelandart.org/art/1976.2",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1976.2/1976.2_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "aic-8953",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Capture of Samson",
+      "date": "1609–10",
+      "begin": 1609,
+      "end": 1610,
+      "medium": "Oil on panel",
+      "attribution": "Peter Paul Rubens (Flemish, 1577-1640)",
+      "credit": "Robert A. Waller Memorial Fund",
+      "accession": "1923.551",
+      "source": "https://www.artic.edu/artworks/8953",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/a8fd8a92-d5fd-bb98-5d70-f970ab1788b8/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-100342",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Saint Francis",
+      "date": "c. 1615",
+      "begin": 1610,
+      "end": 1620,
+      "medium": "Oil on panel",
+      "attribution": "Peter Paul Rubens (Flemish, 1577-1640)",
+      "credit": "George F. Harding Collection",
+      "accession": "1983.372",
+      "source": "https://www.artic.edu/artworks/100342",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/fa4dd0f2-382c-076c-ff20-c59a2774400c/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-27310",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Holy Family with Saints Elizabeth and John the Baptist",
+      "date": "c. 1615",
+      "begin": 1610,
+      "end": 1620,
+      "medium": "Oil on panel",
+      "attribution": "Peter Paul Rubens (Flemish, 1577–1640)",
+      "credit": "Major Acquisitions Fund",
+      "accession": "1967.229",
+      "source": "https://www.artic.edu/artworks/27310",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/caac7478-b78f-a94d-a36c-fc5dde17e7c9/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-6831",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "Saint John the Baptist in the Wilderness",
+      "date": "c. 1622",
+      "begin": 1617,
+      "end": 1627,
+      "medium": "Oil on canvas",
+      "attribution": "Diego Velázquez (Spanish, 1599–1660)",
+      "credit": "Gift of Barbara Deering Danielson",
+      "accession": "1957.563",
+      "source": "https://www.artic.edu/artworks/6831",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/da3e9da7-09ed-412c-16b0-8ceedd38571f/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-21934",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "Kitchen Scene",
+      "date": "1618–20",
+      "begin": 1618,
+      "end": 1622,
+      "medium": "Oil on canvas",
+      "attribution": "Diego Velázquez (Spanish, 1599–1660)",
+      "credit": "Robert A. Waller Memorial Fund",
+      "accession": "1935.380",
+      "source": "https://www.artic.edu/artworks/21934",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/68452725-eba5-06e3-46d2-50c678a5d672/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-28874",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "St. Albert of Louvain",
+      "date": "1620",
+      "begin": 1620,
+      "end": 1620,
+      "medium": "Oil on panel",
+      "attribution": "Peter Paul Rubens (Flemish, 1577-1640)",
+      "credit": "Bequest of Dr. John J. Ireland",
+      "accession": "1968.96",
+      "source": "https://www.artic.edu/artworks/28874",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/58f58363-f567-0e49-7956-d49400721b1c/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "cma-125247",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Portrait of Isabella Brant",
+      "date": "c. 1620–25",
+      "begin": 1620,
+      "end": 1625,
+      "medium": "oil on wood",
+      "attribution": "Peter Paul Rubens (Flemish, 1577–1640)",
+      "credit": "Mr. and Mrs. William H. Marlatt Fund",
+      "accession": "1947.207",
+      "source": "https://clevelandart.org/art/1947.207",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1947.207/1947.207_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "aic-25790",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Adoration of the Eucharist",
+      "date": "c. 1626",
+      "begin": 1621,
+      "end": 1631,
+      "medium": "Oil on panel",
+      "attribution": "Peter Paul Rubens (Flemish, 1577–1640)",
+      "credit": "Mr. and Mrs. Martin A. Ryerson Collection",
+      "accession": "1937.1012",
+      "source": "https://www.artic.edu/artworks/25790",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/15a87438-df7b-8fe1-203f-e0b4d36236a0/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-231465",
+      "artistIds": [
+        "artemisia"
+      ],
+      "title": "Mary Magdalene in Ecstasy",
+      "date": "c. 1625",
+      "begin": 1625,
+      "end": 1625,
+      "medium": "oil on canvas",
+      "attribution": "Artemisia Gentileschi",
+      "credit": "Gift of Funds from Nina J. Cohen in honor of her father Emanuel Cohen and Patrons' Permanent Fund",
+      "accession": "2025.88.1",
+      "source": "https://www.nga.gov/artworks/231465",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/bcf98c18-d393-4c8e-8c6f-f21fdaf4dc38/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-80553",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Nicolas Rubens, the Artist's Son",
+      "date": "c. 1635",
+      "begin": 1630,
+      "end": 1640,
+      "medium": "Oil on panel",
+      "attribution": "Attributed to Peter Paul Rubens (Flemish, 1577–1640)",
+      "credit": "Max and Leola Epstein collection",
+      "accession": "1954.299",
+      "source": "https://www.artic.edu/artworks/80553",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/0a991ed0-5816-1fbe-33d2-a12c384334ab/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-206067",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Head of a Young Man",
+      "date": "c. 1635-1655",
+      "begin": 1630,
+      "end": 1660,
+      "medium": "oil on panel",
+      "attribution": "Attributed to Rembrandt Workshop (possibly Govaert Flinck)",
+      "credit": "Gift of Miriam and Eliezer Benbassat",
+      "accession": "2025.11.1",
+      "source": "https://www.nga.gov/artworks/206067",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/6673a449-8936-4ba2-b03e-a3bcd61e0ad8/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-95998",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Old Man with a Gold Chain",
+      "date": "1631",
+      "begin": 1631,
+      "end": 1631,
+      "medium": "Oil on panel",
+      "attribution": "Rembrandt van Rijn (Dutch, 1606–1669)",
+      "credit": "Mr. and Mrs. W. W. Kimball Collection",
+      "accession": "1922.4467",
+      "source": "https://www.artic.edu/artworks/95998",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/3eaab3a3-2b47-9fdd-121c-050f6b8d9ccb/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "cma-141549",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "Portrait of the Jester Calabazas",
+      "date": "c. 1631–32",
+      "begin": 1631,
+      "end": 1632,
+      "medium": "oil on canvas",
+      "attribution": "Diego Velázquez (Spanish, 1599–1660)",
+      "credit": "Leonard C. Hanna Jr. Fund",
+      "accession": "1965.15",
+      "source": "https://clevelandart.org/art/1965.15",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1965.15/1965.15_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "nga-177795",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Man with a Sheet of Music",
+      "date": "1633",
+      "begin": 1633,
+      "end": 1633,
+      "medium": "oil on panel",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Corcoran Collection (William A. Clark Collection, 1926)",
+      "accession": "2014.136.41",
+      "source": "https://www.nga.gov/artworks/177795",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/223524b5-ba54-4b89-8bed-3940e68a4f91/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "cma-151517",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Study for \"The Bear Hunt\" (for the Alcázar, Madrid)",
+      "date": "c. 1639",
+      "begin": 1634,
+      "end": 1644,
+      "medium": "oil on wood",
+      "attribution": "Peter Paul Rubens (Flemish, 1577–1640)",
+      "credit": "Leonard C. Hanna Jr. Fund",
+      "accession": "1983.69",
+      "source": "https://clevelandart.org/art/1983.69",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1983.69/1983.69_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "nga-1210",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Saskia van Uylenburgh, the Wife of the Artist",
+      "date": "probably begun 1634/1635 and completed 1638/1640",
+      "begin": 1634,
+      "end": 1640,
+      "medium": "oil on panel",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Widener Collection",
+      "accession": "1942.9.71",
+      "source": "https://www.nga.gov/artworks/1210",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/4567844d-7735-4f53-93af-e6f73a6095cf/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-572",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Man in Oriental Costume",
+      "date": "c. 1635",
+      "begin": 1635,
+      "end": 1635,
+      "medium": "oil on linen",
+      "attribution": "Rembrandt van Rijn and Workshop (Probably Govaert Flinck)",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1940.1.13",
+      "source": "https://www.nga.gov/artworks/572",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/a234bdbb-eac2-4a91-95f2-f62b2c859fd3/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-59956",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Wedding of Peleus and Thetis",
+      "date": "1636",
+      "begin": 1636,
+      "end": 1636,
+      "medium": "Oil on panel",
+      "attribution": "Peter Paul Rubens (Flemish, 1577–1640)",
+      "credit": "Charles H. and Mary F. S. Worcester Collection",
+      "accession": "1947.108",
+      "source": "https://www.artic.edu/artworks/59956",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/5ee19981-a8f5-1306-3ec5-eb79c14ac1a6/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-80",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "An Old Lady with a Book",
+      "date": "1637",
+      "begin": 1637,
+      "end": 1637,
+      "medium": "oil on canvas",
+      "attribution": "Rembrandt van Rijn and Workshop",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.73",
+      "source": "https://www.nga.gov/artworks/80",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/d11ecc48-9cf8-482f-bf63-8ec3238816ef/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-85",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "A Polish Nobleman",
+      "date": "1637",
+      "begin": 1637,
+      "end": 1637,
+      "medium": "oil on panel",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.78",
+      "source": "https://www.nga.gov/artworks/85",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/b29d07fb-c785-41af-8c3f-a48045e4013c/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-88",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "The Needlewoman",
+      "date": "c. 1640/1650",
+      "begin": 1640,
+      "end": 1650,
+      "medium": "oil on canvas",
+      "attribution": "Diego Velázquez",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.81",
+      "source": "https://www.nga.gov/artworks/88",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/9150722c-f34d-484b-aa58-4079c7e85850/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1201",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "The Mill",
+      "date": "1645/1648",
+      "begin": 1645,
+      "end": 1648,
+      "medium": "oil on canvas",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Widener Collection",
+      "accession": "1942.9.62",
+      "source": "https://www.nga.gov/artworks/1201",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/b9d543b3-e55a-490c-b72e-5b038071bc9c/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1206",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of a Gentleman with a Tall Hat and Gloves",
+      "date": "c. 1656/1658",
+      "begin": 1656,
+      "end": 1658,
+      "medium": "oil on canvas transferred to canvas",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Widener Collection",
+      "accession": "1942.9.67",
+      "source": "https://www.nga.gov/artworks/1206",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/4ea98624-ae65-408f-8322-745527f6c352/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1207",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of a Lady with an Ostrich-Feather Fan",
+      "date": "c. 1656/1658",
+      "begin": 1656,
+      "end": 1658,
+      "medium": "oil on canvas transferred to canvas",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Widener Collection",
+      "accession": "1942.9.68",
+      "source": "https://www.nga.gov/artworks/1207",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/5ba544cc-c2d9-4991-92fb-4fee13768524/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-82",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "A Woman Holding a Pink",
+      "date": "1656",
+      "begin": 1656,
+      "end": 1656,
+      "medium": "oil on canvas",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.75",
+      "source": "https://www.nga.gov/artworks/82",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/9ceabc07-1d61-46f4-bf5c-43635552f2d9/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1198",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "The Apostle Paul",
+      "date": "c. 1657",
+      "begin": 1657,
+      "end": 1657,
+      "medium": "oil on canvas",
+      "attribution": "Rembrandt van Rijn (and Workshop?)",
+      "credit": "Widener Collection",
+      "accession": "1942.9.59",
+      "source": "https://www.nga.gov/artworks/1198",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/31360a9a-9576-46e9-b6b1-c7cb6ccf1443/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1204",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Philemon and Baucis",
+      "date": "1658",
+      "begin": 1658,
+      "end": 1658,
+      "medium": "oil on panel transferred to panel",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Widener Collection",
+      "accession": "1942.9.65",
+      "source": "https://www.nga.gov/artworks/1204",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/ff5b1370-fd8e-4289-855d-a5a662ce2397/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-79",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Self-Portrait",
+      "date": "1659",
+      "begin": 1659,
+      "end": 1659,
+      "medium": "oil on canvas",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.72",
+      "source": "https://www.nga.gov/artworks/79",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/5dc133fb-5304-4ccb-b715-9361f638f281/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1197",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Head of Saint Matthew",
+      "date": "probably early 1660s",
+      "begin": 1660,
+      "end": 1660,
+      "medium": "oil on panel",
+      "attribution": "Rembrandt Workshop",
+      "credit": "Widener Collection",
+      "accession": "1942.9.58",
+      "source": "https://www.nga.gov/artworks/1197",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/abb2963f-62ac-4cb6-a680-cb81755a8bcc/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-84",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "A Young Man Seated at a Table (possibly Govaert Flinck)",
+      "date": "c. 1660",
+      "begin": 1660,
+      "end": 1660,
+      "medium": "oil on canvas",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.77",
+      "source": "https://www.nga.gov/artworks/84",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/3ca33a0d-98aa-48ea-ba5a-d56c27ed1ac5/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1199",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "The Circumcision",
+      "date": "1661",
+      "begin": 1661,
+      "end": 1661,
+      "medium": "oil on canvas",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Widener Collection",
+      "accession": "1942.9.60",
+      "source": "https://www.nga.gov/artworks/1199",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/c41105bb-50e6-47b1-b610-9250eabfeacf/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1208",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of a Man in a Tall Hat",
+      "date": "c. 1663",
+      "begin": 1663,
+      "end": 1663,
+      "medium": "oil on canvas",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Widener Collection",
+      "accession": "1942.9.69",
+      "source": "https://www.nga.gov/artworks/1208",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/83fa68e7-ed75-449d-935d-deeaefb7a0dc/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1236",
+      "artistIds": [
+        "vermeer"
+      ],
+      "title": "Woman Holding a Balance",
+      "date": "c. 1664",
+      "begin": 1664,
+      "end": 1664,
+      "medium": "oil on canvas",
+      "attribution": "Johannes Vermeer",
+      "credit": "Widener Collection",
+      "accession": "1942.9.97",
+      "source": "https://www.nga.gov/artworks/1236",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/c948cf32-e6c7-41a0-a053-0ad0562960c4/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-60",
+      "artistIds": [
+        "vermeer"
+      ],
+      "title": "Girl with the Red Hat",
+      "date": "c. 1669",
+      "begin": 1664,
+      "end": 1674,
+      "medium": "oil on panel",
+      "attribution": "Johannes Vermeer",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.53",
+      "source": "https://www.nga.gov/artworks/60",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/b705a403-3496-42e8-abf5-a37e34c32198/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-83",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Lucretia",
+      "date": "1664",
+      "begin": 1664,
+      "end": 1664,
+      "medium": "oil on canvas",
+      "attribution": "Rembrandt van Rijn",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.76",
+      "source": "https://www.nga.gov/artworks/83",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/daff38f5-b88f-47b3-af99-bd1b852af522/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46437",
+      "artistIds": [
+        "vermeer"
+      ],
+      "title": "A Lady Writing",
+      "date": "c. 1665",
+      "begin": 1665,
+      "end": 1665,
+      "medium": "oil on canvas",
+      "attribution": "Johannes Vermeer",
+      "credit": "Gift of Harry Waldron Havemeyer and Horace Havemeyer, Jr., in memory of their father, Horace Havemeyer",
+      "accession": "1962.10.1",
+      "source": "https://www.nga.gov/artworks/46437",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/ea55879e-57f1-494d-9043-6dedb384bdc8/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-12007",
+      "artistIds": [
+        "watteau"
+      ],
+      "title": "The Dreamer (La Rêveuse)",
+      "date": "1712–14",
+      "begin": 1712,
+      "end": 1714,
+      "medium": "Oil on panel",
+      "attribution": "Jean Antoine Watteau (French, 1684–1721)",
+      "credit": "Mr. and Mrs. Lewis Larned Coburn Memorial Collection",
+      "accession": "1960.305",
+      "source": "https://www.artic.edu/artworks/12007",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/40bf35ab-2898-650e-9e27-d38c4cf39a30/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46149",
+      "artistIds": [
+        "watteau"
+      ],
+      "title": "Ceres (Summer)",
+      "date": "c. 1717/1718",
+      "begin": 1717,
+      "end": 1718,
+      "medium": "oil on canvas",
+      "attribution": "Antoine Watteau",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1961.9.50",
+      "source": "https://www.nga.gov/artworks/46149",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/768878fe-0382-42fb-a74e-536be63690e7/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-107938",
+      "artistIds": [
+        "watteau"
+      ],
+      "title": "Fête champêtre (Pastoral Gathering)",
+      "date": "1718–21",
+      "begin": 1718,
+      "end": 1721,
+      "medium": "Oil on panel",
+      "attribution": "Jean Antoine Watteau (French, 1684–1721)\nAssisted by Jean-Baptiste Pater (French, 1695-1736)",
+      "credit": "Max and Leola Epstein Collection",
+      "accession": "1954.295",
+      "source": "https://www.artic.edu/artworks/107938",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/f6eddea6-5789-b6f9-315c-50a08a7c4adc/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-32687",
+      "artistIds": [
+        "watteau"
+      ],
+      "title": "The Italian Comedians",
+      "date": "probably 1720",
+      "begin": 1720,
+      "end": 1720,
+      "medium": "oil on canvas",
+      "attribution": "Antoine Watteau",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1946.7.9",
+      "source": "https://www.nga.gov/artworks/32687",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/56de693a-9c4c-4777-aaa0-fc7052b836e1/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "cma-170510",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Head of a Young Woman",
+      "date": "early 1730s",
+      "begin": 1730,
+      "end": 1735,
+      "medium": "oil on canvas",
+      "attribution": "François Boucher (French, 1703–1770)",
+      "credit": "Bequest of Muriel Butkin",
+      "accession": "2012.95",
+      "source": "https://clevelandart.org/art/2012.95",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/2012.95/2012.95_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "cma-125948",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Music and Dance and Cupids in Conspiracy ",
+      "date": "1740s",
+      "begin": 1740,
+      "end": 1749,
+      "medium": "oil on canvas",
+      "attribution": "François Boucher (French, 1703–1770)",
+      "credit": "Gift of the Louis Dudley Beaumont Foundation",
+      "accession": "1948.181",
+      "source": "https://clevelandart.org/art/1948.181",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1948.181/1948.181_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "cma-125949",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Music and Dance",
+      "date": "1740s",
+      "begin": 1740,
+      "end": 1749,
+      "medium": "oil on canvas",
+      "attribution": "François Boucher (French, 1703–1770)",
+      "credit": "Gift of the Louis Dudley Beaumont Foundation",
+      "accession": "1948.181.1",
+      "source": "https://clevelandart.org/art/1948.181.1",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1948.181.1/1948.181.1_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "cma-125950",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Cupids in Conspiracy",
+      "date": "1740s",
+      "begin": 1740,
+      "end": 1749,
+      "medium": "oil on canvas",
+      "attribution": "François Boucher (French, 1703–1770)",
+      "credit": "Gift of the Louis Dudley Beaumont Foundation",
+      "accession": "1948.181.2",
+      "source": "https://clevelandart.org/art/1948.181.2",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1948.181.2/1948.181.2_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "aic-10287",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Bathing Nymph",
+      "date": "c. 1745–50",
+      "begin": 1745,
+      "end": 1750,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher (French, 1703–1770)",
+      "credit": "Wilson L. Mead Fund",
+      "accession": "1931.938",
+      "source": "https://www.artic.edu/artworks/10287",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/08b2ede5-bf33-602a-f1eb-2e7510c1b3cd/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-44742",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Are They Thinking about the Grape? (Pensent-ils au raisin?)",
+      "date": "1747",
+      "begin": 1747,
+      "end": 1747,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher (French, 1703–1770)",
+      "credit": "Martha E. Leverone Endowment",
+      "accession": "1973.304",
+      "source": "https://www.artic.edu/artworks/44742",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/12662645-5164-4bb1-cfec-3517a4c9779c/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46027",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "The Love Letter",
+      "date": "1750",
+      "begin": 1750,
+      "end": 1750,
+      "medium": "oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Timken Collection",
+      "accession": "1960.6.3",
+      "source": "https://www.nga.gov/artworks/46027",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/0b56a532-da7e-48bc-9152-5218f68790d4/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-12200",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "The Bath of Venus",
+      "date": "1751",
+      "begin": 1751,
+      "end": 1751,
+      "medium": "oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Chester Dale Collection",
+      "accession": "1943.7.2",
+      "source": "https://www.nga.gov/artworks/12200",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/768f990b-b74c-4c92-87a6-851d6124eca8/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46026",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Diana and Endymion",
+      "date": "c. 1753/1756",
+      "begin": 1753,
+      "end": 1756,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Timken Collection",
+      "accession": "1960.6.2",
+      "source": "https://www.nga.gov/artworks/46026",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/5314b9a2-96a3-4ef8-bb58-7fbb27d71232/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "cma-149663",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Fountain of Venus",
+      "date": "1756",
+      "begin": 1756,
+      "end": 1756,
+      "medium": "oil on canvas",
+      "attribution": "François Boucher (French, 1703–1770)",
+      "credit": "The Thomas L. Fawick Memorial Collection",
+      "accession": "1979.55",
+      "source": "https://clevelandart.org/art/1979.55",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1979.55/1979.55_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "nga-32680",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Allegory of Music",
+      "date": "1764",
+      "begin": 1764,
+      "end": 1764,
+      "medium": "oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1946.7.2",
+      "source": "https://www.nga.gov/artworks/32680",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/abac5ab8-6568-474c-ae3e-b3efc68c05d2/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-32679",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Allegory of Painting",
+      "date": "1765",
+      "begin": 1765,
+      "end": 1765,
+      "medium": "oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1946.7.1",
+      "source": "https://www.nga.gov/artworks/32679",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/fc864ff2-edf7-44cd-bd9e-0fa0d167d816/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-98647",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Mountain Landscape at Sunset",
+      "date": "c. 1765",
+      "begin": 1765,
+      "end": 1765,
+      "medium": "oil on paper",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Chester Dale Fund",
+      "accession": "1997.22.1",
+      "source": "https://www.nga.gov/artworks/98647",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/90779daf-f256-4f66-9305-ed27ab440cf3/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-32681",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Madame Bergeret",
+      "date": "possibly 1766",
+      "begin": 1766,
+      "end": 1766,
+      "medium": "oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1946.7.3",
+      "source": "https://www.nga.gov/artworks/32681",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/01c5e407-6e59-4ae8-a47e-dd51c5d619a7/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "aic-93900",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Portrait of a Man in Costume",
+      "date": "c. 1767–68",
+      "begin": 1767,
+      "end": 1768,
+      "medium": "Oil on canvas",
+      "attribution": "Jean-Honoré Fragonard (French, 1732–1806)",
+      "credit": "Gift of Mary and Leigh Block in honor of John Maxon",
+      "accession": "1977.123",
+      "source": "https://www.artic.edu/artworks/93900",
+      "museum": "artic",
+      "image": "https://www.artic.edu/iiif/2/9b1c3d61-5f9b-c7a2-a5ea-f48248836160/full/843,/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46303",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Young Girl Reading",
+      "date": "c. 1769",
+      "begin": 1769,
+      "end": 1769,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Gift of Mrs. Mellon Bruce in memory of her father, Andrew W. Mellon",
+      "accession": "1961.16.1",
+      "source": "https://www.nga.gov/artworks/46303",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/2476ae10-777c-43af-b48c-a6bc141aecac/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-33745",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Love as Folly",
+      "date": "c. 1773/1776",
+      "begin": 1773,
+      "end": 1776,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "In memory of Kate Seney Simpson",
+      "accession": "1947.2.1",
+      "source": "https://www.nga.gov/artworks/33745",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/873cdb22-532a-43da-8bc7-9fbaf6ec640e/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-33746",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Love the Sentinel",
+      "date": "c. 1773/1776",
+      "begin": 1773,
+      "end": 1776,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "In memory of Kate Seney Simpson",
+      "accession": "1947.2.2",
+      "source": "https://www.nga.gov/artworks/33746",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/412adfd4-40a0-4d3e-8cbe-dc7a0f1aebdf/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-52255",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Love as Folly",
+      "date": "c. 1773/1776",
+      "begin": 1773,
+      "end": 1776,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Ailsa Mellon Bruce Collection",
+      "accession": "1970.17.111",
+      "source": "https://www.nga.gov/artworks/52255",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/362a8782-f0fd-4093-88f9-36cd0cbfed9b/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-52256",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Love the Sentinel",
+      "date": "c. 1773/1776",
+      "begin": 1773,
+      "end": 1776,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Ailsa Mellon Bruce Collection",
+      "accession": "1970.17.112",
+      "source": "https://www.nga.gov/artworks/52256",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/dd43c48e-b08f-441f-b0cc-a8d0423399d2/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-32683",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "A Game of Horse and Rider",
+      "date": "c. 1775/1780",
+      "begin": 1775,
+      "end": 1780,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1946.7.5",
+      "source": "https://www.nga.gov/artworks/32683",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/775aca6d-fe70-4a34-b9df-49e6e84825dd/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-32684",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "A Game of Hot Cockles",
+      "date": "c. 1775/1780",
+      "begin": 1775,
+      "end": 1780,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1946.7.6",
+      "source": "https://www.nga.gov/artworks/32684",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/0c5e1eb1-cd12-45c5-9455-b287dd9dafbc/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-32685",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "The Visit to the Nursery",
+      "date": "c. 1775",
+      "begin": 1775,
+      "end": 1775,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1946.7.7",
+      "source": "https://www.nga.gov/artworks/32685",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/7880abec-7989-4456-81fc-b2d6f3742de8/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46036",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "The Happy Family",
+      "date": "c. 1775",
+      "begin": 1775,
+      "end": 1775,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Timken Collection",
+      "accession": "1960.6.12",
+      "source": "https://www.nga.gov/artworks/46036",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/ee114902-00f6-42e3-bff9-b65498af9490/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46115",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Blindman's Buff",
+      "date": "c. 1775/1780",
+      "begin": 1775,
+      "end": 1780,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1961.9.16",
+      "source": "https://www.nga.gov/artworks/46115",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/5da94e60-29fc-493c-a3b9-21b2a7923cb4/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46116",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "The Swing",
+      "date": "c. 1775/1780",
+      "begin": 1775,
+      "end": 1780,
+      "medium": "oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1961.9.17",
+      "source": "https://www.nga.gov/artworks/46116",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/aa38c9a4-d6b1-4a05-b7ae-a27e8e649227/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "cma-122166",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "A Boy in a Red-Lined Cloak",
+      "date": "1780s",
+      "begin": 1780,
+      "end": 1789,
+      "medium": "oil on wood",
+      "attribution": "Jean-Honoré Fragonard (French, 1732–1806)",
+      "credit": "Gift of Grace Rainey Rogers in memory of her father, William J. Rainey",
+      "accession": "1942.49",
+      "source": "https://clevelandart.org/art/1942.49",
+      "museum": "cleveland",
+      "image": "https://openaccess-cdn.clevelandart.org/1942.49/1942.49_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "ngl-NG1139",
+      "artistIds": [
+        "duccio"
+      ],
+      "title": "The Annunciation",
+      "date": "1307/8-11",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Duccio",
+      "credit": "Bought, 1883",
+      "accession": "NG1139",
+      "source": "https://www.nationalgallery.org.uk/paintings/duccio-the-annunciation",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1140",
+      "artistIds": [
+        "duccio"
+      ],
+      "title": "The Healing of the Man born Blind",
+      "date": "1307/8-11",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Duccio",
+      "credit": "Bought, 1883",
+      "accession": "NG1140",
+      "source": "https://www.nationalgallery.org.uk/paintings/duccio-the-healing-of-the-man-born-blind",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1330",
+      "artistIds": [
+        "duccio"
+      ],
+      "title": "The Transfiguration",
+      "date": "1307/8-11",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Duccio",
+      "credit": "Presented by R.H. Wilson, 1891",
+      "accession": "NG1330",
+      "source": "https://www.nationalgallery.org.uk/paintings/duccio-the-transfiguration",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG566",
+      "artistIds": [
+        "duccio"
+      ],
+      "title": "The Virgin and Child with Saints Dominic and Aurea",
+      "date": "About 1312-15 (?)",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Duccio",
+      "credit": "Bought, 1857",
+      "accession": "NG566",
+      "source": "https://www.nationalgallery.org.uk/paintings/duccio-the-virgin-and-child-with-saints-dominic-and-aurea",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-L1382",
+      "artistIds": [
+        "martini"
+      ],
+      "title": "Saint John the Evangelist",
+      "date": "1320",
+      "begin": null,
+      "end": null,
+      "medium": "Tempera on panel",
+      "attribution": "Simone Martini",
+      "credit": "The Henry Barber Trust, the Barber Institute of Fine Arts, University of Birmingham (38.12)",
+      "accession": "L1382",
+      "source": "https://www.nationalgallery.org.uk/paintings/simone-martini-saint-john-the-evangelist",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6294",
+      "artistIds": [
+        "uccello"
+      ],
+      "title": "Saint George and the Dragon",
+      "date": "About 1470",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Paolo Uccello",
+      "credit": "Bought with a special grant and other contributions, 1959",
+      "accession": "NG6294",
+      "source": "https://www.nationalgallery.org.uk/paintings/paolo-uccello-saint-george-and-the-dragon",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG583",
+      "artistIds": [
+        "uccello"
+      ],
+      "title": "The Battle of San Romano",
+      "date": "Probably about 1438-40",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera with some oil on wood (poplar, identified)",
+      "attribution": "Paolo Uccello",
+      "credit": "Bought, 1857",
+      "accession": "NG583",
+      "source": "https://www.nationalgallery.org.uk/paintings/paolo-uccello-the-battle-of-san-romano",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG5962",
+      "artistIds": [
+        "masaccio"
+      ],
+      "title": "Saints Jerome and John the Baptist",
+      "date": "About 1428-9",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (poplar, identified)",
+      "attribution": "Masaccio",
+      "credit": "Bought with a contribution from the Art Fund, 1950",
+      "accession": "NG5962",
+      "source": "https://www.nationalgallery.org.uk/paintings/masaccio-saints-jerome-and-john-the-baptist",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG3046",
+      "artistIds": [
+        "masaccio"
+      ],
+      "title": "The Virgin and Child",
+      "date": "1426",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Masaccio",
+      "credit": "Bought with a contribution from the Art Fund, 1916",
+      "accession": "NG3046",
+      "source": "https://www.nationalgallery.org.uk/paintings/masaccio-the-virgin-and-child",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG248",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "Saint Bernard's Vision of the Virgin",
+      "date": "1447",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Fra Filippo Lippi",
+      "credit": "Bought, 1854",
+      "accession": "NG248",
+      "source": "https://www.nationalgallery.org.uk/paintings/fra-filippo-lippi-saint-bernard-s-vision-of-the-virgin",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG667",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "Seven Saints",
+      "date": "About 1450-3",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Fra Filippo Lippi",
+      "credit": "Bought, 1861",
+      "accession": "NG667",
+      "source": "https://www.nationalgallery.org.uk/paintings/fra-filippo-lippi-seven-saints",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG666",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "The Annunciation",
+      "date": "About 1450-3",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Fra Filippo Lippi",
+      "credit": "Presented by Sir Charles Eastlake, 1861",
+      "accession": "NG666",
+      "source": "https://www.nationalgallery.org.uk/paintings/fra-filippo-lippi-the-annunciation",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG769",
+      "artistIds": [
+        "piero"
+      ],
+      "title": "Saint Michael",
+      "date": "Completed 1469",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Piero della Francesca",
+      "credit": "Bought, 1867",
+      "accession": "NG769",
+      "source": "https://www.nationalgallery.org.uk/paintings/piero-della-francesca-saint-michael",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG665",
+      "artistIds": [
+        "piero"
+      ],
+      "title": "The Baptism of Christ",
+      "date": "Probably about 1437–1445",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (poplar)",
+      "attribution": "Piero della Francesca",
+      "credit": "Bought, 1861",
+      "accession": "NG665",
+      "source": "https://www.nationalgallery.org.uk/paintings/piero-della-francesca-the-baptism-of-christ",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG908",
+      "artistIds": [
+        "piero"
+      ],
+      "title": "The Nativity",
+      "date": "Early 1480s",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Piero della Francesca",
+      "credit": "Bought, 1874",
+      "accession": "NG908",
+      "source": "https://www.nationalgallery.org.uk/paintings/piero-della-francesca-the-nativity",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2508",
+      "artistIds": [
+        "verrocchio"
+      ],
+      "title": "The Virgin and Child with Two Angels",
+      "date": "About 1467-9",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood",
+      "attribution": "Andrea del Verrocchio",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2508",
+      "source": "https://www.nationalgallery.org.uk/paintings/andrea-del-verrocchio-the-virgin-and-child-with-two-angels",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1034",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "'Mystic Nativity'",
+      "date": "1500",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Sandro Botticelli",
+      "credit": "Bought, 1878",
+      "accession": "NG1034",
+      "source": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-mystic-nativity",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG3918",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "Four Scenes from the Early Life of Saint Zenobius",
+      "date": "About 1500",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood",
+      "attribution": "Sandro Botticelli",
+      "credit": "Mond Bequest, 1924",
+      "accession": "NG3918",
+      "source": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-four-scenes-from-the-early-life-of-saint-zenobius",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG626",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "Portrait of a Young Man",
+      "date": "Probably about 1480-5",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera and oil on wood",
+      "attribution": "Sandro Botticelli",
+      "credit": "Bought, 1859",
+      "accession": "NG626",
+      "source": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-portrait-of-a-young-man",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG598",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "Saint Francis of Assisi with Angels",
+      "date": "About 1475-80",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera with some oil on wood",
+      "attribution": "Sandro Botticelli",
+      "credit": "Bought, 1858",
+      "accession": "NG598",
+      "source": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-saint-francis-of-assisi-with-angels",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1033",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "The Adoration of the Kings",
+      "date": "About 1470-5",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (poplar)",
+      "attribution": "Sandro Botticelli",
+      "credit": "Bought, 1878",
+      "accession": "NG1033",
+      "source": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-the-adoration-of-the-kings",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG3919",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "Three Miracles of Saint Zenobius",
+      "date": "About 1500",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood",
+      "attribution": "Sandro Botticelli",
+      "credit": "Mond Bequest, 1924",
+      "accession": "NG3919",
+      "source": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-three-miracles-of-saint-zenobius",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG915",
+      "artistIds": [
+        "botticelli"
+      ],
+      "title": "Venus and Mars",
+      "date": "About 1485",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera and oil on wood (probably poplar)",
+      "attribution": "Sandro Botticelli",
+      "credit": "Bought, 1874",
+      "accession": "NG915",
+      "source": "https://www.nationalgallery.org.uk/paintings/sandro-botticelli-venus-and-mars",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2902",
+      "artistIds": [
+        "ghirlandaio"
+      ],
+      "title": "A Legend of Saints Justus and Clement of Volterra",
+      "date": "Probably 1479",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood",
+      "attribution": "Domenico Ghirlandaio",
+      "credit": "Bequeathed by Lady Lindsay, 1912",
+      "accession": "NG2902",
+      "source": "https://www.nationalgallery.org.uk/paintings/domenico-ghirlandaio-a-legend-of-saints-justus-and-clement-of-volterra",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2489",
+      "artistIds": [
+        "ghirlandaio"
+      ],
+      "title": "Portrait of a Young Man in Red",
+      "date": "Probably about 1480-90",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood",
+      "attribution": "Domenico Ghirlandaio",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2489",
+      "source": "https://www.nationalgallery.org.uk/paintings/domenico-ghirlandaio-portrait-of-a-young-man-in-red",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG3937",
+      "artistIds": [
+        "ghirlandaio"
+      ],
+      "title": "The Virgin and Child",
+      "date": "Probably about 1480-90",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (poplar)",
+      "attribution": "Domenico Ghirlandaio",
+      "credit": "Mond Bequest, 1924",
+      "accession": "NG3937",
+      "source": "https://www.nationalgallery.org.uk/paintings/domenico-ghirlandaio-the-virgin-and-child",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG927",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "An Angel Adoring",
+      "date": "Probably about 1495",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood",
+      "attribution": "Filippino Lippi",
+      "credit": "Bequeathed by Wynn Ellis, 1876",
+      "accession": "NG927",
+      "source": "https://www.nationalgallery.org.uk/paintings/filippino-lippi-an-angel-adoring",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1124",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "The Adoration of the Kings",
+      "date": "About 1480",
+      "begin": null,
+      "end": null,
+      "medium": "Oil with some egg tempera on wood",
+      "attribution": "Filippino Lippi",
+      "credit": "Bought, 1882",
+      "accession": "NG1124",
+      "source": "https://www.nationalgallery.org.uk/paintings/filippino-lippi-the-adoration-of-the-kings",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1412",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "The Virgin and Child with Saint John",
+      "date": "About 1480",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (poplar, identified)",
+      "attribution": "Filippino Lippi",
+      "credit": "Bought, 1894",
+      "accession": "NG1412",
+      "source": "https://www.nationalgallery.org.uk/paintings/filippino-lippi-the-virgin-and-child-with-saint-john",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG293",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "The Virgin and Child with Saints Jerome and Dominic",
+      "date": "About 1485",
+      "begin": null,
+      "end": null,
+      "medium": "Oil and egg tempera on wood (probably poplar)",
+      "attribution": "Filippino Lippi",
+      "credit": "Bought, 1857",
+      "accession": "NG293",
+      "source": "https://www.nationalgallery.org.uk/paintings/filippino-lippi-the-virgin-and-child-with-saints-jerome-and-dominic",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-L777",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "The Wounded Centaur",
+      "date": "About 1495",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Filippino Lippi",
+      "credit": "By Permission of the Governing Body of Christ Church, Oxford",
+      "accession": "L777",
+      "source": "https://www.nationalgallery.org.uk/paintings/filippino-lippi-the-wounded-centaur",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG288.2",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "The Archangel Michael",
+      "date": "About 1496-1500",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Pietro Perugino",
+      "credit": "Bought, 1856",
+      "accession": "NG288.2",
+      "source": "https://www.nationalgallery.org.uk/paintings/pietro-perugino-the-archangel-michael",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG288.3",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "The Archangel Raphael with Tobias",
+      "date": "About 1496-1500",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Pietro Perugino",
+      "credit": "Bought, 1856",
+      "accession": "NG288.3",
+      "source": "https://www.nationalgallery.org.uk/paintings/pietro-perugino-the-archangel-raphael-with-tobias",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG288.1",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "The Virgin and Child with an Angel",
+      "date": "About 1496-1500",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Pietro Perugino",
+      "credit": "Bought, 1856",
+      "accession": "NG288.1",
+      "source": "https://www.nationalgallery.org.uk/paintings/pietro-perugino-the-virgin-and-child-with-an-angel",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1075",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "The Virgin and Child with Saints Jerome and Francis",
+      "date": "Probably about 1507-15",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Pietro Perugino",
+      "credit": "Bought, 1879",
+      "accession": "NG1075",
+      "source": "https://www.nationalgallery.org.uk/paintings/pietro-perugino-the-virgin-and-child-with-saints-jerome-and-francis",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-GROUP96",
+      "artistIds": [
+        "perugino"
+      ],
+      "title": "Three Panels from an Altarpiece, Certosa",
+      "date": "About 1496-1500",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Pietro Perugino",
+      "credit": "Bought, 1856",
+      "accession": "GROUP96",
+      "source": "https://www.nationalgallery.org.uk/paintings/pietro-perugino-three-panels-from-an-altarpiece-certosa",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6337",
+      "artistIds": [
+        "leonardo"
+      ],
+      "title": "The Burlington House Cartoon",
+      "date": "About 1506-8",
+      "begin": null,
+      "end": null,
+      "medium": "Charcoal with white chalk on paper, mounted on canvas",
+      "attribution": "Leonardo da Vinci",
+      "credit": "Purchased with a special grant and contributions from the Art Fund, The Pilgrim Trust, and through a public appeal organised by the Art Fund, 1962",
+      "accession": "NG6337",
+      "source": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-burlington-house-cartoon",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1093",
+      "artistIds": [
+        "leonardo"
+      ],
+      "title": "The Virgin of the Rocks",
+      "date": "About 1491/2-9 and 1506-8",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (poplar, identified)",
+      "attribution": "Leonardo da Vinci",
+      "credit": "Bought, 1880",
+      "accession": "NG1093",
+      "source": "https://www.nationalgallery.org.uk/paintings/leonardo-da-vinci-the-virgin-of-the-rocks",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG809",
+      "artistIds": [
+        "michelangelo"
+      ],
+      "title": "'The Manchester Madonna'",
+      "date": "About 1494",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood",
+      "attribution": "Michelangelo",
+      "credit": "Bought, 1870",
+      "accession": "NG809",
+      "source": "https://www.nationalgallery.org.uk/paintings/michelangelo-the-manchester-madonna",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG790",
+      "artistIds": [
+        "michelangelo"
+      ],
+      "title": "The Entombment (or Christ being carried to his Tomb)",
+      "date": "About 1500-1",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Michelangelo",
+      "credit": "Bought, 1868",
+      "accession": "NG790",
+      "source": "https://www.nationalgallery.org.uk/paintings/michelangelo-the-entombment-or-christ-being-carried-to-his-tomb",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG27",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "Pope Julius II",
+      "date": "1511",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (poplar, identified)",
+      "attribution": "Raphael",
+      "credit": "Bought, 1824",
+      "accession": "NG27",
+      "source": "https://www.nationalgallery.org.uk/paintings/raphael-pope-julius-ii",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG168",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "Saint Catherine of Alexandria",
+      "date": "About 1507",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Raphael",
+      "credit": "Bought, 1839",
+      "accession": "NG168",
+      "source": "https://www.nationalgallery.org.uk/paintings/raphael-saint-catherine-of-alexandria",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6480",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "Saint John the Baptist Preaching",
+      "date": "1505",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (poplar, identified)",
+      "attribution": "Raphael",
+      "credit": "Bought, 1983",
+      "accession": "NG6480",
+      "source": "https://www.nationalgallery.org.uk/paintings/raphael-saint-john-the-baptist-preaching",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1171",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Ansidei Madonna",
+      "date": "1505",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Raphael",
+      "credit": "Bought, 1885",
+      "accession": "NG1171",
+      "source": "https://www.nationalgallery.org.uk/paintings/raphael-the-ansidei-madonna",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG213",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Dream of a Knight",
+      "date": "About 1504",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (poplar, identified)",
+      "attribution": "Raphael",
+      "credit": "Bought, 1847",
+      "accession": "NG213",
+      "source": "https://www.nationalgallery.org.uk/paintings/raphael-the-dream-of-a-knight",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG744",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Garvagh Madonna",
+      "date": "About 1510-11",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Raphael",
+      "credit": "Bought, 1865",
+      "accession": "NG744",
+      "source": "https://www.nationalgallery.org.uk/paintings/raphael-the-garvagh-madonna",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2069",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Madonna and Child (The Mackintosh Madonna)",
+      "date": "About 1509-11",
+      "begin": null,
+      "end": null,
+      "medium": "Oil, originally on wood, transferred to canvas",
+      "attribution": "Raphael",
+      "credit": "Presented by Mrs Eva Mackintosh, 1906",
+      "accession": "NG2069",
+      "source": "https://www.nationalgallery.org.uk/paintings/raphael-the-madonna-and-child-the-mackintosh-madonna",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6596",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Madonna of the Pinks ('La Madonna dei Garofani')",
+      "date": "About 1506-7",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (yew, identified)",
+      "attribution": "Raphael",
+      "credit": "Bought with the assistance of the Heritage Lottery Fund, the Art Fund (with a contribution from the Wolfson Foundation), the American Friends of the National Gallery, London, the George Beaumont Group, Sir Christopher Ondaatje and through public appeal, 2004",
+      "accession": "NG6596",
+      "source": "https://www.nationalgallery.org.uk/paintings/raphael-the-madonna-of-the-pinks-la-madonna-dei-garofani",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG3943",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Mond Crucifixion",
+      "date": "About 1502-3",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (poplar, identified)",
+      "attribution": "Raphael",
+      "credit": "Mond Bequest, 1924",
+      "accession": "NG3943",
+      "source": "https://www.nationalgallery.org.uk/paintings/raphael-the-mond-crucifixion",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2919",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Procession to Calvary",
+      "date": "About 1504-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Raphael",
+      "credit": "Bought, 1913",
+      "accession": "NG2919",
+      "source": "https://www.nationalgallery.org.uk/paintings/raphael-the-procession-to-calvary",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG808",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "A Dominican, with the Attributes of Saint Peter Martyr",
+      "date": "About 1490-1500",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (poplar, identified)",
+      "attribution": "Giovanni Bellini",
+      "credit": "Bought, 1870",
+      "accession": "NG808",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-a-dominican-with-the-attributes-of-saint-peter-martyr",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG189",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Doge Leonardo Loredan",
+      "date": "About 1501-2",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (poplar, identified)",
+      "attribution": "Giovanni Bellini",
+      "credit": "Bought, 1844",
+      "accession": "NG189",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-doge-leonardo-loredan",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG599",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Madonna of the Meadow",
+      "date": "About 1500-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil, originally on wood, transferred to composite board",
+      "attribution": "Giovanni Bellini",
+      "credit": "Bought, 1858",
+      "accession": "NG599",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-madonna-of-the-meadow",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-L1115",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Portrait of Fra Teodoro of Urbino as Saint Dominic",
+      "date": "About 1515",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Giovanni Bellini",
+      "credit": "On loan from the Victoria and Albert Museum",
+      "accession": "L1115",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-portrait-of-fra-teodoro-of-urbino-as-saint-dominic",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG281",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Saint Jerome reading in a Landscape",
+      "date": "About 1480-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Giovanni Bellini",
+      "credit": "Bought, 1855",
+      "accession": "NG281",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-saint-jerome-reading-in-a-landscape",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG726",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "The Agony in the Garden",
+      "date": "About 1458-60",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Giovanni Bellini",
+      "credit": "Bought, 1863",
+      "accession": "NG726",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-the-agony-in-the-garden",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG812",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "The Assassination of Saint Peter Martyr",
+      "date": "About 1505-7",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Giovanni Bellini",
+      "credit": "Presented by Lady Eastlake, 1870",
+      "accession": "NG812",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-the-assassination-of-saint-peter-martyr",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1233",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "The Blood of the Redeemer",
+      "date": "About 1465",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Giovanni Bellini",
+      "credit": "Bought, 1887",
+      "accession": "NG1233",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-the-blood-of-the-redeemer",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG3912",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "The Dead Christ supported by Two Angels",
+      "date": "About 1465-70",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Giovanni Bellini",
+      "credit": "Mond Bequest, 1924",
+      "accession": "NG3912",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-the-dead-christ-supported-by-two-angels",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG3913",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "The Virgin and Child",
+      "date": "Probably 1480-1500",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (poplar, identified)",
+      "attribution": "Giovanni Bellini",
+      "credit": "Mond Bequest, 1924",
+      "accession": "NG3913",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-the-virgin-and-child",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG280",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "The Virgin and Child",
+      "date": "Probably 1480-90",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (poplar, identified)",
+      "attribution": "Giovanni Bellini",
+      "credit": "Bought, 1855",
+      "accession": "NG280",
+      "source": "https://www.nationalgallery.org.uk/paintings/giovanni-bellini-the-virgin-and-child-1",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6307",
+      "artistIds": [
+        "giorgione"
+      ],
+      "title": "Il Tramonto (The Sunset)",
+      "date": "1506-10",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Giorgione",
+      "credit": "Bought, 1961",
+      "accession": "NG6307",
+      "source": "https://www.nationalgallery.org.uk/paintings/giorgione-il-tramonto-the-sunset",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1160",
+      "artistIds": [
+        "giorgione"
+      ],
+      "title": "The Adoration of the Kings",
+      "date": "1506-7",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Giorgione",
+      "credit": "Bought, 1884",
+      "accession": "NG1160",
+      "source": "https://www.nationalgallery.org.uk/paintings/giorgione-the-adoration-of-the-kings",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6376",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "An Allegory of Prudence",
+      "date": "About 1550",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Presented by Betty and David Koetser, 1966",
+      "accession": "NG6376",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-an-allegory-of-prudence",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG35",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Bacchus and Ariadne",
+      "date": "1520-3",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Bought, 1826",
+      "accession": "NG35",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-bacchus-and-ariadne",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6611",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Diana and Actaeon",
+      "date": "1556-9",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Bought jointly by the National Gallery and National Galleries of Scotland with contributions from the Scottish Government, the National Heritage Memorial Fund, The Monument Trust, Art Fund (with a contribution from the Wolfson Foundation), Artemis Investment Management Ltd, Binks Trust, Mr Busson on behalf of the EIM Group, Dunard Fund, The Fuserna Foundation, Gordon Getty, The Hintze Family Charitable Foundation, J Paul Getty Jnr Charitable Trust, John Dodd, Northwood Charitable Trust, The Rothschild Foundation, Sir Siegmund Warburg's Voluntary Settlement and through public appeal, 2009",
+      "accession": "NG6611",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-diana-and-actaeon",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6616",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Diana and Callisto",
+      "date": "1556-9",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Bought jointly by the National Gallery and National Galleries of Scotland with contributions from the National Lottery through the Heritage Lottery Fund, Art Fund (with a contribution from the Wolfson Foundation), The Monument Trust, J Paul Getty Jnr Charitable Trust, Mr and Mrs James Kirkman, Sarah and David Kowitz, Chris Rokos, The Rothschild Foundation, Sir Siegmund Warburg's Voluntary Settlement, and through private appeal and bequests, 2012",
+      "accession": "NG6616",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-diana-and-callisto",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG270",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Noli me Tangere",
+      "date": "About 1514",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Bequeathed by Samuel Rogers, 1856",
+      "accession": "NG270",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-noli-me-tangere",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG5385",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Portrait of a Lady ('La Schiavona')",
+      "date": "About 1510-12",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Presented through the Art Fund by Sir Francis Cook, Bt., in memory of his father, Sir Herbert Cook, Bt., 1942",
+      "accession": "NG5385",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-portrait-of-a-lady-la-schiavona",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-L611",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Portrait of a Young Man",
+      "date": "About 1515-20",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "On loan from a private collection",
+      "accession": "L611",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-portrait-of-a-young-man",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1944",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Portrait of Gerolamo (?) Barbarigo",
+      "date": "About 1510",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Bought, 1904",
+      "accession": "NG1944",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-portrait-of-gerolamo-barbarigo",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG3949",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Portrait of Girolamo Fracastoro",
+      "date": "About 1528",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Mond Bequest, 1924",
+      "accession": "NG3949",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-portrait-of-girolamo-fracastoro",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG635",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "The Aldobrandini Madonna",
+      "date": "About 1532",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Bought, 1860",
+      "accession": "NG635",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-the-aldobrandini-madonna",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6420",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "The Death of Actaeon",
+      "date": "About 1559-75",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Bought with a special grant and contributions from the Art Fund, The Pilgrim Trust and through public appeal, 1972",
+      "accession": "NG6420",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-the-death-of-actaeon",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG4",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "The Holy Family with a Shepherd",
+      "date": "About 1510",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Holwell Carr Bequest, 1831",
+      "accession": "NG4",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-the-holy-family-with-a-shepherd",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-L1368",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "The Rest on the Flight into Egypt",
+      "date": "About 1512?",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas, laid on panel",
+      "attribution": "Titian",
+      "credit": "On loan from a private collection",
+      "accession": "L1368",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-the-rest-on-the-flight-into-egypt",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG224",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "The Tribute Money",
+      "date": "About 1560-8 (perhaps begun in the 1540s)",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Bought, 1852",
+      "accession": "NG224",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-the-tribute-money",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG4452",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "The Vendramin Family",
+      "date": "About 1540-45",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Bought with a special grant and contributions from Samuel Courtauld, Sir Joseph Duveen, the Art Fund and the Phillips Fund, 1929.",
+      "accession": "NG4452",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-the-vendramin-family",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG3948",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "The Virgin suckling the Infant Christ",
+      "date": "About 1565-75",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Titian",
+      "credit": "Mond Bequest, 1924",
+      "accession": "NG3948",
+      "source": "https://www.nationalgallery.org.uk/paintings/titian-the-virgin-suckling-the-infant-christ",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG290",
+      "artistIds": [
+        "eyck"
+      ],
+      "title": "Portrait of a Man ('Léal Souvenir')",
+      "date": "1432",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jan van Eyck",
+      "credit": "Bought, 1857",
+      "accession": "NG290",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-portrait-of-a-man-leal-souvenir",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG222",
+      "artistIds": [
+        "eyck"
+      ],
+      "title": "Portrait of a Man (Self Portrait?)",
+      "date": "1433",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jan van Eyck",
+      "credit": "Bought, 1851",
+      "accession": "NG222",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-portrait-of-a-man-self-portrait",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG186",
+      "artistIds": [
+        "eyck"
+      ],
+      "title": "The Arnolfini Portrait",
+      "date": "1434",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jan van Eyck",
+      "credit": "Bought, 1842",
+      "accession": "NG186",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-van-eyck-the-arnolfini-portrait",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6563",
+      "artistIds": [
+        "durer"
+      ],
+      "title": "Saint Jerome",
+      "date": "About 1496",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (possibly pear)",
+      "attribution": "Albrecht Dürer",
+      "credit": "Bought with the assistance of the Heritage Lottery Fund, the Art Fund and Mr J. Paul Getty Jr through the American Friends of the National Gallery, London, 1996",
+      "accession": "NG6563",
+      "source": "https://www.nationalgallery.org.uk/paintings/albrecht-durer-saint-jerome",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG3556",
+      "artistIds": [
+        "bruegel"
+      ],
+      "title": "The Adoration of the Kings",
+      "date": "1564",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Pieter Bruegel the Elder",
+      "credit": "Bought with contributions from the Art Fund and Arthur Serena through the Art Fund, 1920",
+      "accession": "NG3556",
+      "source": "https://www.nationalgallery.org.uk/paintings/pieter-bruegel-the-elder-the-adoration-of-the-kings",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6451",
+      "artistIds": [
+        "pontormo"
+      ],
+      "title": "Joseph sold to Potiphar",
+      "date": "About 1515",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Pontormo",
+      "credit": "Bought with the aid of the Art Fund (Eugene Cremetti Fund), 1979",
+      "accession": "NG6451",
+      "source": "https://www.nationalgallery.org.uk/paintings/pontormo-joseph-sold-to-potiphar",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1131",
+      "artistIds": [
+        "pontormo"
+      ],
+      "title": "Joseph with Jacob in Egypt",
+      "date": "Probably 1518",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Pontormo",
+      "credit": "Bought, 1882",
+      "accession": "NG1131",
+      "source": "https://www.nationalgallery.org.uk/paintings/pontormo-joseph-with-jacob-in-egypt",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6453",
+      "artistIds": [
+        "pontormo"
+      ],
+      "title": "Joseph's Brothers beg for Help",
+      "date": "About 1515",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Pontormo",
+      "credit": "Bought with the aid of the Art Fund (Eugene Cremetti Fund), 1979",
+      "accession": "NG6453",
+      "source": "https://www.nationalgallery.org.uk/paintings/pontormo-joseph-s-brothers-beg-for-help",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6452",
+      "artistIds": [
+        "pontormo"
+      ],
+      "title": "Pharaoh with his Butler and Baker",
+      "date": "About 1515",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Pontormo",
+      "credit": "Bought with the aid of the Art Fund (Eugene Cremetti Fund), 1979",
+      "accession": "NG6452",
+      "source": "https://www.nationalgallery.org.uk/paintings/pontormo-pharaoh-with-his-butler-and-baker",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6441",
+      "artistIds": [
+        "parmigianino"
+      ],
+      "title": "Portrait of a Collector",
+      "date": "About 1523",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Parmigianino",
+      "credit": "Bought, 1977",
+      "accession": "NG6441",
+      "source": "https://www.nationalgallery.org.uk/paintings/parmigianino-portrait-of-a-collector",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG33",
+      "artistIds": [
+        "parmigianino"
+      ],
+      "title": "The Madonna and Child with Saints",
+      "date": "1526-7",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably poplar)",
+      "attribution": "Parmigianino",
+      "credit": "Presented by the Directors of the British Institution, 1826",
+      "accession": "NG33",
+      "source": "https://www.nationalgallery.org.uk/paintings/parmigianino-the-madonna-and-child-with-saints",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6427",
+      "artistIds": [
+        "parmigianino"
+      ],
+      "title": "The Mystic Marriage of Saint Catherine",
+      "date": "About 1527-31",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Parmigianino",
+      "credit": "Bought, 1974",
+      "accession": "NG6427",
+      "source": "https://www.nationalgallery.org.uk/paintings/parmigianino-the-mystic-marriage-of-saint-catherine",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG651",
+      "artistIds": [
+        "bronzino"
+      ],
+      "title": "An Allegory with Venus and Cupid",
+      "date": "About 1545",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Bronzino",
+      "credit": "Bought, 1860",
+      "accession": "NG651",
+      "source": "https://www.nationalgallery.org.uk/paintings/bronzino-an-allegory-with-venus-and-cupid",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-L40",
+      "artistIds": [
+        "bronzino"
+      ],
+      "title": "Portrait of a Young Man",
+      "date": "Probably 1550-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Bronzino",
+      "credit": "On loan from a private collection",
+      "accession": "L40",
+      "source": "https://www.nationalgallery.org.uk/paintings/bronzino-portrait-of-a-young-man",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1323",
+      "artistIds": [
+        "bronzino"
+      ],
+      "title": "Portrait of Piero de' Medici ('The Gouty')",
+      "date": "Probably about 1550-70",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Bronzino",
+      "credit": "Bequeathed by Sir W.R. Drake, 1891",
+      "accession": "NG1323",
+      "source": "https://www.nationalgallery.org.uk/paintings/bronzino-portrait-of-piero-de-medici-the-gouty",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG5280",
+      "artistIds": [
+        "bronzino"
+      ],
+      "title": "The Madonna and Child with Saints",
+      "date": "Probably about 1540",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Bronzino",
+      "credit": "Bequeathed by Sir Lionel Faudel-Phillips, 1941",
+      "accession": "NG5280",
+      "source": "https://www.nationalgallery.org.uk/paintings/bronzino-the-madonna-and-child-with-saints",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-L37",
+      "artistIds": [
+        "gentile"
+      ],
+      "title": "The Quaratesi Madonna",
+      "date": "1425",
+      "begin": null,
+      "end": null,
+      "medium": "Tempera on wood",
+      "attribution": "Gentile da Fabriano",
+      "credit": "On loan from His Majesty The King",
+      "accession": "L37",
+      "source": "https://www.nationalgallery.org.uk/paintings/gentile-da-fabriano-the-quaratesi-madonna",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG776",
+      "artistIds": [
+        "pisanello"
+      ],
+      "title": "The Virgin and Child with Saints",
+      "date": "About 1435-41",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (poplar, identified)",
+      "attribution": "Pisanello",
+      "credit": "Presented by Lady Eastlake in memory of Sir Charles Eastlake, 1867",
+      "accession": "NG776",
+      "source": "https://www.nationalgallery.org.uk/paintings/pisanello-the-virgin-and-child-with-saints",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1436",
+      "artistIds": [
+        "pisanello"
+      ],
+      "title": "The Vision of Saint Eustace",
+      "date": "About 1438-42",
+      "begin": null,
+      "end": null,
+      "medium": "Egg tempera on wood (probably poplar)",
+      "attribution": "Pisanello",
+      "credit": "Bought, 1895",
+      "accession": "NG1436",
+      "source": "https://www.nationalgallery.org.uk/paintings/pisanello-the-vision-of-saint-eustace",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6504",
+      "artistIds": [
+        "caravaggio"
+      ],
+      "title": "Boy bitten by a Lizard",
+      "date": "About 1594-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Michelangelo Merisi da Caravaggio",
+      "credit": "Bought with the aid of a contribution from the J. Paul Getty Jr Endowment Fund, 1986",
+      "accession": "NG6504",
+      "source": "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-boy-bitten-by-a-lizard",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6389",
+      "artistIds": [
+        "caravaggio"
+      ],
+      "title": "Salome receives the Head of John the Baptist",
+      "date": "About 1609-10",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Michelangelo Merisi da Caravaggio",
+      "credit": "Bought, 1970",
+      "accession": "NG6389",
+      "source": "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-salome-receives-the-head-of-john-the-baptist",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG172",
+      "artistIds": [
+        "caravaggio"
+      ],
+      "title": "The Supper at Emmaus",
+      "date": "1601",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Michelangelo Merisi da Caravaggio",
+      "credit": "Presented by the Hon. George Vernon, 1839",
+      "accession": "NG172",
+      "source": "https://www.nationalgallery.org.uk/paintings/michelangelo-merisi-da-caravaggio-the-supper-at-emmaus",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6671",
+      "artistIds": [
+        "artemisia"
+      ],
+      "title": "Self Portrait as Saint Catherine of Alexandria",
+      "date": "About 1615-17",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Artemisia Gentileschi",
+      "credit": "Bought with the support of the American Friends of the National Gallery, the National Gallery Trust, Art Fund (through the legacy of Sir Denis Mahon), Lord and Lady Sassoon, Lady Getty, Hannah Rothschild CBE, Mrs Mollie W. Vickers, the Hon. Mrs Ashley Dawson-Damer, The Society of Dilettanti Charitable Trust Fund, Mr Andrew Green QC and Ms Hirschl, Mr Matthew Santos and Mrs Mary Kuusisto, Mr Peter Scott CBE QC and Dr Richard Ballantine, the Diane Apostolos-Cappadona Trust, Mr Stephen Allcock, Mr James and Lady Emma Barnard, Miss Maxine White and Mr James Mortimer, Michael and Felicia Crystal, The W T J Griffin Charitable Settlement and other donors including those who wish to remain anonymous, 2018",
+      "accession": "NG6671",
+      "source": "https://www.nationalgallery.org.uk/paintings/artemisia-gentileschi-self-portrait-as-saint-catherine-of-alexandria",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG157",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "A Landscape with a Shepherd and his Flock",
+      "date": "About 1638",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bequeathed by Lord Farnborough, 1839",
+      "accession": "NG157",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-a-landscape-with-a-shepherd-and-his-flock",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG853.1",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "A Lion Hunt",
+      "date": "About 1614-15",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1871",
+      "accession": "NG853.1",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-a-lion-hunt",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG278",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "A Roman Triumph",
+      "date": "About 1630",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas, mounted on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1856",
+      "accession": "NG278",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-a-roman-triumph",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2924",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "A Shepherd with his Flock in a Woody Landscape",
+      "date": "Probably 1615-22",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Presented by Rosalind, Countess of Carlisle, 1913",
+      "accession": "NG2924",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-a-shepherd-with-his-flock-in-a-woody-landscape",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG66",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "A View of Het Steen in the Early Morning",
+      "date": "Probably 1636",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Sir George Beaumont Gift, 1823/8",
+      "accession": "NG66",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-a-view-of-het-steen-in-the-early-morning",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG948",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "A Wagon fording a Stream",
+      "date": "Probably 1625-40",
+      "begin": null,
+      "end": null,
+      "medium": "Black chalk and oil on paper, mounted on canvas",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Wynn Ellis Bequest, 1876",
+      "accession": "NG948",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-a-wagon-fording-a-stream",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2598",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Aurora abducting Cephalus",
+      "date": "About 1636-7",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2598",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-aurora-abducting-cephalus",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG57.3",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Kings Clothar and Dagobert dispute with a Herald",
+      "date": "1611-12",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Holwell Carr Bequest, 1831",
+      "accession": "NG57.3",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-kings-clothar-and-dagobert-dispute-with-a-herald",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG46",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Minerva protects Pax from Mars ('Peace and War')",
+      "date": "1629-30",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Presented by the Duke of Sutherland, 1828",
+      "accession": "NG46",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-minerva-protects-pax-from-mars-peace-and-war",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-GROUP112",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Oil Sketch for High Altarpiece, St Bavo, Ghent",
+      "date": "1611-12",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Holwell Carr Bequest, 1831",
+      "accession": "GROUP112",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-oil-sketch-for-high-altarpiece-st-bavo-ghent",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6393",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Portrait of Ludovicus Nonnius",
+      "date": "About 1630-2",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1970",
+      "accession": "NG6393",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-portrait-of-ludovicus-nonnius",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG852",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Portrait of Susanna Lunden(?) ('Le Chapeau de Paille')",
+      "date": "Probably 1622-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1871",
+      "accession": "NG852",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-portrait-of-susanna-lunden-le-chapeau-de-paille",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2968",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Portrait of Thomas Howard, 2nd Earl of Arundel",
+      "date": "1629-30",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Presented by Rosalind, Countess of Carlisle, 1913",
+      "accession": "NG2968",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-portrait-of-thomas-howard-2nd-earl-of-arundel",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG57.1",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Saint Bavo is received by Saints Amand and Floribert",
+      "date": "1611-12",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Holwell Carr Bequest, 1831",
+      "accession": "NG57.1",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-saint-bavo-is-received-by-saints-amand-and-floribert",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6461",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Samson and Delilah",
+      "date": "About 1609-10",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (Baltic/Polish oak, identified)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1980",
+      "accession": "NG6461",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-samson-and-delilah",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG187",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Apotheosis of the Duke of Buckingham",
+      "date": "Before 1625",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1843",
+      "accession": "NG187",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-apotheosis-of-the-duke-of-buckingham",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1195",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Birth of Venus",
+      "date": "About 1632-3",
+      "begin": null,
+      "end": null,
+      "medium": "Black chalk and oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1885",
+      "accession": "NG1195",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-birth-of-venus",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG59",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Brazen Serpent",
+      "date": "Probably 1635-40",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1837",
+      "accession": "NG59",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-brazen-serpent",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-L1121",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Coup de Lance",
+      "date": "Before 1620",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on oak",
+      "attribution": "Peter Paul Rubens",
+      "credit": "On loan from the Victoria and Albert Museum",
+      "accession": "L1121",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-coup-de-lance",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG194",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Judgement of Paris",
+      "date": "Probably 1632-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1844",
+      "accession": "NG194",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-judgement-of-paris",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6379",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Judgement of Paris",
+      "date": "About 1597-9",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1966",
+      "accession": "NG6379",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-judgement-of-paris-1",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG680",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Miraculous Draught of Fishes",
+      "date": "1618-19",
+      "begin": null,
+      "end": null,
+      "medium": "Black chalk and oil on paper, mounted on canvas",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1861",
+      "accession": "NG680",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-miraculous-draught-of-fishes",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG38",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Rape of the Sabine Women",
+      "date": "Probably 1635-40",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought, 1824",
+      "accession": "NG38",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-rape-of-the-sabine-women",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG4815",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Watering Place",
+      "date": "About 1615-22",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bought with a contribution from the Art Fund, 1936",
+      "accession": "NG4815",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-the-watering-place",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG57.2",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Three Female Witnesses",
+      "date": "1611-12",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Holwell Carr Bequest, 1831",
+      "accession": "NG57.2",
+      "source": "https://www.nationalgallery.org.uk/paintings/peter-paul-rubens-three-female-witnesses",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1148",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "Christ contemplated by the Christian Soul",
+      "date": "Probably 1628-9",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Diego Velázquez",
+      "credit": "Presented by John Savile Lumley (later Baron Savile), 1883",
+      "accession": "NG1148",
+      "source": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-christ-contemplated-by-the-christian-soul",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1375",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "Christ in the House of Martha and Mary",
+      "date": "Probably 1618",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Diego Velázquez",
+      "credit": "Bequeathed by Sir William H. Gregory, 1892",
+      "accession": "NG1375",
+      "source": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-christ-in-the-house-of-martha-and-mary",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG197",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "Philip IV hunting Wild Boar (La Tela Real)",
+      "date": "Probably 1632-7",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Diego Velázquez",
+      "credit": "Bought, 1846",
+      "accession": "NG197",
+      "source": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-philip-iv-hunting-wild-boar-la-tela-real",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG745",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "Philip IV of Spain",
+      "date": "About 1656",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Diego Velázquez",
+      "credit": "Bought, 1865",
+      "accession": "NG745",
+      "source": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-philip-iv-of-spain",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1129",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "Philip IV of Spain in Brown and Silver",
+      "date": "About 1631-2",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas (unlined)",
+      "attribution": "Diego Velázquez",
+      "credit": "Bought, 1882",
+      "accession": "NG1129",
+      "source": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-philip-iv-of-spain-in-brown-and-silver",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6380",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "Portrait of Archbishop Fernando de Valdés",
+      "date": "1640-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Diego Velázquez",
+      "credit": "Bought with a contribution from the Art Fund, 1967",
+      "accession": "NG6380",
+      "source": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-portrait-of-archbishop-fernando-de-valdes",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6264",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "Saint John the Evangelist on the Island of Patmos",
+      "date": "1618-19",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Diego Velázquez",
+      "credit": "Bought with a special grant and contributions from The Pilgrim Trust and the Art Fund, 1956",
+      "accession": "NG6264",
+      "source": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-saint-john-the-evangelist-on-the-island-of-patmos",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6424",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "The Immaculate Conception",
+      "date": "1618-19",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Diego Velázquez",
+      "credit": "Bought with the aid of the Art Fund, 1974",
+      "accession": "NG6424",
+      "source": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-the-immaculate-conception",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2057",
+      "artistIds": [
+        "velazquez"
+      ],
+      "title": "The Toilet of Venus ('The Rokeby Venus')",
+      "date": "1647-51",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Diego Velázquez",
+      "credit": "Presented by the Art Fund, 1906",
+      "accession": "NG2057",
+      "source": "https://www.nationalgallery.org.uk/paintings/diego-velazquez-the-toilet-of-venus-the-rokeby-venus",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG190",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "A Bearded Man in a Cap",
+      "date": "Late 1650s",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bought, 1844",
+      "accession": "NG190",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-a-bearded-man-in-a-cap",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG166",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "A Franciscan Friar",
+      "date": "About 1655",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Presented by Duke of Northumberland, 1838",
+      "accession": "NG166",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-a-franciscan-friar",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG54",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "A Woman bathing in a Stream (Hendrickje Stoffels?)",
+      "date": "1654",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (Baltic/Polish oak, identified)",
+      "attribution": "Rembrandt",
+      "credit": "Holwell Carr Bequest, 1831",
+      "accession": "NG54",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-a-woman-bathing-in-a-stream-hendrickje-stoffels",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG243",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "An Elderly Man as Saint Paul",
+      "date": "Probably 1659",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bequeathed by Lord Colborne, 1854",
+      "accession": "NG243",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-an-elderly-man-as-saint-paul",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG4189",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Anna and the Blind Tobit",
+      "date": "About 1630",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Rembrandt",
+      "credit": "Bought, 1926",
+      "accession": "NG4189",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-anna-and-the-blind-tobit",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6350",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Belshazzar's Feast",
+      "date": "About 1636-8",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bought with a contribution from the Art Fund, 1964",
+      "accession": "NG6350",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-belshazzar-s-feast",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1400",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Ecce Homo",
+      "date": "1634",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on paper, mounted on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bought, 1894",
+      "accession": "NG1400",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-ecce-homo",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG775",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of Aechje Claesdr.",
+      "date": "1634",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Rembrandt",
+      "credit": "Bought, 1867",
+      "accession": "NG775",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-portrait-of-aechje-claesdr",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6300",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of Frederick Rihel on Horseback",
+      "date": "About 1663",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bought with a special grant and contributions from the Art Fund and The Pilgrim Trust, 1959",
+      "accession": "NG6300",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-portrait-of-frederick-rihel-on-horseback",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6432",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of Hendrickje Stoffels",
+      "date": "Probably 1654-6",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bought with a contribution from the Art Fund, 1976",
+      "accession": "NG6432",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-portrait-of-hendrickje-stoffels",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1674",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of Jacob Trip",
+      "date": "About 1661",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bought, 1899",
+      "accession": "NG1674",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-portrait-of-jacob-trip",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1675",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of Margaretha de Geer, Wife of Jacob Trip",
+      "date": "About 1661",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bought, 1899",
+      "accession": "NG1675",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-portrait-of-margaretha-de-geer-wife-of-jacob-trip",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG850",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of Philips Lucasz.",
+      "date": "1635",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (Netherlandish/West German oak, identified)",
+      "attribution": "Rembrandt",
+      "credit": "Bought, 1871",
+      "accession": "NG850",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-portrait-of-philips-lucasz",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG4930",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Saskia van Uylenburgh in Arcadian Costume",
+      "date": "1635",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bought with contributions from the Art Fund, 1938",
+      "accession": "NG4930",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-saskia-van-uylenburgh-in-arcadian-costume",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG672",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Self Portrait at the Age of 34",
+      "date": "1640",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bought, 1861",
+      "accession": "NG672",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-self-portrait-at-the-age-of-34",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG221",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Self Portrait at the Age of 63",
+      "date": "1669",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt",
+      "credit": "Bought, 1851",
+      "accession": "NG221",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-self-portrait-at-the-age-of-63",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG43",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "The Lamentation over the Dead Christ",
+      "date": "About 1635",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on paper and pieces of canvas, mounted on wood (oak, identified)",
+      "attribution": "Rembrandt",
+      "credit": "Presented by Sir George Beaumont, 1823/8",
+      "accession": "NG43",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-the-lamentation-over-the-dead-christ",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG45",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "The Woman taken in Adultery",
+      "date": "1644",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (Baltic/Polish oak, identified)",
+      "attribution": "Rembrandt",
+      "credit": "Bought, 1824",
+      "accession": "NG45",
+      "source": "https://www.nationalgallery.org.uk/paintings/rembrandt-the-woman-taken-in-adultery",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2568",
+      "artistIds": [
+        "vermeer"
+      ],
+      "title": "A Young Woman seated at a Virginal",
+      "date": "About 1670-2",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Johannes Vermeer",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2568",
+      "source": "https://www.nationalgallery.org.uk/paintings/johannes-vermeer-a-young-woman-seated-at-a-virginal",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1383",
+      "artistIds": [
+        "vermeer"
+      ],
+      "title": "A Young Woman standing at a Virginal",
+      "date": "About 1670-2",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Johannes Vermeer",
+      "credit": "Bought, 1892",
+      "accession": "NG1383",
+      "source": "https://www.nationalgallery.org.uk/paintings/johannes-vermeer-a-young-woman-standing-at-a-virginal",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2897",
+      "artistIds": [
+        "watteau"
+      ],
+      "title": "The Scale of Love",
+      "date": "Probably 1717-8",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jean-Antoine Watteau",
+      "credit": "Bequeathed by Sir Julius Wernher, Bt, 1912",
+      "accession": "NG2897",
+      "source": "https://www.nationalgallery.org.uk/paintings/jean-antoine-watteau-the-scale-of-love",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6374",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Landscape with a Watermill",
+      "date": "1755",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Bought, 1966",
+      "accession": "NG6374",
+      "source": "https://www.nationalgallery.org.uk/paintings/francois-boucher-landscape-with-a-watermill",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1090",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Pan and Syrinx",
+      "date": "1759",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Presented by Mrs Robert Hollond, 1880",
+      "accession": "NG1090",
+      "source": "https://www.nationalgallery.org.uk/paintings/francois-boucher-pan-and-syrinx",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6445",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Psyche showing her Sisters her Gifts from Cupid",
+      "date": "1753",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jean-Honoré Fragonard",
+      "credit": "Bought, 1978",
+      "accession": "NG6445",
+      "source": "https://www.nationalgallery.org.uk/paintings/jean-honore-fragonard-psyche-showing-her-sisters-her-gifts-from-cupid",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    }
+  ]
+}
