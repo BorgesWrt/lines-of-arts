@@ -2,8 +2,9 @@ export const START = 1250;
 export const END = 1800;
 export const MIN_ZOOM = .7;
 export const MAX_ZOOM = 20;
+export const DIRECTION_ZOOM = 1.5;
 export const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
-export function detailLevel(zoom, focused) { return zoom >= 5 ? 'works' : focused || zoom >= 2.2 ? 'artists' : 'overview'; }
+export function detailLevel(zoom, focused) { return zoom >= 5 ? 'works' : focused || zoom >= DIRECTION_ZOOM ? 'artists' : 'overview'; }
 export function pixelsPerYear(width, zoom) { return Math.max(240, width - 120) / (END - START) * zoom; }
 export function yearToX(year, width, camera) { return width / 2 + (year - camera.center) * pixelsPerYear(width, camera.zoom); }
 export function zoomAt(camera, newZoom, x, width) {

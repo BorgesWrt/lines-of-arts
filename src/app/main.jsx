@@ -4,7 +4,7 @@ import { Mail, ChevronDown, ChevronUp, Languages, Palette, Star, ArrowRight, Che
 import { movements, paintings, glossary } from '../data/content';
 import {keyWorks} from '../data/additional-works';
 import { artists, relations } from '../data/artists';
-import { START, END, MIN_ZOOM, MAX_ZOOM, clamp, detailLevel, pixelsPerYear, yearToX, zoomAt, makeLayout, clusterWorks } from '../utils/canvas-layout';
+import { START, END, MIN_ZOOM, MAX_ZOOM, DIRECTION_ZOOM, clamp, detailLevel, pixelsPerYear, yearToX, zoomAt, makeLayout, clusterWorks } from '../utils/canvas-layout';
 import { LocaleContext, localizeTree, translate } from '../utils/i18n';
 import { EXPANSION_KEY, readExpansion, includeDirections } from '../utils/expansion-session';
 import { useLayout } from '../utils/use-layout';
@@ -189,7 +189,7 @@ function App() {
   }
   function applyZoom(next, pointerY) {
     const state=latest.current;
-    if (!state.focused && !state.normalized && state.targetCamera.zoom < 2.2 && next.zoom >= 2.2) {
+    if (!state.focused && !state.normalized && state.targetCamera.zoom < DIRECTION_ZOOM && next.zoom >= DIRECTION_ZOOM) {
       const group=state.layout.groups.reduce((best,g)=>Math.abs(g.y+state.camera.panY-pointerY)<Math.abs(best.y+state.camera.panY-pointerY)?g:best,state.layout.groups[0]);
       if(group){
         const ids=state.hasExpansionChoice?state.expanded:[group.movement.id];
@@ -198,7 +198,7 @@ function App() {
         setExpanded(ids);
         next={...next,panY:boundsY(state.camera.panY+group.y-newGroup.y,newLayout.height,state.size.height)};
       }
-    } else if (!state.focused && !state.normalized && state.targetCamera.zoom >= 2.2 && next.zoom < 2.2) {
+    } else if (!state.focused && !state.normalized && state.targetCamera.zoom >= DIRECTION_ZOOM && next.zoom < DIRECTION_ZOOM) {
       const group=state.layout.groups.filter(g=>g.openness>.5).sort((a,b)=>Math.abs(a.y+state.camera.panY-pointerY)-Math.abs(b.y+state.camera.panY-pointerY))[0];
       const newLayout=makeLayout(state.visibleMovements,state.visibleArtists,'overview');
       if(group)next={...next,panY:boundsY(state.camera.panY+group.y-newLayout.groups.find(g=>g.movement.id===group.movement.id).y,newLayout.height,state.size.height)};
@@ -210,7 +210,7 @@ function App() {
     suppressDirectionHover.current=performance.now()+500;clearTimeout(directionTimer.current);
     const next=expanded.includes(id)?expanded.filter(value=>value!==id):[...expanded,id];
     const currentGroup=layout.groups.find(g=>g.movement.id===id);
-    const zoom=Math.max(2.2,targetCamera.zoom);
+    const zoom=Math.max(DIRECTION_ZOOM,targetCamera.zoom);
     const newLayout=makeLayout(visibleMovements,visibleArtists,zoom>=5?'works':'artists',74+52*clamp((zoom-4.4)/1.1,0,1),next);
     const nextGroup=newLayout.groups.find(g=>g.movement.id===id);
     setExpanded(next);setDirection(null);

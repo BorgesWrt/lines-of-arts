@@ -34,6 +34,8 @@ for (const r of relations) {
   assert.ok(['training','workshop','collaboration'].includes(r.type), 'Invalid relation type');
 }
 assert.equal(detailLevel(1, null), 'overview');
+assert.equal(detailLevel(1.49, null), 'overview');
+assert.equal(detailLevel(1.5, null), 'artists');
 assert.equal(detailLevel(2.5, null), 'artists');
 assert.equal(detailLevel(1.4, 'north'), 'artists');
 assert.equal(detailLevel(5, 'early'), 'works');
