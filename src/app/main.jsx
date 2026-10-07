@@ -6,6 +6,7 @@ import {keyWorks} from '../data/additional-works';
 import { artists, relations } from '../data/artists';
 import { START, END, MIN_ZOOM, MAX_ZOOM, clamp, detailLevel, pixelsPerYear, yearToX, zoomAt, makeLayout, clusterWorks } from '../utils/canvas-layout';
 import { LocaleContext, localizeTree, translate } from '../utils/i18n';
+import { EXPANSION_KEY, readExpansion, includeDirections } from '../utils/expansion-session';
 import { useLayout } from '../utils/use-layout';
 import { useCamera } from '../utils/use-camera';
 import { FAVORITES_KEY, emptyFavorites, cleanFavorites, toggleFavorite } from '../utils/favorites';
@@ -72,7 +73,14 @@ function App() {
   const [active, setActive] = useState(movements.map(m => m.id));
   const [query, setQuery] = useState('');
   const [focused, setFocused] = useState(null);
-  const [expanded,setExpanded] = useState([]);
+  const [expansionSession,setExpanded] = useState(() => {
+    try { return readExpansion(sessionStorage,movements); } catch { return null; }
+  });
+  const expanded = expansionSession ?? [];
+  useEffect(() => {
+    if(expansionSession === null)return;
+    try { sessionStorage.setItem(EXPANSION_KEY,JSON.stringify(expansionSession)); } catch {}
+  },[expansionSession]);
   const [targetCamera, setCamera] = useState(fitCamera);
   const [size, setSize] = useState({ width: 1200, height: 650 });
   const [links, setLinks] = useState(true);
@@ -115,7 +123,7 @@ function App() {
   const yearStep = pixelYear > 16 ? 5 : pixelYear > 8 ? 10 : pixelYear > 4 ? 25 : pixelYear > .7 ? 50 : pixelYear > .35 ? 100 : 200;
   const firstTick=Math.ceil(START/yearStep)*yearStep;
   const ticks = Array.from({ length: Math.floor((END - firstTick) / yearStep) + 1 }, (_, i) => firstTick + i * yearStep).filter(year => x(year) > 18 && x(year) < size.width - 18);
-  latest.current = { camera, targetCamera, size, layout, targetLayout, level, expanded, visibleMovements, visibleArtists, focused, normalized };
+  latest.current = { camera, targetCamera, size, layout, targetLayout, level, expanded, hasExpansionChoice:expansionSession!==null, visibleMovements, visibleArtists, focused, normalized };
 
   useEffect(() => {
     const observer = new ResizeObserver(([entry]) => setSize({ width: entry.contentRect.width, height: entry.contentRect.height }));
@@ -149,12 +157,12 @@ function App() {
   }, [modal]);
 
   function close() { setModal(null); setDirection(null); const url = new URL(location.href); url.searchParams.delete('work'); history.replaceState({}, '', url); }
-  function reset() { setActive(movements.map(m => m.id)); setQuery(''); setFocused(null); setExpanded([]); setCamera(fitCamera); setHover(null); }
+  function reset() { setActive(movements.map(m => m.id)); setQuery(''); setFocused(null); setCamera(fitCamera); setHover(null); }
   function overview() { setFocused(null); setCamera(fitCamera); setHover(null); }
   function focusMovement(id) {
     suppressDirectionHover.current=performance.now()+500;clearTimeout(directionTimer.current);
     const m = movementById(id);
-    setActive(value => [...new Set([...value,id])]); setFocused(id); setExpanded([id]); setQuery('');
+    setActive(value => [...new Set([...value,id])]); setFocused(id); setExpanded(value=>includeDirections(value??[],[id])); setQuery('');
     setCamera({ zoom: clamp((END - START) / (m.end - m.start + 55), 1.25, 4.6), center: (m.start + m.end) / 2, panY: 0 });
     setHover(null); close();
   }
@@ -165,7 +173,7 @@ function App() {
   function openArtist(id) { setSelected(id); setModal({ type:'artist', id }); setHover(null); }
   function showArtist(id) {
     const a = artistById(id); const m = movementById(a.movement);
-    setQuery(''); setFocused(m.id); setExpanded([m.id]); setActive(value => [...new Set([...value,m.id])]); setSelected(id);
+    setQuery(''); setFocused(m.id); setExpanded(value=>includeDirections(value??[],[m.id])); setActive(value => [...new Set([...value,m.id])]); setSelected(id);
     const others = artists.filter(item => item.movement === m.id);
     const focusedLayout = makeLayout([m], others, 'artists');
     setCamera({ zoom: 3, center: (a.start + a.end) / 2, panY: boundsY(size.height / 2 - focusedLayout.rows.get(id), focusedLayout.height, size.height) });
@@ -173,8 +181,9 @@ function App() {
   }
   function showRelation(r) {
     const first = artistById(r.from); const second = artistById(r.to);
-    const allLayout = makeLayout(movements,artists,'artists',undefined,[first.movement,second.movement]);
-    setQuery(''); setFocused(null); setExpanded([...new Set([first.movement,second.movement])]); setActive(movements.map(m => m.id)); setSelected(first.id); setDisputed(v => v || r.status === 'disputed'); setLinks(true);
+    const nextExpanded=includeDirections(expanded,[first.movement,second.movement]);
+    const allLayout = makeLayout(movements,artists,'artists',undefined,nextExpanded);
+    setQuery(''); setFocused(null); setExpanded(nextExpanded); setActive(movements.map(m => m.id)); setSelected(first.id); setDisputed(v => v || r.status === 'disputed'); setLinks(true);
     setCamera({ zoom: 2.8, center: (Math.max(first.start,second.start) + Math.min(first.end,second.end)) / 2, panY: boundsY(size.height / 2 - (allLayout.rows.get(r.from) + allLayout.rows.get(r.to)) / 2, allLayout.height,size.height) });
     close();
   }
@@ -183,7 +192,7 @@ function App() {
     if (!state.focused && !state.normalized && state.targetCamera.zoom < 2.2 && next.zoom >= 2.2) {
       const group=state.layout.groups.reduce((best,g)=>Math.abs(g.y+state.camera.panY-pointerY)<Math.abs(best.y+state.camera.panY-pointerY)?g:best,state.layout.groups[0]);
       if(group){
-        const ids=[group.movement.id];
+        const ids=state.hasExpansionChoice?state.expanded:[group.movement.id];
         const newLayout=makeLayout(state.visibleMovements,state.visibleArtists,'artists',undefined,ids);
         const newGroup=newLayout.groups.find(g=>g.movement.id===group.movement.id);
         setExpanded(ids);
@@ -193,7 +202,6 @@ function App() {
       const group=state.layout.groups.filter(g=>g.openness>.5).sort((a,b)=>Math.abs(a.y+state.camera.panY-pointerY)-Math.abs(b.y+state.camera.panY-pointerY))[0];
       const newLayout=makeLayout(state.visibleMovements,state.visibleArtists,'overview');
       if(group)next={...next,panY:boundsY(state.camera.panY+group.y-newLayout.groups.find(g=>g.movement.id===group.movement.id).y,newLayout.height,state.size.height)};
-      setExpanded([]);
     }
     setCamera(next);
   }

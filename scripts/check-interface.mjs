@@ -6,6 +6,18 @@ import { translate, localizeTree, englishStrings } from '../src/utils/i18n.js';
 import languages from '../src/data/languages.json' with {type:'json'};
 import { cleanFavorites, emptyFavorites, toggleFavorite } from '../src/utils/favorites.js';
 import { makeLayout } from '../src/utils/canvas-layout.js';
+import { EXPANSION_KEY, readExpansion, includeDirections } from '../src/utils/expansion-session.js';
+
+assert.equal(readExpansion({getItem:()=>null},movements),null,'A new session may use initial semantic zoom');
+assert.deepEqual(readExpansion({getItem:()=> '[]'},movements),[],'Explicitly collapsed directions must survive reloading');
+assert.equal(readExpansion({getItem:()=> '{invalid'},movements),null,'Invalid session storage must recover safely');
+assert.deepEqual(readExpansion({getItem:()=> JSON.stringify([movements[0].id,'missing',movements[0].id])},movements),[movements[0].id]);
+const remembered=includeDirections([movements[0].id],[movements[1].id]);
+assert.deepEqual(remembered,[movements[0].id,movements[1].id],'Opening a movement must preserve earlier expanded movements');
+const sessionStorageMock=new Map([[EXPANSION_KEY,JSON.stringify(remembered)]]);
+const restored=readExpansion({getItem:key=>sessionStorageMock.get(key)},movements);
+assert.equal(makeLayout(movements,artists,'overview',undefined,restored).groups.every(g=>g.openness===0),true);
+assert.deepEqual(makeLayout(movements,artists,'artists',undefined,restored).groups.filter(g=>g.openness===1).map(g=>g.movement.id),remembered,'Zooming back must restore remembered expansion');
 
 const catalog = { movements, artists, paintings };
 const adjacentSaved={movements:['rococo'],artists:['fragonard'],paintings:['fragonard-swing']};
