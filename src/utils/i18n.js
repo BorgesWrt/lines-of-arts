@@ -121,6 +121,8 @@ Object.entries({
 }).forEach(([ru,en])=>add(ru,en));
 [...movements,...artists,...relations].forEach(item=>{if(item.english)for(const [key,en] of Object.entries(item.english)){if(Array.isArray(en))item[key].forEach((ru,i)=>add(ru,en[i]));else add(item[key],en);}});
 Object.entries({'Европейская живопись':'European painting','В атласе — ':'The atlas includes ',' направлений, ':' movements, ',' художников, ':' artists, ','Весь атлас':'Full atlas','XIII–XVIII века':'13th–18th centuries'}).forEach(([ru,en])=>add(ru,en));
+add('Скрыть фильтры','Hide filters');
+add('Открыть фильтры','Open filters');
 export const englishStrings = () => [...new Set(dictionary.values())];
 const phrases=[...dictionary].sort((a,b)=>b[0].length-a[0].length);
 export function translate(text,locale='en') {
