@@ -106,3 +106,29 @@
 .canvas-legend{flex-wrap:wrap;row-gap:7px}
 @media(max-width:900px){.canvas-legend .period-symbol,.canvas-legend .tail-symbol{display:none}.canvas-legend>span:has(.period-symbol),.canvas-legend>span:has(.tail-symbol){display:none}}
 @media(prefers-reduced-motion:reduce){.spectrum-bin>i{transition:none}}
+.mobile-menu-trigger{display:none}
+.mobile-menu{display:grid;gap:8px}.mobile-menu>button{display:flex;align-items:center;gap:14px;text-align:left;min-height:52px;padding:12px;border:1px solid var(--border);border-radius:12px;background:var(--field)}.mobile-menu>button span{flex:1;font-size:14px}
+@media(max-width:650px){
+ .atlas-header{height:auto;min-height:116px;display:flex;flex-wrap:wrap;gap:6px;padding:8px 14px 10px;padding-top:calc(8px + env(safe-area-inset-top));align-content:center}
+ .brand{margin-right:auto;min-height:44px}.brand>span:last-child{font-size:16px}.brand-icon{display:none}
+ .atlas-header .header-icon,.atlas-header .filter-button{width:44px;height:44px;padding:11px;margin:0;justify-content:center;flex-shrink:0;border-radius:10px}
+ .atlas-header .header-icon svg,.atlas-header .filter-button svg{width:21px;height:21px}
+ .atlas-header .gallery-trigger,.atlas-header .language-trigger,.atlas-header .theme-trigger,.atlas-header .help-trigger{display:none}
+ .atlas-header .mobile-menu-trigger{display:flex}
+ .search-box{order:10;flex:0 0 100%;width:100%;max-width:none;height:44px;margin:0;padding:10px 12px;border-radius:12px;gap:10px}
+ .search-box input{font-size:16px}.search-box svg{width:18px}.search-box button{min-width:24px;min-height:24px;justify-content:center}
+ .canvas-topbar{left:16px;right:16px;top:10px}.breadcrumb>button:first-child,.breadcrumb strong{font-size:12px}.breadcrumb>button{min-height:36px}.level-indicator{font-size:10px}
+ .direction-heading{max-width:calc(100% - 40px);gap:6px}.direction-heading .direction-label{white-space:normal;max-width:none;min-width:0;flex:1;display:flex;flex-direction:column;align-items:flex-start;gap:3px;font-size:14px;line-height:1.3}
+ .direction-label small{font-size:10px;white-space:nowrap}.direction-toggle{min-width:44px;min-height:44px}.artist-label{font-size:13px;line-height:1.4}.artist-label small{font-size:10px}
+ .direction-preview{position:fixed!important;left:8px!important;right:8px;top:auto!important;bottom:calc(8px + env(safe-area-inset-bottom));width:auto;max-width:none;max-height:78dvh!important;border-radius:20px;overflow:auto;box-shadow:0 -12px 80px #0005;z-index:12}
+ .direction-intro{padding:26px 20px 20px}.direction-intro .section-kicker{display:block;padding-right:34px;line-height:1.7}.direction-intro p{font-size:14px;line-height:1.8}.preview-close{width:44px;height:44px;align-items:center;justify-content:center;top:8px;right:8px}
+ .direction-intro .preview-actions{position:sticky;bottom:0;background:var(--raised);padding:14px 0;margin:16px 0 0}.direction-cta{min-height:48px;font-size:14px}.preview-actions .favorite-button{min-width:48px;min-height:48px}.direction-artists>div{max-height:none}.preview-artist>button:first-child{font-size:14px;padding:14px 0}.preview-artist .favorite-button{min-width:44px;min-height:44px}
+ .dialog-backdrop{padding:0;align-items:flex-end}.dialog,.dialog.wide,.dialog.drawer,.dialog-backdrop.painting .dialog.drawer,.dialog-backdrop.artist .dialog.drawer{width:100%;max-width:100%;height:auto;max-height:92dvh;border-radius:20px 20px 0 0;border-bottom:0;padding-bottom:env(safe-area-inset-bottom)}
+ .dialog-top{padding:12px 18px}.dialog-top>button{width:44px;height:44px;justify-content:center;align-items:center}.dialog-content{padding:22px 20px 30px}.dialog-content>p{font-size:14px}.dialog-content h2{font-size:25px;overflow-wrap:anywhere}
+ .filter-choice{min-height:56px}.filter-focus{min-width:44px;min-height:44px}.settings-options button,.theme-options button{min-height:48px}.favorite-tabs button{min-height:44px;font-size:12px}.favorite-button{min-height:44px}
+ .artwork-presentation,.artwork-presentation.portrait{margin:20px 20px 0;display:flex;flex-direction:column}.artwork-presentation.portrait figcaption{order:-1}.artwork-presentation.portrait h2{font-size:25px}.artwork-presentation img{max-height:52dvh}.artwork-presentation.portrait p{font-size:13px}
+ .museum-grid{gap:10px}.museum-search input{font-size:16px}.museum-filters button{min-height:40px}.museum-card strong{font-size:13px}.museum-grid .favorite-button{min-width:44px;min-height:44px}.gallery-filters button{min-height:40px}
+ .zoom-control{right:16px;bottom:calc(72px + env(safe-area-inset-bottom));padding:4px;border-radius:14px}.zoom-control button{width:44px;height:44px;justify-content:center;padding:10px}.zoom-control output{font-size:12px;width:45px}
+ .canvas-bottom{padding:10px 16px calc(10px + env(safe-area-inset-bottom));gap:4px 10px;min-height:64px}.canvas-bottom>button{min-height:30px;font-size:11px}.canvas-bottom .touch-instruction{font-size:10px}.vertical-control{right:2px;bottom:145px;width:16px}.vertical-control input{width:16px}
+}
+@media(max-width:360px){.atlas-header{padding-left:10px;padding-right:10px}.brand>span:last-child{font-size:14px}.favorite-tabs button{font-size:10px;gap:4px}.dialog-content .gallery,.museum-grid{grid-template-columns:1fr}.contact-email{font-size:14px}}
