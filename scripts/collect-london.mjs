@@ -33,8 +33,9 @@ for(const a of artists){
  console.log('London',a.id,seen.size);
 }
 const path='src/data/museum-catalog.json';const catalog=JSON.parse(await readFile(join(cache,'combined-api-index.json'),'utf8'));
+catalog.updated=new Date().toISOString().slice(0,10);
 catalog.records=[...catalog.records.filter(r=>r.museum!=='london'),...records];
 await writeFile(path,JSON.stringify(catalog,null,2)+'\n');
 const requests=JSON.parse(await readFile(join(cache,'api-coverage.json'),'utf8'));
-await writeFile('docs/museum-coverage.json',JSON.stringify({updated:catalog.updated,total:catalog.records.length,sources:['https://github.com/NationalGalleryOfArt/opendata','https://openaccess-api.clevelandart.org/','https://api.artic.edu/docs/','https://www.nationalgallery.org.uk/documentation/ngacuk/licences'],artists:artists.map(a=>({id:a.id,records:catalog.records.filter(r=>r.artistIds.includes(a.id)).length})),requests},null,2)+'\n');
+await writeFile('docs/museum-coverage.json',JSON.stringify({updated:catalog.updated,total:catalog.records.length,sources:['https://github.com/NationalGalleryOfArt/opendata','https://openaccess-api.clevelandart.org/','https://api.artic.edu/docs/','https://www.nationalgallery.org.uk/documentation/ngacuk/licences','https://github.com/metmuseum/openaccess'],artists:artists.map(a=>({id:a.id,records:catalog.records.filter(r=>r.artistIds.includes(a.id)).length})),requests},null,2)+'\n');
 console.log('London added',records.length,'painting records.');

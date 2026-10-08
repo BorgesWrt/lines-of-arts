@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "records": [
     {
       "id": "nga-10",
@@ -2573,6 +2573,1590 @@
       "source": "https://clevelandart.org/art/1942.49",
       "museum": "cleveland",
       "image": "https://openaccess-cdn.clevelandart.org/1942.49/1942.49_web.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435640",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Madonna Adoring the Sleeping Child",
+      "date": "early 1460s",
+      "begin": 1460,
+      "end": 1463,
+      "medium": "Tempera on wood",
+      "attribution": "Giovanni Bellini",
+      "credit": "Theodore M. Davis Collection, Bequest of Theodore M. Davis, 1915",
+      "accession": "30.95.256",
+      "source": "http://www.metmuseum.org/art/collection/search/435640",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7219.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435641",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Madonna and Child",
+      "date": "late 1480s",
+      "begin": 1487,
+      "end": 1489,
+      "medium": "Oil on wood",
+      "attribution": "Giovanni Bellini",
+      "credit": "Rogers Fund, 1908",
+      "accession": "08.183.1",
+      "source": "http://www.metmuseum.org/art/collection/search/435641",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT375.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435737",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Imaginary Landscape with the Palatine Hill from Campo Vaccino",
+      "date": "early 1730s",
+      "begin": 1730,
+      "end": 1735,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "The Jack and Belle Linsky Collection, 1982",
+      "accession": "1982.60.44",
+      "source": "http://www.metmuseum.org/art/collection/search/435737",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-409-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435738",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "The Interrupted Sleep",
+      "date": "1750",
+      "begin": 1750,
+      "end": 1750,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.46",
+      "source": "http://www.metmuseum.org/art/collection/search/435738",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-414-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435739",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "The Toilette of Venus",
+      "date": "1751",
+      "begin": 1751,
+      "end": 1751,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Bequest of William K. Vanderbilt, 1920",
+      "accession": "20.155.9",
+      "source": "http://www.metmuseum.org/art/collection/search/435739",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-411-01.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435742",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Angelica and Medoro",
+      "date": "1763",
+      "begin": 1763,
+      "end": 1763,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "The Jack and Belle Linsky Collection, 1982",
+      "accession": "1982.60.46",
+      "source": "http://www.metmuseum.org/art/collection/search/435742",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP339914.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435743",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "The Dispatch of the Messenger",
+      "date": "1765",
+      "begin": 1765,
+      "end": 1765,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Gift of Mrs. Joseph Heine, in memory of her husband, I. D. Levy, 1944",
+      "accession": "44.141",
+      "source": "http://www.metmuseum.org/art/collection/search/435743",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP337751.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435744",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Virgin and Child with the Young Saint John the Baptist and Angels",
+      "date": "1765",
+      "begin": 1765,
+      "end": 1765,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Gift of Adelaide Milton de Groot, in memory of the de Groot and Hawley families, 1966",
+      "accession": "66.167",
+      "source": "http://www.metmuseum.org/art/collection/search/435744",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP123935.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435745",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Shepherd's Idyll",
+      "date": "1768",
+      "begin": 1768,
+      "end": 1768,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Gift of Julia A. Berwind, 1953",
+      "accession": "53.225.1",
+      "source": "http://www.metmuseum.org/art/collection/search/435745",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP259114.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435746",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Washerwomen",
+      "date": "1768",
+      "begin": 1768,
+      "end": 1768,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "Gift of Julia A. Berwind, 1953",
+      "accession": "53.225.2",
+      "source": "http://www.metmuseum.org/art/collection/search/435746",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP259119.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435747",
+      "artistIds": [
+        "boucher"
+      ],
+      "title": "Jupiter, in the Guise of Diana, and Callisto",
+      "date": "1763",
+      "begin": 1763,
+      "end": 1763,
+      "medium": "Oil on canvas",
+      "attribution": "François Boucher",
+      "credit": "The Jack and Belle Linsky Collection, 1982",
+      "accession": "1982.60.45",
+      "source": "http://www.metmuseum.org/art/collection/search/435747",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP339911.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435802",
+      "artistIds": [
+        "bronzino"
+      ],
+      "title": "Portrait of a Young Man",
+      "date": "1530s",
+      "begin": 1530,
+      "end": 1539,
+      "medium": "Oil on wood",
+      "attribution": "Bronzino (Agnolo di Cosimo di Mariano)",
+      "credit": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+      "accession": "29.100.16",
+      "source": "http://www.metmuseum.org/art/collection/search/435802",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-011.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435809",
+      "artistIds": [
+        "bruegel"
+      ],
+      "title": "The Harvesters",
+      "date": "1565",
+      "begin": 1565,
+      "end": 1565,
+      "medium": "Oil on wood",
+      "attribution": "Pieter Bruegel the Elder",
+      "credit": "Rogers Fund, 1919",
+      "accession": "19.164",
+      "source": "http://www.metmuseum.org/art/collection/search/435809",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP119115.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-435844",
+      "artistIds": [
+        "caravaggio"
+      ],
+      "title": "The Musicians",
+      "date": "1597",
+      "begin": 1597,
+      "end": 1597,
+      "medium": "Oil on canvas",
+      "attribution": "Caravaggio (Michelangelo Merisi)",
+      "credit": "Rogers Fund, 1952",
+      "accession": "52.81",
+      "source": "http://www.metmuseum.org/art/collection/search/435844",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-687-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436243",
+      "artistIds": [
+        "durer"
+      ],
+      "title": "Salvator Mundi",
+      "date": "ca. 1505",
+      "begin": 1500,
+      "end": 1510,
+      "medium": "Oil on linden",
+      "attribution": "Albrecht Dürer",
+      "credit": "The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+      "accession": "32.100.64",
+      "source": "http://www.metmuseum.org/art/collection/search/436243",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-38479-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436244",
+      "artistIds": [
+        "durer"
+      ],
+      "title": "Virgin and Child with Saint Anne",
+      "date": "probably 1519",
+      "begin": 1519,
+      "end": 1519,
+      "medium": "Oil on linden",
+      "attribution": "Albrecht Dürer",
+      "credit": "Bequest of Benjamin Altman, 1913",
+      "accession": "14.40.633",
+      "source": "http://www.metmuseum.org/art/collection/search/436244",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP280846.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436245",
+      "artistIds": [
+        "durer"
+      ],
+      "title": "Virgin and Child",
+      "date": "1516",
+      "begin": 1516,
+      "end": 1516,
+      "medium": "Oil on spruce",
+      "attribution": "Albrecht Dürer",
+      "credit": "Gift of J. Pierpont Morgan, 1917",
+      "accession": "17.190.5",
+      "source": "http://www.metmuseum.org/art/collection/search/436245",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP164788.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436319",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "The Cascade",
+      "date": "ca. 1775",
+      "begin": 1770,
+      "end": 1780,
+      "medium": "Oil on wood",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.50",
+      "source": "http://www.metmuseum.org/art/collection/search/436319",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1015-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436320",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Portrait of a Young Woman",
+      "date": "1770s",
+      "begin": 1770,
+      "end": 1779,
+      "medium": "Oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Bequest of Margaret V. Haggin, 1965",
+      "accession": "65.226",
+      "source": "http://www.metmuseum.org/art/collection/search/436320",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1018-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436321",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Roman Interior",
+      "date": "ca. 1760",
+      "begin": 1755,
+      "end": 1765,
+      "medium": "Oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Harris Brisbane Dick Fund, 1946",
+      "accession": "46.30",
+      "source": "http://www.metmuseum.org/art/collection/search/436321",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1010-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436322",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "The Love Letter",
+      "date": "early 1770s",
+      "begin": 1770,
+      "end": 1773,
+      "medium": "Oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.49",
+      "source": "http://www.metmuseum.org/art/collection/search/436322",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1014-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436323",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Marie Emilie Coignet de Courson (1716–1806) with a Dog",
+      "date": "ca. 1769",
+      "begin": 1764,
+      "end": 1774,
+      "medium": "Oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Fletcher Fund, 1937",
+      "accession": "37.118",
+      "source": "http://www.metmuseum.org/art/collection/search/436323",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1019-01.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436324",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "A Shaded Avenue",
+      "date": "ca. 1775",
+      "begin": 1770,
+      "end": 1780,
+      "medium": "Oil on wood",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.51",
+      "source": "http://www.metmuseum.org/art/collection/search/436324",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1016-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436325",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "The Stolen Kiss",
+      "date": "ca. 1760",
+      "begin": 1755,
+      "end": 1765,
+      "medium": "Oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Gift of Jessie Woolworth Donahue, 1956",
+      "accession": "56.100.1",
+      "source": "http://www.metmuseum.org/art/collection/search/436325",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1009-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436326",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "The Two Sisters",
+      "date": "ca. 1769–70",
+      "begin": 1769,
+      "end": 1770,
+      "medium": "Oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Gift of Julia A. Berwind, 1953",
+      "accession": "53.61.5",
+      "source": "http://www.metmuseum.org/art/collection/search/436326",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1012-01.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436327",
+      "artistIds": [
+        "fragonard"
+      ],
+      "title": "Allegory of Vigilance",
+      "date": "ca. 1772",
+      "begin": 1767,
+      "end": 1777,
+      "medium": "Oil on canvas",
+      "attribution": "Jean Honoré Fragonard",
+      "credit": "Gift of René Fribourg, 1953",
+      "accession": "53.161",
+      "source": "http://www.metmuseum.org/art/collection/search/436327",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-1017-01.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436452",
+      "artistIds": [
+        "gentile"
+      ],
+      "title": "Madonna and Child with Angels",
+      "date": "",
+      "begin": 1408,
+      "end": 1427,
+      "medium": "Tempera on wood, traces of gold ground",
+      "attribution": "Gentile da Fabriano (Gentile di Niccolò di Giovanni di Massio)",
+      "credit": "Theodore M. Davis Collection, Bequest of Theodore M. Davis, 1915",
+      "accession": "30.95.262",
+      "source": "http://www.metmuseum.org/art/collection/search/436452",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP254091.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436453",
+      "artistIds": [
+        "artemisia"
+      ],
+      "title": "Esther before Ahasuerus",
+      "date": "1620s",
+      "begin": 1620,
+      "end": 1629,
+      "medium": "Oil on canvas",
+      "attribution": "Artemisia Gentileschi",
+      "credit": "Gift of Elinor Dorrance Ingersoll, 1969",
+      "accession": "69.281",
+      "source": "http://www.metmuseum.org/art/collection/search/436453",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20748-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436489",
+      "artistIds": [
+        "ghirlandaio"
+      ],
+      "title": "Francesco Sassetti (1421–1490) and His Son Teodoro",
+      "date": "ca. 1488",
+      "begin": 1483,
+      "end": 1493,
+      "medium": "Tempera on wood",
+      "attribution": "Domenico Ghirlandaio (Domenico Bigordi)",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.7",
+      "source": "http://www.metmuseum.org/art/collection/search/436489",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT1369.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436490",
+      "artistIds": [
+        "ghirlandaio"
+      ],
+      "title": "Portrait of a Man",
+      "date": "",
+      "begin": 1469,
+      "end": 1494,
+      "medium": "Tempera on wood",
+      "attribution": "Domenico Ghirlandaio (Domenico Bigordi)",
+      "credit": "The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+      "accession": "32.100.67",
+      "source": "http://www.metmuseum.org/art/collection/search/436490",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP161257.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436492",
+      "artistIds": [
+        "ghirlandaio"
+      ],
+      "title": "Saint Christopher and the Infant Christ",
+      "date": "",
+      "begin": 1469,
+      "end": 1494,
+      "medium": "Fresco",
+      "attribution": "Domenico Ghirlandaio (Domenico Bigordi)",
+      "credit": "Gift of Cornelius Vanderbilt, 1880",
+      "accession": "80.3.674",
+      "source": "http://www.metmuseum.org/art/collection/search/436492",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/EP371.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436504",
+      "artistIds": [
+        "giotto"
+      ],
+      "title": "The Adoration of the Magi",
+      "date": "possibly ca. 1320",
+      "begin": 1315,
+      "end": 1325,
+      "medium": "Tempera on wood, gold ground",
+      "attribution": "Giotto di Bondone",
+      "credit": "John Stewart Kennedy Fund, 1911",
+      "accession": "11.126.1",
+      "source": "http://www.metmuseum.org/art/collection/search/436504",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-31416-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436892",
+      "artistIds": [
+        "filippino"
+      ],
+      "title": "Madonna and Child",
+      "date": "ca. 1483–84",
+      "begin": 1483,
+      "end": 1484,
+      "medium": "Tempera, oil, and gold on wood",
+      "attribution": "Filippino Lippi",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.10",
+      "source": "http://www.metmuseum.org/art/collection/search/436892",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP243637.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436895",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "Madonna and Child Enthroned with Two Angels",
+      "date": "ca. 1440",
+      "begin": 1435,
+      "end": 1445,
+      "medium": "Tempera and gold on wood, transferred from wood",
+      "attribution": "Fra Filippo Lippi",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.9",
+      "source": "http://www.metmuseum.org/art/collection/search/436895",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20746-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436896",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "Portrait of a Woman with a Man at a Casement",
+      "date": "ca. 1440",
+      "begin": 1435,
+      "end": 1445,
+      "medium": "Tempera on wood",
+      "attribution": "Fra Filippo Lippi",
+      "credit": "Marquand Collection, Gift of Henry G. Marquand, 1889",
+      "accession": "89.15.19",
+      "source": "http://www.metmuseum.org/art/collection/search/436896",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP159891.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-436897",
+      "artistIds": [
+        "lippi"
+      ],
+      "title": "Saint Lawrence Enthroned with Saints and Donors",
+      "date": "1440s",
+      "begin": 1440,
+      "end": 1449,
+      "medium": "Tempera on wood, gold ground",
+      "attribution": "Fra Filippo Lippi",
+      "credit": "Rogers Fund, 1935",
+      "accession": "35.31.1a–c",
+      "source": "http://www.metmuseum.org/art/collection/search/436897",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17016-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437371",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "The Agony in the Garden",
+      "date": "ca. 1504",
+      "begin": 1499,
+      "end": 1509,
+      "medium": "Oil on wood",
+      "attribution": "Raphael (Raffaello Sanzio or Santi)",
+      "credit": "Funds from various donors, 1932",
+      "accession": "32.130.1",
+      "source": "http://www.metmuseum.org/art/collection/search/437371",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP136373.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437372",
+      "artistIds": [
+        "raphael"
+      ],
+      "title": "Madonna and Child Enthroned with Saints",
+      "date": "ca. 1504",
+      "begin": 1499,
+      "end": 1509,
+      "medium": "Oil and gold on wood",
+      "attribution": "Raphael (Raffaello Sanzio or Santi)",
+      "credit": "Gift of J. Pierpont Morgan, 1916",
+      "accession": "16.30ab",
+      "source": "http://www.metmuseum.org/art/collection/search/437372",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-43051-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437385",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Man in a Turban",
+      "date": "1632",
+      "begin": 1632,
+      "end": 1632,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Bequest of William K. Vanderbilt, 1920",
+      "accession": "20.155.2",
+      "source": "http://www.metmuseum.org/art/collection/search/437385",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146479.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437386",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of a Man, probably a Member of the Van Beresteyn Family",
+      "date": "1632",
+      "begin": 1632,
+      "end": 1632,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+      "accession": "29.100.3",
+      "source": "http://www.metmuseum.org/art/collection/search/437386",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP121326.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437387",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of a Man",
+      "date": "1632",
+      "begin": 1632,
+      "end": 1632,
+      "medium": "Oil on wood",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Gift of Mrs. Lincoln Ellsworth, in memory of Lincoln Ellsworth, 1964",
+      "accession": "64.126",
+      "source": "http://www.metmuseum.org/art/collection/search/437387",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145938.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437388",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of a Woman, probably a Member of the Van Beresteyn Family",
+      "date": "1632",
+      "begin": 1632,
+      "end": 1632,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+      "accession": "29.100.4",
+      "source": "http://www.metmuseum.org/art/collection/search/437388",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145399.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437389",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Bellona",
+      "date": "1633",
+      "begin": 1633,
+      "end": 1633,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+      "accession": "32.100.23",
+      "source": "http://www.metmuseum.org/art/collection/search/437389",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146454.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437390",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of a Woman",
+      "date": "1633",
+      "begin": 1633,
+      "end": 1633,
+      "medium": "Oil on wood",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Bequest of Benjamin Altman, 1913",
+      "accession": "14.40.625",
+      "source": "http://www.metmuseum.org/art/collection/search/437390",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145913.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437391",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of a Young Woman with a Fan",
+      "date": "1633",
+      "begin": 1633,
+      "end": 1633,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Gift of Helen Swift Neilson, 1943",
+      "accession": "43.125",
+      "source": "http://www.metmuseum.org/art/collection/search/437391",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16969-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437392",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Herman Doomer (ca. 1595–1650)",
+      "date": "1640",
+      "begin": 1640,
+      "end": 1640,
+      "medium": "Oil on wood",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "H. O. Havemeyer Collection, Bequest of Mrs. H. O. Havemeyer, 1929",
+      "accession": "29.100.1",
+      "source": "http://www.metmuseum.org/art/collection/search/437392",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145921.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437393",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "The Toilet of Bathsheba",
+      "date": "1643",
+      "begin": 1643,
+      "end": 1643,
+      "medium": "Oil on wood",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Bequest of Benjamin Altman, 1913",
+      "accession": "14.40.651",
+      "source": "http://www.metmuseum.org/art/collection/search/437393",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145915.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437394",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Aristotle with a Bust of Homer",
+      "date": "1653",
+      "begin": 1653,
+      "end": 1653,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Purchase, special contributions and funds given or bequeathed by friends of the Museum, 1961",
+      "accession": "61.198",
+      "source": "http://www.metmuseum.org/art/collection/search/437394",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-30758-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437395",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "The Standard Bearer (Floris Soop, 1604–1657)",
+      "date": "1654",
+      "begin": 1654,
+      "end": 1654,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.35",
+      "source": "http://www.metmuseum.org/art/collection/search/437395",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP121330.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437396",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Hendrickje Stoffels (1626–1663)",
+      "date": "mid-1650s",
+      "begin": 1654,
+      "end": 1656,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Gift of Archer M. Huntington, in memory of his father, Collis Potter Huntington, 1926",
+      "accession": "26.101.9",
+      "source": "http://www.metmuseum.org/art/collection/search/437396",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145920.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437397",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Self-Portrait",
+      "date": "1660",
+      "begin": 1660,
+      "end": 1660,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Bequest of Benjamin Altman, 1913",
+      "accession": "14.40.618",
+      "source": "http://www.metmuseum.org/art/collection/search/437397",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-16323-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437398",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Flora",
+      "date": "ca. 1654",
+      "begin": 1649,
+      "end": 1659,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Gift of Archer M. Huntington, in memory of his father, Collis Potter Huntington, 1926",
+      "accession": "26.101.10",
+      "source": "http://www.metmuseum.org/art/collection/search/437398",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP120785.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437399",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Man with a Magnifying Glass",
+      "date": "early 1660s",
+      "begin": 1660,
+      "end": 1663,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Bequest of Benjamin Altman, 1913",
+      "accession": "14.40.621",
+      "source": "http://www.metmuseum.org/art/collection/search/437399",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145909.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437400",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of a Man",
+      "date": "ca. 1655–60",
+      "begin": 1655,
+      "end": 1660,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Marquand Collection, Gift of Henry G. Marquand, 1890",
+      "accession": "91.26.7",
+      "source": "http://www.metmuseum.org/art/collection/search/437400",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145947.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437401",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of a Man Holding Gloves",
+      "date": "1648",
+      "begin": 1648,
+      "end": 1648,
+      "medium": "Oil on wood",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Bequest of Benjamin Altman, 1913",
+      "accession": "14.40.620",
+      "source": "http://www.metmuseum.org/art/collection/search/437401",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP120783.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437402",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Woman with a Pink",
+      "date": "early 1660s",
+      "begin": 1660,
+      "end": 1663,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Bequest of Benjamin Altman, 1913",
+      "accession": "14.40.622",
+      "source": "http://www.metmuseum.org/art/collection/search/437402",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145910.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437417",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Lieven Willemsz van Coppenol (born about 1599, died 1671 or later)",
+      "date": "",
+      "begin": 1626,
+      "end": 1669,
+      "medium": "Oil on oak",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Bequest of Mary Stillman Harkness, 1950",
+      "accession": "50.145.33",
+      "source": "http://www.metmuseum.org/art/collection/search/437417",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP146489.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437523",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Atalanta and Meleager",
+      "date": "ca. 1616",
+      "begin": 1611,
+      "end": 1621,
+      "medium": "Oil on wood",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Fletcher Fund, 1944",
+      "accession": "44.22",
+      "source": "http://www.metmuseum.org/art/collection/search/437523",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP261342.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437524",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Coronation of the Virgin",
+      "date": "ca. 1632–33",
+      "begin": 1632,
+      "end": 1633,
+      "medium": "Oil on wood",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bequest of Scofield Thayer, 1982",
+      "accession": "1984.433.336",
+      "source": "http://www.metmuseum.org/art/collection/search/437524",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT7932.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437526",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "A Forest at Dawn with a Deer Hunt",
+      "date": "ca. 1635",
+      "begin": 1630,
+      "end": 1640,
+      "medium": "Oil on wood",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Purchase, The Annenberg Foundation, Mrs. Charles Wrightsman, Michel David-Weill, The Dillon Fund, Henry J. and Drue Heinz Foundation, Lola Kramarsky, Annette de la Renta, Mr. and Mrs. Arthur Ochs Sulzberger, The Vincent Astor Foundation, and Peter J. Sharp Gifts; special funds, gifts, and other gifts and bequests, by exchange, 1990",
+      "accession": "1990.196",
+      "source": "http://www.metmuseum.org/art/collection/search/437526",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25739-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437527",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Glorification of the Eucharist",
+      "date": "ca. 1630–32",
+      "begin": 1630,
+      "end": 1632,
+      "medium": "Oil on wood",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bequest of Ogden Mills, 1929",
+      "accession": "37.160.12",
+      "source": "http://www.metmuseum.org/art/collection/search/437527",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-18296-021.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437528",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Holy Family with Saints Francis and Anne and the Infant Saint John the Baptist",
+      "date": "early or mid-1630s",
+      "begin": 1630,
+      "end": 1636,
+      "medium": "Oil on canvas",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Gift of James Henry Smith, 1902",
+      "accession": "02.24",
+      "source": "http://www.metmuseum.org/art/collection/search/437528",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17640-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437529",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Holy Family with Saint Elizabeth, Saint John, and a Dove",
+      "date": "ca. 1608–9",
+      "begin": 1608,
+      "end": 1609,
+      "medium": "Oil on oak",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bequest of Ada Small Moore, 1955",
+      "accession": "55.135.1",
+      "source": "http://www.metmuseum.org/art/collection/search/437529",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-37758-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437530",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Portrait of a Man, Possibly an Architect or Geographer",
+      "date": "1597",
+      "begin": 1597,
+      "end": 1597,
+      "medium": "Oil on copper",
+      "attribution": "Peter Paul Rubens",
+      "credit": "The Jack and Belle Linsky Collection, 1982",
+      "accession": "1982.60.24",
+      "source": "http://www.metmuseum.org/art/collection/search/437530",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT8854.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437531",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Portrait of a Woman, Probably Susanna Lunden (Susanna Fourment, 1599–1628)",
+      "date": "ca. 1625–27",
+      "begin": 1625,
+      "end": 1627,
+      "medium": "Oil on wood",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Gift of Mr. and Mrs. Charles Wrightsman, 1976",
+      "accession": "1976.218",
+      "source": "http://www.metmuseum.org/art/collection/search/437531",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-20395-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437532",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Rubens, Helena Fourment (1614–1673), and Their Son Frans (1633–1678)",
+      "date": "ca. 1635",
+      "begin": 1630,
+      "end": 1640,
+      "medium": "Oil on wood",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Gift of Mr. and Mrs. Charles Wrightsman, in honor of Sir John Pope-Hennessy, 1981",
+      "accession": "1981.238",
+      "source": "http://www.metmuseum.org/art/collection/search/437532",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-14286-003.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437533",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Study of Two Heads",
+      "date": "ca. 1609",
+      "begin": 1604,
+      "end": 1614,
+      "medium": "Oil on wood",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Bequest of Miss Adelaide Milton de Groot (1876-1967), 1967",
+      "accession": "67.187.99",
+      "source": "http://www.metmuseum.org/art/collection/search/437533",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP104990.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437534",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "The Triumph of Henry IV",
+      "date": "ca. 1630",
+      "begin": 1625,
+      "end": 1635,
+      "medium": "Oil on wood",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Rogers Fund, 1942",
+      "accession": "42.187",
+      "source": "http://www.metmuseum.org/art/collection/search/437534",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5154.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437535",
+      "artistIds": [
+        "rubens"
+      ],
+      "title": "Venus and Adonis",
+      "date": "probably mid-1630s",
+      "begin": 1634,
+      "end": 1636,
+      "medium": "Oil on canvas",
+      "attribution": "Peter Paul Rubens",
+      "credit": "Gift of Harry Payne Bingham, 1937",
+      "accession": "37.162",
+      "source": "http://www.metmuseum.org/art/collection/search/437535",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DT2737.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437675",
+      "artistIds": [
+        "martini"
+      ],
+      "title": "Saint Andrew",
+      "date": "ca. 1326",
+      "begin": 1321,
+      "end": 1331,
+      "medium": "Tempera on wood, gold ground",
+      "attribution": "Simone Martini",
+      "credit": "Gift of George Blumenthal, 1941",
+      "accession": "41.100.23",
+      "source": "http://www.metmuseum.org/art/collection/search/437675",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP343101.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437823",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Filippo Archinto (born about 1500, died 1558), Archbishop of Milan",
+      "date": "mid-1550s",
+      "begin": 1554,
+      "end": 1556,
+      "medium": "Oil on canvas",
+      "attribution": "Titian (Tiziano Vecellio)",
+      "credit": "Bequest of Benjamin Altman, 1913",
+      "accession": "14.40.650",
+      "source": "http://www.metmuseum.org/art/collection/search/437823",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25977-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437824",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Madonna and Child",
+      "date": "ca. 1508",
+      "begin": 1503,
+      "end": 1513,
+      "medium": "Oil on wood",
+      "attribution": "Titian (Tiziano Vecellio)",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.15",
+      "source": "http://www.metmuseum.org/art/collection/search/437824",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-17398-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437825",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Portrait of a Man",
+      "date": "ca. 1515",
+      "begin": 1510,
+      "end": 1520,
+      "medium": "Oil on canvas",
+      "attribution": "Titian (Tiziano Vecellio)",
+      "credit": "Bequest of Benjamin Altman, 1913",
+      "accession": "14.40.640",
+      "source": "http://www.metmuseum.org/art/collection/search/437825",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-23080-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437826",
+      "artistIds": [
+        "titian"
+      ],
+      "title": "Venus and Adonis",
+      "date": "1550s",
+      "begin": 1550,
+      "end": 1559,
+      "medium": "Oil on canvas",
+      "attribution": "Titian (Tiziano Vecellio)",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.16",
+      "source": "http://www.metmuseum.org/art/collection/search/437826",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-19299-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437877",
+      "artistIds": [
+        "vermeer"
+      ],
+      "title": "Allegory of the Catholic Faith",
+      "date": "ca. 1670–72",
+      "begin": 1670,
+      "end": 1672,
+      "medium": "Oil on canvas",
+      "attribution": "Johannes Vermeer",
+      "credit": "The Friedsam Collection, Bequest of Michael Friedsam, 1931",
+      "accession": "32.100.18",
+      "source": "http://www.metmuseum.org/art/collection/search/437877",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP145924.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437878",
+      "artistIds": [
+        "vermeer"
+      ],
+      "title": "A Maid Asleep",
+      "date": "ca. 1656–57",
+      "begin": 1656,
+      "end": 1657,
+      "medium": "Oil on canvas",
+      "attribution": "Johannes Vermeer",
+      "credit": "Bequest of Benjamin Altman, 1913",
+      "accession": "14.40.611",
+      "source": "http://www.metmuseum.org/art/collection/search/437878",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP355525.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437879",
+      "artistIds": [
+        "vermeer"
+      ],
+      "title": "Study of a Young Woman",
+      "date": "ca. 1665–67",
+      "begin": 1665,
+      "end": 1667,
+      "medium": "Oil on canvas",
+      "attribution": "Johannes Vermeer",
+      "credit": "Gift of Mr. and Mrs. Charles Wrightsman, in memory of Theodore Rousseau Jr., 1979",
+      "accession": "1979.396.1",
+      "source": "http://www.metmuseum.org/art/collection/search/437879",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353256.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437880",
+      "artistIds": [
+        "vermeer"
+      ],
+      "title": "Young Woman with a Lute",
+      "date": "ca. 1662–63",
+      "begin": 1662,
+      "end": 1663,
+      "medium": "Oil on canvas",
+      "attribution": "Johannes Vermeer",
+      "credit": "Bequest of Collis P. Huntington, 1900",
+      "accession": "25.110.24",
+      "source": "http://www.metmuseum.org/art/collection/search/437880",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP354965.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437881",
+      "artistIds": [
+        "vermeer"
+      ],
+      "title": "Young Woman with a Water Pitcher",
+      "date": "ca. 1662",
+      "begin": 1657,
+      "end": 1667,
+      "medium": "Oil on canvas",
+      "attribution": "Johannes Vermeer",
+      "credit": "Marquand Collection, Gift of Henry G. Marquand, 1889",
+      "accession": "89.15.21",
+      "source": "http://www.metmuseum.org/art/collection/search/437881",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP353257.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437925",
+      "artistIds": [
+        "watteau"
+      ],
+      "title": "The French Comedians",
+      "date": "ca. 1720",
+      "begin": 1715,
+      "end": 1725,
+      "medium": "Oil on canvas",
+      "attribution": "Antoine Watteau",
+      "credit": "The Jules Bache Collection, 1949",
+      "accession": "49.7.54",
+      "source": "http://www.metmuseum.org/art/collection/search/437925",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP120381.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437926",
+      "artistIds": [
+        "watteau"
+      ],
+      "title": "Mezzetin",
+      "date": "ca. 1718–20",
+      "begin": 1718,
+      "end": 1720,
+      "medium": "Oil on canvas",
+      "attribution": "Antoine Watteau",
+      "credit": "Munsey Fund, 1934",
+      "accession": "34.138",
+      "source": "http://www.metmuseum.org/art/collection/search/437926",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP170811.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-437986",
+      "artistIds": [
+        "caravaggio"
+      ],
+      "title": "The Denial of Saint Peter",
+      "date": "1610",
+      "begin": 1610,
+      "end": 1610,
+      "medium": "Oil on canvas",
+      "attribution": "Caravaggio (Michelangelo Merisi)",
+      "credit": "Gift of Herman and Lila Shickman, and Purchase, Lila Acheson Wallace Gift, 1997",
+      "accession": "1997.167",
+      "source": "http://www.metmuseum.org/art/collection/search/437986",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-12413-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-438028",
+      "artistIds": [
+        "uccello"
+      ],
+      "title": "The Crucifixion",
+      "date": "probably mid-1450s",
+      "begin": 1453,
+      "end": 1457,
+      "medium": "Tempera on wood, gold ground",
+      "attribution": "Paolo Uccello (Paolo di Dono)",
+      "credit": "Bequest of Lore Heinemann, in memory of her husband, Dr. Rudolf J. Heinemann, 1996",
+      "accession": "1997.117.9",
+      "source": "http://www.metmuseum.org/art/collection/search/438028",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP-25222-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-438754",
+      "artistIds": [
+        "duccio"
+      ],
+      "title": "Madonna and Child",
+      "date": "ca. 1290–1300",
+      "begin": 1290,
+      "end": 1300,
+      "medium": "Tempera and gold on wood",
+      "attribution": "Duccio di Buoninsegna",
+      "credit": "Purchase, Rogers Fund, Walter and Leonore Annenberg and The Annenberg Foundation Gift, Lila Acheson Wallace Gift, Annette de la Renta Gift, Harris Brisbane Dick, Fletcher, Louis V. Bell, and Dodge Funds, Joseph Pulitzer Bequest, several members of The Chairman's Council Gifts, Elaine L. Rosenberg and Stephenson Family Foundation Gifts, 2003 Benefit Fund, and other gifts and funds from various donors, 2004",
+      "accession": "2004.442",
+      "source": "http://www.metmuseum.org/art/collection/search/438754",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/ep/web-large/DP142735.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-458953",
+      "artistIds": [
+        "martini"
+      ],
+      "title": "Saint Ansanus",
+      "date": "ca. 1326",
+      "begin": 1323,
+      "end": 1329,
+      "medium": "Tempera on wood, gold ground",
+      "attribution": "Simone Martini",
+      "credit": "Robert Lehman Collection, 1975",
+      "accession": "1975.1.13",
+      "source": "http://www.metmuseum.org/art/collection/search/458953",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/rl/web-large/DP-29455-001.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-459023",
+      "artistIds": [
+        "bellini"
+      ],
+      "title": "Madonna and Child",
+      "date": "ca. 1470",
+      "begin": 1467,
+      "end": 1473,
+      "medium": "Tempera, oil, and gold on wood",
+      "attribution": "Giovanni Bellini",
+      "credit": "Robert Lehman Collection, 1975",
+      "accession": "1975.1.81",
+      "source": "http://www.metmuseum.org/art/collection/search/459023",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/rl/web-large/SLP0081.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-459082",
+      "artistIds": [
+        "rembrandt"
+      ],
+      "title": "Portrait of Gerard de Lairesse",
+      "date": "1665–67",
+      "begin": 1663,
+      "end": 1669,
+      "medium": "Oil on canvas",
+      "attribution": "Rembrandt (Rembrandt van Rijn)",
+      "credit": "Robert Lehman Collection, 1975",
+      "accession": "1975.1.140",
+      "source": "http://www.metmuseum.org/art/collection/search/459082",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/rl/web-large/DP121332.jpg",
+      "imageLicense": "CC0"
+    },
+    {
+      "id": "met-459136",
+      "artistIds": [
+        "martini"
+      ],
+      "title": "Madonna and Child",
+      "date": "ca. 1326",
+      "begin": 1323,
+      "end": 1329,
+      "medium": "Tempera on wood, gold ground",
+      "attribution": "Simone Martini",
+      "credit": "Robert Lehman Collection, 1975",
+      "accession": "1975.1.12",
+      "source": "http://www.metmuseum.org/art/collection/search/459136",
+      "museum": "met",
+      "image": "https://images.metmuseum.org/CRDImages/rl/web-large/DP-29454-001.jpg",
       "imageLicense": "CC0"
     },
     {

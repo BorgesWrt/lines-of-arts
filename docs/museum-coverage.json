@@ -1,28 +1,29 @@
 {
-  "updated": "2026-10-07",
-  "total": 303,
+  "updated": "2026-10-08",
+  "total": 391,
   "sources": [
     "https://github.com/NationalGalleryOfArt/opendata",
     "https://openaccess-api.clevelandart.org/",
     "https://api.artic.edu/docs/",
-    "https://www.nationalgallery.org.uk/documentation/ngacuk/licences"
+    "https://www.nationalgallery.org.uk/documentation/ngacuk/licences",
+    "https://github.com/metmuseum/openaccess"
   ],
   "artists": [
     {
       "id": "giotto",
-      "records": 1
+      "records": 2
     },
     {
       "id": "duccio",
-      "records": 6
+      "records": 7
     },
     {
       "id": "martini",
-      "records": 6
+      "records": 9
     },
     {
       "id": "uccello",
-      "records": 2
+      "records": 3
     },
     {
       "id": "masaccio",
@@ -30,7 +31,7 @@
     },
     {
       "id": "lippi",
-      "records": 10
+      "records": 13
     },
     {
       "id": "piero",
@@ -46,11 +47,11 @@
     },
     {
       "id": "ghirlandaio",
-      "records": 4
+      "records": 7
     },
     {
       "id": "filippino",
-      "records": 11
+      "records": 12
     },
     {
       "id": "perugino",
@@ -66,11 +67,11 @@
     },
     {
       "id": "raphael",
-      "records": 15
+      "records": 17
     },
     {
       "id": "bellini",
-      "records": 20
+      "records": 23
     },
     {
       "id": "giorgione",
@@ -78,7 +79,7 @@
     },
     {
       "id": "titian",
-      "records": 26
+      "records": 30
     },
     {
       "id": "eyck",
@@ -86,11 +87,11 @@
     },
     {
       "id": "durer",
-      "records": 4
+      "records": 7
     },
     {
       "id": "bruegel",
-      "records": 1
+      "records": 2
     },
     {
       "id": "pontormo",
@@ -102,11 +103,11 @@
     },
     {
       "id": "bronzino",
-      "records": 8
+      "records": 9
     },
     {
       "id": "gentile",
-      "records": 3
+      "records": 4
     },
     {
       "id": "pisanello",
@@ -114,15 +115,15 @@
     },
     {
       "id": "caravaggio",
-      "records": 4
+      "records": 6
     },
     {
       "id": "artemisia",
-      "records": 2
+      "records": 3
     },
     {
       "id": "rubens",
-      "records": 34
+      "records": 46
     },
     {
       "id": "velazquez",
@@ -130,23 +131,23 @@
     },
     {
       "id": "rembrandt",
-      "records": 37
+      "records": 57
     },
     {
       "id": "vermeer",
-      "records": 5
+      "records": 10
     },
     {
       "id": "watteau",
-      "records": 5
+      "records": 7
     },
     {
       "id": "boucher",
-      "records": 14
+      "records": 23
     },
     {
       "id": "fragonard",
-      "records": 16
+      "records": 25
     }
   ],
   "requests": [

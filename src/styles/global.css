@@ -77,3 +77,24 @@
 
 /* Hide the hosting badge and its associated promotional card. */
 #nl-badge, .nl-badge, #nl-card { display: none !important; }
+/* Artwork panels follow the image proportions instead of a fixed frame. */
+.dialog-backdrop.painting .dialog.drawer,.dialog-backdrop.artist .dialog.drawer{width:min(880px,calc(100vw - 40px))}
+.artwork-presentation{margin:24px 28px 0;display:grid;gap:24px;align-items:start}
+.artwork-presentation figcaption{padding:4px 0 12px;min-width:0}
+.artwork-presentation h2{font-family:Prata,Georgia,serif;font-size:29px;font-weight:400;line-height:1.35;margin:0 0 14px;color:var(--text)}
+.artwork-presentation p{font-size:14px;line-height:1.7;color:var(--secondary);margin:0 0 12px}
+.artwork-presentation figcaption>span{font-size:12px;line-height:1.7;color:var(--quiet)}
+.presentation-image{min-width:0;border-radius:10px;overflow:hidden;background:var(--field)}
+.presentation-image img{display:block;width:100%;height:auto;object-fit:contain}
+.presentation-image .image-fallback{min-height:160px}
+.artwork-presentation.portrait{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}
+.artwork-presentation.portrait figcaption{grid-column:2;grid-row:1;padding-top:20px}
+.artwork-presentation.portrait .presentation-image{grid-column:1;grid-row:1}
+.dialog-content>.artwork-presentation{margin:0 0 30px}
+.work-miniature{width:184px;height:86px;padding:10px;gap:10px;transform:translateX(-50%) scale(.94);transform-origin:top center;transition:transform .2s,box-shadow .2s,border-color .2s}
+.work-miniature:hover,.work-miniature:focus-visible{transform:translateX(-50%) scale(1);box-shadow:0 9px 24px #0003;z-index:4}
+.work-miniature>img{width:48px;height:62px;object-fit:contain;background:var(--field)}
+.work-miniature>span{min-width:0;flex:1}.work-miniature strong{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.museum-card-image img{transition:transform .25s;transform:scale(.94)}.museum-card:hover .museum-card-image img{transform:scale(1)}
+@media(max-width:650px){.dialog-backdrop.painting .dialog.drawer,.dialog-backdrop.artist .dialog.drawer{width:calc(100vw - 16px)}.artwork-presentation{margin:18px 22px 0;gap:16px}.artwork-presentation h2{font-size:23px}.artwork-presentation.portrait{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:14px}.artwork-presentation.portrait h2{font-size:18px}.artwork-presentation.portrait figcaption{padding-top:0}.artwork-presentation.portrait p{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.work-miniature,.museum-card-image img{transition:none}}

@@ -59,5 +59,7 @@ if(report.some(r=>r.status==='error')){
 await writeFile(join(cache,'combined-api-index.json'),JSON.stringify({updated:new Date().toISOString().slice(0,10),records:unique},null,2)+'\n');
 await writeFile(join(cache,'api-coverage.json'),JSON.stringify(report));
 console.log('Imported',unique.length,'paintings; images remain on museum servers.');
+const met=spawnSync(process.execPath,['scripts/collect-met.mjs',...(process.argv.includes('--refresh')?['--refresh']:[])],{stdio:'inherit'});
+if(met.status!==0)throw Error('Met import failed; published catalogue was preserved.');
 const london=spawnSync(process.execPath,['scripts/collect-london.mjs',...(process.argv.includes('--refresh')?['--refresh']:[])],{stdio:'inherit'});
 if(london.status!==0)throw Error('London import failed; published catalogue was preserved.');
