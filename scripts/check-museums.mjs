@@ -1,5 +1,7 @@
 import assert from 'node:assert/strict';
 import {workTooltip} from '../src/utils/work-tooltip.js';
+import {movementDensity} from '../src/utils/movement-density.js';
+import {movements} from '../src/data/content.js';
 import snapshot from '../src/data/museum-catalog.json' with {type:'json'};
 import {museumPaintings,allPaintings,timelinePaintings,museums} from '../src/utils/museum-catalog.js';
 import {artists} from '../src/data/artists.js';
@@ -21,6 +23,15 @@ for(const a of artists)assert.ok(snapshot.records.some(p=>p.artistIds.includes(a
 assert.equal(new Set(allPaintings.map(p=>p.id)).size,allPaintings.length);
 assert.ok(timelinePaintings.filter(p=>p.movement==='high').length>=30,'High Renaissance museum works must be present on the timeline');
 assert.ok(timelinePaintings.every(p=>Number.isFinite(p.year)&&p.year>=1250&&p.year<=1800),'Undated museum records must not receive invented dates');
+const spectrum=movementDensity(movements,timelinePaintings);
+for(const movement of movements){
+ const lane=spectrum.groups.get(movement.id);
+ assert.equal(lane.bins.reduce((sum,b)=>sum+b.count,0),timelinePaintings.filter(p=>p.movement===movement.id).length,'Density must count actual records without loss');
+ assert.ok(lane.start<=movement.start&&lane.end>=movement.end);
+ for(const bin of lane.bins){assert.ok(bin.start>=lane.start&&bin.end<=lane.end,'The track must reach every density bin');assert.equal(bin.end-bin.start,10);}
+}
+const outside=movementDensity([{id:'test',start:1490,end:1520}],[{id:'a',movement:'test',year:1483},{id:'b',movement:'test',year:1531}]).groups.get('test');
+assert.equal(outside.start,1480);assert.equal(outside.end,1540);
 assert.ok(museumPaintings.every(p=>!paintings.some(old=>old.source===p.source)),'Curated source duplicates must retain original IDs');
 const p=museumPaintings[0];const saved=toggleFavorite(emptyFavorites(),'paintings',p.id);
 for(const painting of allPaintings){

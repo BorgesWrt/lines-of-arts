@@ -20,10 +20,10 @@ export function makeLayout(movements, artists, level, rowSpacing, expanded, comp
     const members = artists.filter(a => a.movement === movement.id);
     const header = cursor - 32;
     if (level === 'overview' || (expanded && !expanded.includes(movement.id))) {
-      const line = cursor + 16;
+      const line = cursor + 40;
       members.forEach(artist => rows.set(artist.id, line));
       groups.push({ movement, y: line, header, members, openness: 0 });
-      cursor += (level === 'overview' ? compactSpacing : 78) + 16;
+      cursor += (level === 'overview' ? compactSpacing : 78) + 40;
     } else {
       const first = cursor + 20;
       const spacing = rowSpacing ?? (level === 'works' ? 126 : 74);

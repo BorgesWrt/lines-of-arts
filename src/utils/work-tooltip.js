@@ -1,5 +1,6 @@
 export function workTooltip(hover, paintings) {
   if (!hover) return null;
+  if (hover.kind === 'density') return {title:`${hover.title} · ${hover.from}–${hover.to}`,description:`Плотность работ: ${hover.count}`};
   if (hover.count > 1) return {
     title: `${hover.count} близкие работы`,
     description: hover.artistId ? 'Открыть работы художника' : 'Приблизить направление',

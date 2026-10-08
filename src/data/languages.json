@@ -681,7 +681,11 @@
     "These are available records from five collections, not a complete catalogue of all known works.": "Son registros disponibles de cinco colecciones, no un catálogo completo de todas las obras conocidas.",
     "Learning images and fonts are stored locally. Museum catalogue images load from museum servers. No registration or analytics.": "Las imágenes educativas y las fuentes se guardan localmente. Las imágenes del catálogo se cargan desde los servidores de los museos. Sin registro ni analítica.",
     "Additional records: ": "Registros adicionales: ",
-    " museum records. Updated: ": " registros de museos. Actualizado: "
+    " museum records. Updated: ": " registros de museos. Actualizado: ",
+    "Work density": "Densidad de obras",
+    "Work density:": "Densidad de obras:",
+    "Movement period": "Periodo del movimiento",
+    "Outside period": "Fuera del periodo"
   },
   "de": {
     "1333": "1333",
@@ -1365,6 +1369,10 @@
     "These are available records from five collections, not a complete catalogue of all known works.": "Dies sind verfügbare Einträge aus fünf Sammlungen, kein vollständiger Katalog aller bekannten Werke.",
     "Learning images and fonts are stored locally. Museum catalogue images load from museum servers. No registration or analytics.": "Lernabbildungen und Schriften sind lokal gespeichert. Katalogbilder werden von Museumsservern geladen. Keine Registrierung oder Analyse.",
     "Additional records: ": "Zusätzliche Einträge: ",
-    " museum records. Updated: ": " Museumseinträge. Aktualisiert: "
+    " museum records. Updated: ": " Museumseinträge. Aktualisiert: ",
+    "Work density": "Werkdichte",
+    "Work density:": "Werkdichte:",
+    "Movement period": "Zeitraum der Richtung",
+    "Outside period": "Außerhalb des Zeitraums"
   }
 }

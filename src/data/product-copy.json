@@ -160,5 +160,29 @@
     " museum records. Updated: ",
     " registros de museos. Actualizado: ",
     " Museumseinträge. Aktualisiert: "
+  ],
+  [
+    "Плотность работ",
+    "Work density",
+    "Densidad de obras",
+    "Werkdichte"
+  ],
+  [
+    "Плотность работ:",
+    "Work density:",
+    "Densidad de obras:",
+    "Werkdichte:"
+  ],
+  [
+    "Период направления",
+    "Movement period",
+    "Periodo del movimiento",
+    "Zeitraum der Richtung"
+  ],
+  [
+    "Вне периода",
+    "Outside period",
+    "Fuera del periodo",
+    "Außerhalb des Zeitraums"
   ]
 ]

@@ -98,3 +98,11 @@
 .museum-card-image img{transition:transform .25s;transform:scale(.94)}.museum-card:hover .museum-card-image img{transform:scale(1)}
 @media(max-width:650px){.dialog-backdrop.painting .dialog.drawer,.dialog-backdrop.artist .dialog.drawer{width:calc(100vw - 16px)}.artwork-presentation{margin:18px 22px 0;gap:16px}.artwork-presentation h2{font-size:23px}.artwork-presentation.portrait{grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:14px}.artwork-presentation.portrait h2{font-size:18px}.artwork-presentation.portrait figcaption{padding-top:0}.artwork-presentation.portrait p{font-size:12px}}
 @media(prefers-reduced-motion:reduce){.work-miniature,.museum-card-image img{transition:none}}
+.spectrum-bin{position:absolute;z-index:2;padding:0;border:0;background:transparent;display:flex;justify-content:center;align-items:flex-start;transform:translateX(-50%);border-radius:3px;color:var(--color)}
+.spectrum-bin>i{display:block;width:var(--bar-width);height:var(--bar-height);border-radius:2px;background:var(--color);opacity:.82;transition:opacity .15s,filter .15s}
+.spectrum-bin.outside>i{opacity:.35}.spectrum-bin:hover>i,.spectrum-bin:focus-visible>i{opacity:1;filter:brightness(1.2)}
+.density-symbol{width:16px;height:12px;display:inline-block;background:linear-gradient(var(--quiet),var(--quiet)) 0 7px/3px 5px no-repeat,linear-gradient(var(--quiet),var(--quiet)) 6px 0/3px 12px no-repeat,linear-gradient(var(--quiet),var(--quiet)) 12px 4px/3px 8px no-repeat}
+.period-symbol{display:inline-block;width:20px;height:3px;background:var(--quiet);border-radius:2px}.tail-symbol{display:inline-block;width:20px;height:0;border-top:1px dashed var(--quiet)}
+.canvas-legend{flex-wrap:wrap;row-gap:7px}
+@media(max-width:900px){.canvas-legend .period-symbol,.canvas-legend .tail-symbol{display:none}.canvas-legend>span:has(.period-symbol),.canvas-legend>span:has(.tail-symbol){display:none}}
+@media(prefers-reduced-motion:reduce){.spectrum-bin>i{transition:none}}
