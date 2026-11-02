@@ -132,3 +132,7 @@
  .canvas-bottom{padding:10px 16px calc(10px + env(safe-area-inset-bottom));gap:4px 10px;min-height:64px}.canvas-bottom>button{min-height:30px;font-size:11px}.canvas-bottom .touch-instruction{font-size:10px}.vertical-control{right:2px;bottom:145px;width:16px}.vertical-control input{width:16px}
 }
 @media(max-width:360px){.atlas-header{padding-left:10px;padding-right:10px}.brand>span:last-child{font-size:14px}.favorite-tabs button{font-size:10px;gap:4px}.dialog-content .gallery,.museum-grid{grid-template-columns:1fr}.contact-email{font-size:14px}}
+
+/* Keep scrolling artwork below the fixed navigation and year ruler. */
+.canvas-lines,.connection-layer{clip-path:inset(77px 0 0)}
+.year-ruler{background:var(--canvas-base);z-index:4}.canvas-topbar::before{content:"";position:absolute;z-index:-1;inset:-20px -40px auto;height:70px;background:var(--canvas-base)}.canvas-topbar{z-index:5}

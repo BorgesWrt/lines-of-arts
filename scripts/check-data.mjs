@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { readFile, stat } from 'node:fs/promises';
 import { paintings, movements } from '../src/data/content.js';
 import { artists, relations } from '../src/data/artists.js';
+import {allPaintings} from '../src/utils/museum-catalog.js';
 import {keyWorks} from '../src/data/additional-works.js';
 import { detailLevel, pixelsPerYear, zoomAt, yearToX, makeLayout, clusterWorks } from '../src/utils/canvas-layout.js';
 const manifest = JSON.parse(await readFile(new URL('../src/data/image-manifest.json', import.meta.url), 'utf8'));
@@ -25,7 +26,7 @@ for (const artist of artists) {
 for (const p of paintings) {
   for(const id of p.artistIds){const a=artists.find(a=>a.id===id);assert.ok(a&&p.year>=a.start&&p.year<=a.end,'Painting outside artist timeline: '+p.id);}
 }
-for(const a of artists)assert.ok(paintings.filter(p=>p.artistIds.includes(a.id)).length>=2,'Every artist needs at least two works: '+a.id);
+for(const a of artists)assert.ok(allPaintings.filter(p=>p.artistIds.includes(a.id)).length>=2,'Every artist needs at least two works: '+a.id);
 for(const m of movements){assert.equal(keyWorks[m.id].length,3);for(const id of keyWorks[m.id])assert.ok(paintings.some(p=>p.id===id&&p.movement===m.id),'Invalid key work: '+id);}
 assert.deepEqual(paintings.find(p=>p.id==='verrocchio-baptism').artistIds,['verrocchio','leonardo']);
 for (const r of relations) {

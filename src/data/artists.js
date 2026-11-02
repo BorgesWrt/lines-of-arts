@@ -27,7 +27,74 @@ const renaissanceArtists = [
   { id: 'bronzino', name: 'Бронзино', movement: 'mannerism', start: 1503, end: 1572, date: '1503–1572', text: 'Ученик Понтормо и придворный живописец Медичи. Его портреты и аллегории отличаются сложной, тщательно построенной формой.', source: gallery('bronzino') },
 ];
 
-export const artists=[...renaissanceArtists,...adjacentArtists];
+const dutchCollectionArtists = [
+  {
+    "id": "aelbert-cuyp",
+    "name": "Альберт Кёйп",
+    "start": 1620,
+    "end": 1691,
+    "date": "1620–1691",
+    "movement": "dutch",
+    "text": "",
+    "source": "https://www.nationalgallery.org.uk/artists/aelbert-cuyp",
+    "english": {
+      "name": "Aelbert Cuyp"
+    }
+  },
+  {
+    "id": "frans-hals",
+    "name": "Франс Халс",
+    "start": 1582,
+    "end": 1666,
+    "date": "1582–1666",
+    "movement": "dutch",
+    "text": "",
+    "source": "https://www.nationalgallery.org.uk/artists/frans-hals",
+    "english": {
+      "name": "Frans Hals"
+    }
+  },
+  {
+    "id": "meindert-hobbema",
+    "name": "Мейндерт Хоббема",
+    "start": 1638,
+    "end": 1709,
+    "date": "1638–1709",
+    "movement": "dutch",
+    "text": "",
+    "source": "https://www.nationalgallery.org.uk/artists/meindert-hobbema",
+    "english": {
+      "name": "Meindert Hobbema"
+    }
+  },
+  {
+    "id": "jacob-van-ruisdael",
+    "name": "Якоб ван Рёйсдал",
+    "start": 1628,
+    "end": 1682,
+    "date": "1628–1682",
+    "movement": "dutch",
+    "text": "",
+    "source": "https://www.nationalgallery.org.uk/artists/jacob-van-ruisdael",
+    "english": {
+      "name": "Jacob van Ruisdael"
+    }
+  },
+  {
+    "id": "jan-steen",
+    "name": "Ян Стен",
+    "start": 1625,
+    "end": 1679,
+    "date": "1625–1679",
+    "movement": "dutch",
+    "text": "",
+    "source": "https://www.nationalgallery.org.uk/artists/jan-steen",
+    "english": {
+      "name": "Jan Steen"
+    }
+  }
+];
+export const artists=[...renaissanceArtists,...adjacentArtists,...dutchCollectionArtists];
 const renaissanceRelations = [
   { id: 'lippi-botticelli', from: 'lippi', to: 'botticelli', type: 'training', label: 'Учитель → ученик', text: 'Боттичелли обучался в мастерской Фра Филиппо Липпи.', source: gallery('sandro-botticelli'), status: 'confirmed' },
   { id: 'lippi-filippino', from: 'lippi', to: 'filippino', type: 'training', label: 'Учитель → ученик', text: 'Филиппино получил обучение в мастерской своего отца, Филиппо Липпи.', source: gallery('fra-filippo-lippi'), status: 'confirmed' },

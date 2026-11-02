@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-11-02",
   "records": [
     {
       "id": "nga-10",
@@ -7038,6 +7038,1572 @@
       "museum": "london",
       "image": null,
       "imageLicense": null
+    },
+    {
+      "id": "ngl-NG823",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "A Herdsman with Five Cows by a River",
+      "date": "About 1650-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Bought, 1871",
+      "accession": "NG823",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-a-herdsman-with-five-cows-by-a-river",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG53",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "A Hilly Landscape with Figures",
+      "date": "About 1655-60",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Bought, 1824",
+      "accession": "NG53",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-a-hilly-landscape-with-figures",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG822",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "A Landscape with Horseman, Herders and Cattle",
+      "date": "Probably about 1655-60",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Bought, 1871",
+      "accession": "NG822",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-a-landscape-with-horseman-herders-and-cattle",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2545",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "A River Scene with Distant Windmills",
+      "date": "About 1640-2",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2545",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-a-river-scene-with-distant-windmills",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1289",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "Peasants and Cattle by the River Merwede",
+      "date": "About 1658-60",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Bequeathed by John Staniforth Beckett, 1889",
+      "accession": "NG1289",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-peasants-and-cattle-by-the-river-merwede",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG797",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "Portrait of Cornelis van Someren",
+      "date": "1649",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Bought, 1869",
+      "accession": "NG797",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-portrait-of-cornelis-van-someren",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6522",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "River Landscape with Horseman and Peasants",
+      "date": "About 1658-60",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Bought with the assistance of the National Heritage Memorial Fund and the Art Fund, 1989",
+      "accession": "NG6522",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-river-landscape-with-horseman-and-peasants",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG961",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "The Large Dort",
+      "date": "About 1650",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Wynn Ellis Bequest, 1876",
+      "accession": "NG961",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-the-large-dort",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6405",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "The Maas at Dordrecht in a Storm",
+      "date": "About 1645-50",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Presented by the Misses Rachel F. and Jean I. Alexander; entered the Collection, 1972",
+      "accession": "NG6405",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-the-maas-at-dordrecht-in-a-storm",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG962",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "The Small Dort",
+      "date": "About 1650-2",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Wynn Ellis Bequest, 1876",
+      "accession": "NG962",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-the-small-dort",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG824",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "Ubbergen Castle",
+      "date": "About 1655",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Bought, 1871",
+      "accession": "NG824",
+      "source": "https://www.nationalgallery.org.uk/paintings/aelbert-cuyp-ubbergen-castle",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2285",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "A Family Group in a Landscape",
+      "date": "About 1647-50",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Bought from Lord Talbot of Malahide, Malahide Castle, near Dublin, 1908",
+      "accession": "NG2285",
+      "source": "https://www.nationalgallery.org.uk/paintings/frans-hals-a-family-group-in-a-landscape",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2528",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of a Man holding Gloves",
+      "date": "About 1645",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2528",
+      "source": "https://www.nationalgallery.org.uk/paintings/frans-hals-portrait-of-a-man-holding-gloves",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1251",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of a Man in his Thirties",
+      "date": "1633",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Presented by Miss Emily Jane Wood at the wish of her uncle, Decimus Burton, 1888",
+      "accession": "NG1251",
+      "source": "https://www.nationalgallery.org.uk/paintings/frans-hals-portrait-of-a-man-in-his-thirties",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1021",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of a Middle-Aged Woman with Hands Folded",
+      "date": "About 1635-40",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Bought (Lewis Fund), 1876",
+      "accession": "NG1021",
+      "source": "https://www.nationalgallery.org.uk/paintings/frans-hals-portrait-of-a-middle-aged-woman-with-hands-folded",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2529",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of a Woman with a Fan",
+      "date": "About 1640",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2529",
+      "source": "https://www.nationalgallery.org.uk/paintings/frans-hals-portrait-of-a-woman-with-a-fan",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6411",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of Jean de la Chambre at the Age of 33",
+      "date": "About 1638",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Frans Hals",
+      "credit": "Presented by the Misses Rachel F. and Jean I. Alexander; entered the Collection, 1972",
+      "accession": "NG6411",
+      "source": "https://www.nationalgallery.org.uk/paintings/frans-hals-portrait-of-jean-de-la-chambre-at-the-age-of-33",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6413",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of Marie Larp",
+      "date": "About 1635",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Presented by the Misses Rachel F. and Jean I. Alexander; entered the Collection, 1972",
+      "accession": "NG6413",
+      "source": "https://www.nationalgallery.org.uk/paintings/frans-hals-portrait-of-marie-larp",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6458",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Young Man holding a Skull (Vanitas)",
+      "date": "1626-8",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Bought, 1980",
+      "accession": "NG6458",
+      "source": "https://www.nationalgallery.org.uk/paintings/frans-hals-young-man-holding-a-skull-vanitas",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-L1344",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Young Woman with a Display of Fruit and Vegetables",
+      "date": "1630",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "On loan from a private collection",
+      "accession": "L1344",
+      "source": "https://www.nationalgallery.org.uk/paintings/frans-hals-young-woman-with-a-display-of-fruit-and-vegetables",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2571",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "A Road winding past Cottages",
+      "date": "About 1667-8",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Meindert Hobbema",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2571",
+      "source": "https://www.nationalgallery.org.uk/paintings/meindert-hobbema-a-road-winding-past-cottages",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG833",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "A Stream by a Wood",
+      "date": "About 1663",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Meindert Hobbema",
+      "credit": "Bought, 1871",
+      "accession": "NG833",
+      "source": "https://www.nationalgallery.org.uk/paintings/meindert-hobbema-a-stream-by-a-wood",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG685",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "A Woody Landscape",
+      "date": "About 1665",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Meindert Hobbema",
+      "credit": "Bought, 1862",
+      "accession": "NG685",
+      "source": "https://www.nationalgallery.org.uk/paintings/meindert-hobbema-a-woody-landscape",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG995",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "A Woody Landscape with a Cottage",
+      "date": "About 1665",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Meindert Hobbema",
+      "credit": "Wynn Ellis Bequest, 1876",
+      "accession": "NG995",
+      "source": "https://www.nationalgallery.org.uk/paintings/meindert-hobbema-a-woody-landscape-with-a-cottage",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2570",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "Cottages in a Wood",
+      "date": "About 1660",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Meindert Hobbema",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2570",
+      "source": "https://www.nationalgallery.org.uk/paintings/meindert-hobbema-cottages-in-a-wood",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG830",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "The Avenue at Middelharnis",
+      "date": "1689",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Meindert Hobbema",
+      "credit": "Bought, 1871",
+      "accession": "NG830",
+      "source": "https://www.nationalgallery.org.uk/paintings/meindert-hobbema-the-avenue-at-middelharnis",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6138",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "The Haarlem Lock, Amsterdam",
+      "date": "About 1663-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Meindert Hobbema",
+      "credit": "Bequeathed by Miss Beatrice Mildmay, 1953",
+      "accession": "NG6138",
+      "source": "https://www.nationalgallery.org.uk/paintings/meindert-hobbema-the-haarlem-lock-amsterdam",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG831",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "The Ruins of Brederode Castle",
+      "date": "1671",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Meindert Hobbema",
+      "credit": "Bought, 1871",
+      "accession": "NG831",
+      "source": "https://www.nationalgallery.org.uk/paintings/meindert-hobbema-the-ruins-of-brederode-castle",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG832",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "The Watermills at Singraven near Denekamp",
+      "date": "Probably 1665-70",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Meindert Hobbema",
+      "credit": "Bought, 1871",
+      "accession": "NG832",
+      "source": "https://www.nationalgallery.org.uk/paintings/meindert-hobbema-the-watermills-at-singraven-near-denekamp",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG44",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Bleaching Ground in a Hollow by a Cottage",
+      "date": "Probably 1645-50",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Bequeathed by Sir John May, 1854",
+      "accession": "NG44",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-bleaching-ground-in-a-hollow-by-a-cottage",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2565",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Cottage and a Hayrick by a River",
+      "date": "About 1646-50",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2565",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-cottage-and-a-hayrick-by-a-river",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG991",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Landscape with a Ruined Building",
+      "date": "About 1655",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Wynn Ellis Bequest, 1876",
+      "accession": "NG991",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-landscape-with-a-ruined-building",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG990",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Landscape with a Ruined Castle and a Church",
+      "date": "About 1665-70",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Wynn Ellis Bequest, 1876",
+      "accession": "NG990",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-landscape-with-a-ruined-castle-and-a-church",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG737",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Landscape with a Waterfall and a Castle on a Hill",
+      "date": "Probably 1660-70",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Bequeathed by Johann Moritz Oppenheim, 1864",
+      "accession": "NG737",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-landscape-with-a-waterfall-and-a-castle-on-a-hill",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-L1052",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Panoramic View of Amsterdam looking towards the IJ",
+      "date": "About 1665-70",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "On loan from a private collection",
+      "accession": "L1052",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-panoramic-view-of-amsterdam-looking-towards-the-ij",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG854",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Pool surrounded by Trees",
+      "date": "About 1665",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Bought, 1871",
+      "accession": "NG854",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-pool-surrounded-by-trees",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2563",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Road leading into a Wood",
+      "date": "About 1655-60",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2563",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-road-leading-into-a-wood",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG988",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Road winding between Trees towards a Distant Cottage",
+      "date": "Probably 1645-50",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Wynn Ellis Bequest, 1876",
+      "accession": "NG988",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-road-winding-between-trees-towards-a-distant-cottage",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2564",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Rocky Hill with Three Cottages, a Stream at its Foot",
+      "date": "Probably 1650-60",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2564",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-rocky-hill-with-three-cottages-a-stream-at-its-foot",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2562",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Ruined Castle Gateway",
+      "date": "About 1650-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak), later mounted on paper-fibre based board",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2562",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-ruined-castle-gateway",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG987",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Torrent in a Mountainous Landscape",
+      "date": "About 1665-70",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Wynn Ellis Bequest, 1876",
+      "accession": "NG987",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-torrent-in-a-mountainous-landscape",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG855",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Waterfall at the Foot of a Hill, near a Village",
+      "date": "Probably 1665-70",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Bought, 1871",
+      "accession": "NG855",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-waterfall-at-the-foot-of-a-hill-near-a-village",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG627",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "A Waterfall in a Rocky Landscape",
+      "date": "Probably 1660-70",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Bought, 1859",
+      "accession": "NG627",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-a-waterfall-in-a-rocky-landscape",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2561",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "An Extensive Landscape with Ruins",
+      "date": "Probably 1665-75",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2561",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-an-extensive-landscape-with-ruins",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG746",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "Ruins in a Dune Landscape",
+      "date": "Probably 1650-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Bought, 1865",
+      "accession": "NG746",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-ruins-in-a-dune-landscape",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1390",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "The Shore at Egmond-aan-Zee",
+      "date": "About 1675",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Bought, 1893",
+      "accession": "NG1390",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-the-shore-at-egmond-aan-zee",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG989",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "Three Watermills with Washerwomen",
+      "date": "About 1670",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Wynn Ellis Bequest, 1876",
+      "accession": "NG989",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-three-watermills-with-washerwomen",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG986",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "Two Watermills and an Open Sluice at Singraven",
+      "date": "About 1650-2",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Wynn Ellis Bequest, 1876",
+      "accession": "NG986",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-two-watermills-and-an-open-sluice-at-singraven",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2567",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "Vessels in a Fresh Breeze",
+      "date": "Probably about 1660-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2567",
+      "source": "https://www.nationalgallery.org.uk/paintings/jacob-van-ruisdael-vessels-in-a-fresh-breeze",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2555",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "A Man blowing Smoke at a Drunken Woman",
+      "date": "About 1660-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jan Steen",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2555",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-steen-a-man-blowing-smoke-at-a-drunken-woman",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2558",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "A Peasant Family at Meal-time ('Grace before Meat')",
+      "date": "About 1665",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jan Steen",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2558",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-steen-a-peasant-family-at-meal-time-grace-before-meat",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2556",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "A Pedlar selling Spectacles outside a Cottage",
+      "date": "About 1650-3",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jan Steen",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2556",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-steen-a-pedlar-selling-spectacles-outside-a-cottage",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG856",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "A Young Woman playing a Harpsichord to a Young Man",
+      "date": "Probably 1659",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jan Steen",
+      "credit": "Bought, 1871",
+      "accession": "NG856",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-steen-a-young-woman-playing-a-harpsichord-to-a-young-man",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2559",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "An Interior with a Man offering an Oyster to a Woman",
+      "date": "Probably 1660-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jan Steen",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2559",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-steen-an-interior-with-a-man-offering-an-oyster-to-a-woman",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2557",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "Peasants merry-making outside an Inn",
+      "date": "About 1645-50",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jan Steen",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2557",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-steen-peasants-merry-making-outside-an-inn",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG2560",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "Skittle Players outside an Inn",
+      "date": "Probably 1660-3",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood (probably oak)",
+      "attribution": "Jan Steen",
+      "credit": "Salting Bequest, 1910",
+      "accession": "NG2560",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-steen-skittle-players-outside-an-inn",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG6442",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "The Effects of Intemperance",
+      "date": "About 1663-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on wood",
+      "attribution": "Jan Steen",
+      "credit": "Bought, 1977",
+      "accession": "NG6442",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-steen-the-effects-of-intemperance",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG5637",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "The Interior of an Inn ('The Broken Eggs')",
+      "date": "About 1665-70",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jan Steen",
+      "credit": "Bequeathed by Sir Otto Beit, 1941",
+      "accession": "NG5637",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-steen-the-interior-of-an-inn-the-broken-eggs",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "ngl-NG1421",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "Two Men and a Young Woman making Music on a Terrace",
+      "date": "About 1670-5",
+      "begin": null,
+      "end": null,
+      "medium": "Oil on canvas",
+      "attribution": "Jan Steen",
+      "credit": "Bought, 1894",
+      "accession": "NG1421",
+      "source": "https://www.nationalgallery.org.uk/paintings/jan-steen-two-men-and-a-young-woman-making-music-on-a-terrace",
+      "museum": "london",
+      "image": null,
+      "imageLicense": null
+    },
+    {
+      "id": "nga-66",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "Herdsmen Tending Cattle",
+      "date": "1655/1660",
+      "begin": 1655,
+      "end": 1660,
+      "medium": "oil on canvas",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.59",
+      "source": "https://www.nga.gov/artworks/66",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/e394bc24-b1d8-4358-92c1-0d78480b5473/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-67",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "A Farm in the Sunlight",
+      "date": "1668",
+      "begin": 1668,
+      "end": 1668,
+      "medium": "oil on canvas",
+      "attribution": "Meindert Hobbema",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.60",
+      "source": "https://www.nga.gov/artworks/67",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/fa6c1ed4-837b-454b-89cd-603f26e9575d/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-68",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "A Wooded Landscape",
+      "date": "1663",
+      "begin": 1663,
+      "end": 1663,
+      "medium": "oil on canvas",
+      "attribution": "Meindert Hobbema",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.61",
+      "source": "https://www.nga.gov/artworks/68",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/2e2230e3-0d44-4437-a9b2-e8743f137653/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-69",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "A View on a High Road",
+      "date": "1665",
+      "begin": 1665,
+      "end": 1665,
+      "medium": "oil on canvas",
+      "attribution": "Meindert Hobbema",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.62",
+      "source": "https://www.nga.gov/artworks/69",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/55b9adfb-53db-44cf-af22-810decc98e9b/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-74",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of a Woman Aged Sixty",
+      "date": "1633",
+      "begin": 1633,
+      "end": 1633,
+      "medium": "oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.67",
+      "source": "https://www.nga.gov/artworks/74",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/e54612e0-b093-41c7-ba14-cf92a4a6f976/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-75",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of a Member of the Haarlem Civic Guard",
+      "date": "c. 1636/1638",
+      "begin": 1636,
+      "end": 1638,
+      "medium": "oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.68",
+      "source": "https://www.nga.gov/artworks/75",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/b808602f-f402-444c-93ec-90d1f414abd9/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-76",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Willem Coymans",
+      "date": "1645",
+      "begin": 1645,
+      "end": 1645,
+      "medium": "oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.69",
+      "source": "https://www.nga.gov/artworks/76",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/b82f01d7-de9a-4e6d-8b9a-9660e290d60d/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-77",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Adriaen van Ostade",
+      "date": "1646/1648",
+      "begin": 1646,
+      "end": 1648,
+      "medium": "oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.70",
+      "source": "https://www.nga.gov/artworks/77",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/2a84e43d-2935-48b3-a4e2-7a3e4fc53580/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-78",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of a Young Man",
+      "date": "1646/1648",
+      "begin": 1646,
+      "end": 1648,
+      "medium": "oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1937.1.71",
+      "source": "https://www.nga.gov/artworks/78",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/65a7f1b6-4a06-40c7-a7a9-92bab9d5e63e/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-571",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "A Young Man in a Large Hat",
+      "date": "1626/1629",
+      "begin": 1626,
+      "end": 1629,
+      "medium": "oil on panel",
+      "attribution": "Frans Hals",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1940.1.12",
+      "source": "https://www.nga.gov/artworks/571",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/a8e514ad-42e0-4416-8bbc-b3e5a2076799/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-576",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "The Maas at Dordrecht",
+      "date": "c. 1650",
+      "begin": 1650,
+      "end": 1650,
+      "medium": "oil on canvas",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Andrew W. Mellon Collection",
+      "accession": "1940.2.1",
+      "source": "https://www.nga.gov/artworks/576",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/317eb85d-cb70-4408-837b-bcaff6de5f85/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1152",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "Lady and Gentleman on Horseback",
+      "date": "c. 1655, reworked 1660/1665",
+      "begin": 1655,
+      "end": 1665,
+      "medium": "oil on canvas",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Widener Collection",
+      "accession": "1942.9.15",
+      "source": "https://www.nga.gov/artworks/1152",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/94c41c4c-519c-4fba-bdcc-0f712376ceff/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1153",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "Horsemen and Herdsmen with Cattle",
+      "date": "1655/1660",
+      "begin": 1655,
+      "end": 1660,
+      "medium": "oil on canvas",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Widener Collection",
+      "accession": "1942.9.16",
+      "source": "https://www.nga.gov/artworks/1153",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/194c86fb-0bcc-47eb-b848-f4bf2f24c30e/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1167",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of a Man",
+      "date": "1648/1650",
+      "begin": 1648,
+      "end": 1650,
+      "medium": "oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Widener Collection",
+      "accession": "1942.9.28",
+      "source": "https://www.nga.gov/artworks/1167",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/cab68476-336a-4223-90fe-eb33ba2e5293/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1168",
+      "artistIds": [
+        "frans-hals"
+      ],
+      "title": "Portrait of a Gentleman",
+      "date": "1650/1652",
+      "begin": 1650,
+      "end": 1652,
+      "medium": "oil on canvas",
+      "attribution": "Frans Hals",
+      "credit": "Widener Collection",
+      "accession": "1942.9.29",
+      "source": "https://www.nga.gov/artworks/1168",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/b4040d59-d7aa-4748-b785-9fb5d7041e44/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1169",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "Hut among Trees",
+      "date": "c. 1664",
+      "begin": 1664,
+      "end": 1664,
+      "medium": "oil on canvas",
+      "attribution": "Meindert Hobbema",
+      "credit": "Widener Collection",
+      "accession": "1942.9.30",
+      "source": "https://www.nga.gov/artworks/1169",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/6be662bf-35bd-4738-a8f5-0ed146f54996/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1170",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "The Travelers",
+      "date": "166[2?]",
+      "begin": 1662,
+      "end": 1662,
+      "medium": "oil on canvas",
+      "attribution": "Meindert Hobbema",
+      "credit": "Widener Collection",
+      "accession": "1942.9.31",
+      "source": "https://www.nga.gov/artworks/1170",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/a7fa9b2d-301b-452e-877b-fb4a81b4f954/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1171",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "Village near a Pool",
+      "date": "c. 1670",
+      "begin": 1670,
+      "end": 1670,
+      "medium": "oil on canvas",
+      "attribution": "Meindert Hobbema",
+      "credit": "Widener Collection",
+      "accession": "1942.9.32",
+      "source": "https://www.nga.gov/artworks/1171",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/17542e7c-e6cb-4010-b5d7-3a95ecb9cbe3/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1219",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "Forest Scene",
+      "date": "c. 1655",
+      "begin": 1655,
+      "end": 1655,
+      "medium": "oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Widener Collection",
+      "accession": "1942.9.80",
+      "source": "https://www.nga.gov/artworks/1219",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/207a1259-910e-4519-87d6-f1ad23e6b209/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-1220",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "The Dancing Couple",
+      "date": "1663",
+      "begin": 1663,
+      "end": 1663,
+      "medium": "oil on canvas",
+      "attribution": "Jan Steen",
+      "credit": "Widener Collection",
+      "accession": "1942.9.81",
+      "source": "https://www.nga.gov/artworks/1220",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/0dd57cd1-91db-4e04-a709-6fb236d266d1/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46005",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "Country House in a Park",
+      "date": "c. 1675",
+      "begin": 1675,
+      "end": 1675,
+      "medium": "oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Gift of Rupert L. Joseph",
+      "accession": "1960.2.1",
+      "source": "https://www.nga.gov/artworks/46005",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/00209fb1-64a2-4961-9ccc-8c6c06117df2/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-46184",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "Landscape",
+      "date": "c. 1670",
+      "begin": 1670,
+      "end": 1670,
+      "medium": "oil on canvas",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "Samuel H. Kress Collection",
+      "accession": "1961.9.85",
+      "source": "https://www.nga.gov/artworks/46184",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/5f86ad9a-2691-4771-9e6a-4f2792c62eba/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-69390",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "River Landscape with Cows",
+      "date": "1645/1650",
+      "begin": 1645,
+      "end": 1650,
+      "medium": "oil on panel",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Gift of Family Petschek (Aussig)",
+      "accession": "1986.70.1",
+      "source": "https://www.nga.gov/artworks/69390",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/6cbae31a-28c0-4c83-a195-121bf277ba20/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-100922",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "A Pier Overlooking Dordrecht",
+      "date": "early 1640s",
+      "begin": 1640,
+      "end": 1644,
+      "medium": "oil on panel",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Gift of George M. and Linda H. Kaufman",
+      "accession": "2012.73.1",
+      "source": "https://www.nga.gov/artworks/100922",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/d7c0003d-0fb4-4412-a35c-9338fbe8c3b1/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-100926",
+      "artistIds": [
+        "aelbert-cuyp"
+      ],
+      "title": "Landscape with Herdsmen",
+      "date": "mid 1650s",
+      "begin": 1650,
+      "end": 1652,
+      "medium": "oil on panel",
+      "attribution": "Aelbert Cuyp",
+      "credit": "Corcoran Collection (William A. Clark Collection, 1926)",
+      "accession": "2014.79.707",
+      "source": "https://www.nga.gov/artworks/100926",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/75189388-085e-4751-bd3d-deadf6dd4988/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-195366",
+      "artistIds": [
+        "jan-steen"
+      ],
+      "title": "Ascagnes and Lucelle (The Music Lesson)",
+      "date": "1667",
+      "begin": 1667,
+      "end": 1667,
+      "medium": "oil on canvas",
+      "attribution": "Jan Steen",
+      "credit": "Corcoran Collection (William A. Clark Collection, 1926)",
+      "accession": "2014.136.45",
+      "source": "https://www.nga.gov/artworks/195366",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/5d3dddf6-7279-421b-9e91-75e13ff15be8/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-195497",
+      "artistIds": [
+        "meindert-hobbema"
+      ],
+      "title": "Wooded Landscape with Figures",
+      "date": "c. 1658",
+      "begin": 1658,
+      "end": 1658,
+      "medium": "oil on panel",
+      "attribution": "Meindert Hobbema",
+      "credit": "Corcoran Collection (William A. Clark Collection, 1926)",
+      "accession": "2015.143.13",
+      "source": "https://www.nga.gov/artworks/195497",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/435b1a2c-543e-479d-a642-bcf6aecab5b2/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
+    },
+    {
+      "id": "nga-210038",
+      "artistIds": [
+        "jacob-van-ruisdael"
+      ],
+      "title": "Dunes by the Sea",
+      "date": "1648",
+      "begin": 1648,
+      "end": 1648,
+      "medium": "oil on panel",
+      "attribution": "Jacob van Ruisdael",
+      "credit": "The Lee and Juliet Folger Fund",
+      "accession": "2017.55.1",
+      "source": "https://www.nga.gov/artworks/210038",
+      "museum": "nga",
+      "image": "https://api.nga.gov/iiif/325a5f6f-0f8d-42af-9710-297ef32df080/full/!640,640/0/default.jpg",
+      "imageLicense": "Public domain"
     }
   ]
 }

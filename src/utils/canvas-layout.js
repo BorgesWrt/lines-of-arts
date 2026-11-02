@@ -25,7 +25,7 @@ export function makeLayout(movements, artists, level, rowSpacing, expanded, comp
       groups.push({ movement, y: line, header, members, openness: 0 });
       cursor += (level === 'overview' ? compactSpacing : 78) + 40;
     } else {
-      const first = cursor + 20;
+      const first = cursor + 54;
       const spacing = rowSpacing ?? (level === 'works' ? 126 : 74);
       members.forEach((artist, i) => rows.set(artist.id, first + i * spacing));
       const size = Math.max(1, members.length) * spacing;

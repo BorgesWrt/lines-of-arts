@@ -1,10 +1,7 @@
 import React,{useContext} from 'react';
-import {Mail,ExternalLink} from 'lucide-react';
 import {LocaleContext,translate} from '../utils/i18n.js';
-import {CONTACT_EMAIL,feedbackMailto,feedbackGmail} from '../utils/feedback.js';
 export default function Feedback(){
- const locale=useContext(LocaleContext);const t=s=>translate(s,locale);
- function submit(event){event.preventDefault();const form=event.currentTarget;const data=Object.fromEntries(new FormData(form));location.href=feedbackMailto(data);}
- function gmail(event){const form=event.currentTarget.form;if(form.reportValidity())window.open(feedbackGmail(Object.fromEntries(new FormData(form))),'_blank','noopener,noreferrer');}
- return <div className="dialog-content feedback-content"><span className="section-kicker">lines-of-arts</span><h2>{t('Обратная связь')}</h2><p>{t('Нашли неточность, хотите предложить картину или обсудить проект? Напишите мне.')}</p><a className="contact-email" href={`mailto:${CONTACT_EMAIL}`}><Mail size={19}/>{CONTACT_EMAIL}</a><form onSubmit={submit}><label>{t('Ваше имя')}<input name="name" autoComplete="name" required maxLength={100}/></label><label>{t('Ваша почта')}<input name="email" type="email" autoComplete="email" required maxLength={200}/></label><label>{t('Сообщение')}<textarea name="message" rows={5} required maxLength={5000}/></label><p className="secondary-note">{t('Форма откроет письмо в вашем почтовом приложении. Проверьте текст и отправьте его оттуда.')}</p><button className="primary-button" type="submit"><Mail size={16}/>{t('Открыть письмо')}</button><button className="gmail-button" type="button" onClick={gmail}>Gmail<ExternalLink size={14}/></button></form><div className="developer-links"><span className="section-kicker">{t('Разработчик')} · Henry Borges</span><a href="https://henryborges.pages.dev/" target="_blank" rel="noreferrer">{t('Сайт разработчика')}<ExternalLink size={14}/></a><a href="https://t.me/borgeswrite" target="_blank" rel="noreferrer">{t('Telegram-канал')}<ExternalLink size={14}/></a><a href="https://github.com/BorgesWrt" target="_blank" rel="noreferrer">GitHub · BorgesWrt<ExternalLink size={14}/></a></div></div>;
+ const locale=useContext(LocaleContext);
+ const soon={ru:'Канал проекта скоро появится',en:'Project channel coming soon',es:'Próximamente: canal del proyecto',de:'Projektkanal folgt in Kürze'};
+ return <div className="dialog-content feedback-content"><h2>{translate('Обратная связь',locale)}</h2><a className="contact-email" href="https://t.me/andrey_2410" target="_blank" rel="noreferrer">Telegram · @andrey_2410 ↗</a><p>{soon[locale]}</p></div>;
 }

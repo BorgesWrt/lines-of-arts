@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-08",
-  "total": 391,
+  "updated": "2026-11-02",
+  "total": 478,
   "sources": [
     "https://github.com/NationalGalleryOfArt/opendata",
     "https://openaccess-api.clevelandart.org/",
@@ -148,6 +148,26 @@
     {
       "id": "fragonard",
       "records": 25
+    },
+    {
+      "id": "aelbert-cuyp",
+      "records": 18
+    },
+    {
+      "id": "frans-hals",
+      "records": 17
+    },
+    {
+      "id": "meindert-hobbema",
+      "records": 16
+    },
+    {
+      "id": "jacob-van-ruisdael",
+      "records": 24
+    },
+    {
+      "id": "jan-steen",
+      "records": 12
     }
   ],
   "requests": [
