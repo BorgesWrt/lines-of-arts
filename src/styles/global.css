@@ -136,3 +136,16 @@
 /* Keep scrolling artwork below the fixed navigation and year ruler. */
 .canvas-lines,.connection-layer{clip-path:inset(77px 0 0)}
 .year-ruler{background:var(--canvas-base);z-index:4}.canvas-topbar::before{content:"";position:absolute;z-index:-1;inset:-20px -40px auto;height:70px;background:var(--canvas-base)}.canvas-topbar{z-index:5}
+.phone-switch,.phone-index{display:none}
+@media(max-width:650px){
+ .phone-switch{display:flex;flex:none;gap:4px;padding:4px;margin:8px 14px;background:var(--field);border:1px solid var(--border);border-radius:12px}
+ .phone-switch button{flex:1;min-height:40px;border-radius:8px;font-size:13px;color:var(--secondary)}
+ .phone-switch button[aria-pressed=true]{background:var(--raised);color:var(--text);box-shadow:0 1px 5px #0002;font-weight:600}
+ .phone-index{display:block;flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;background:var(--canvas-base);padding:12px 16px calc(20px + env(safe-area-inset-bottom))}
+ .atlas-app:has(.phone-index){display:grid;grid-template-rows:auto auto minmax(0,1fr)}.phone-index,.phone-index + .atlas-workspace{grid-row:3;grid-column:1}.phone-index{position:relative;z-index:1}.phone-index + .atlas-workspace{visibility:hidden}
+ .phone-index-title{padding:4px 0 14px}.phone-index-title small,.phone-period small{color:var(--quiet);font-size:11px;letter-spacing:.09em}.phone-index-title h1{font:30px Prata,Georgia,serif;margin:5px 0}
+ .phone-period{display:grid;grid-template-columns:68px minmax(0,1fr) 18px;align-items:center;gap:14px;width:100%;padding:12px 0;text-align:left;border-top:1px solid var(--border)}
+ .phone-period>img,.phone-period>.image-fallback{width:68px;height:84px;object-fit:contain;border-radius:6px;background:var(--field)}
+ .phone-period span{display:grid;gap:5px}.phone-period strong{font:18px/1.35 Prata,Georgia,serif;color:var(--text)}.phone-period small{border-left:3px solid var(--color);padding-left:7px}.phone-period em{line-height:1.4;font-style:normal;font-size:12px;color:var(--quiet)}.phone-period svg{color:var(--quiet)}
+ .canvas-bottom{display:none}.zoom-control{bottom:calc(12px + env(safe-area-inset-bottom))}.vertical-control{bottom:84px}
+}

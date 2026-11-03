@@ -75,6 +75,7 @@ function App() {
   const [filtersOpen, setFiltersOpen] = useState(true);
   const [galleryMovement, setGalleryMovement] = useState('all');
   const [active, setActive] = useState(movements.map(m => m.id));
+  const [mobileIndex, setMobileIndex] = useState(true);
   const [query, setQuery] = useState('');
   const [focused, setFocused] = useState(null);
   const [expansionSession,setExpanded] = useState(() => {
@@ -166,6 +167,7 @@ function App() {
   function reset() { setActive(movements.map(m => m.id)); setQuery(''); setFocused(null); setCamera(fitCamera); setHover(null); }
   function overview() { setFocused(null); setCamera(fitCamera); setHover(null); }
   function focusMovement(id) {
+    setMobileIndex(false);
     suppressDirectionHover.current=performance.now()+500;clearTimeout(directionTimer.current);
     const m = movementById(id);
     setActive(value => [...new Set([...value,id])]); setFocused(id); setExpanded(value=>includeDirections(value??[],[id])); setQuery('');
@@ -312,6 +314,20 @@ function App() {
 
   return <LocaleContext.Provider value={locale}>{localizeTree(<div className="atlas-app">
     <header className="atlas-header" inert={modal ? true : undefined}><button className="brand" onClick={overview} aria-label="lines-of-arts — общий вид"><span className="brand-icon"><i/><i/><i/></span><span className="brand-wordmark">lines-of-arts</span></button><div className="header-divider"/><span className="header-title">Живопись <small>XIII–XVIII века</small></span><div className="search-box"><Search size={16}/><input aria-label="Поиск художников и картин" placeholder="Найти художника или картину" value={query} onChange={e=>{setQuery(e.target.value);setFocused(null);setCamera(c=>({...c,panY:0}));}}/>{query&&<button aria-label="Очистить поиск" onClick={()=>setQuery('')}><X size={14}/></button>}</div><button className="filter-button" aria-label={`Фильтры: ${active.length} направлений`} onClick={()=>window.matchMedia('(min-width: 1100px)').matches?setFiltersOpen(v=>!v):setModal({type:'filters'})}><SlidersHorizontal size={17}/><span>Фильтры</span><b>{active.length}</b></button><button className="header-icon" aria-label="Избранное" title="Избранное" onClick={()=>{setDirection(null);setModal({type:'favorites'});}}><Star size={18}/></button><button className="header-icon gallery-trigger" aria-label="Галерея картин" title="Галерея картин" onClick={()=>setModal({type:'gallery'})}><Grid2X2 size={18}/></button><button className="header-icon language-trigger" aria-label="Язык сайта" title="Язык сайта" onClick={()=>{setDirection(null);setModal({type:'language'});}}><Languages size={18}/><span>{locale.toUpperCase()}</span></button><button className="header-icon theme-trigger" aria-label="Тема оформления" title="Тема оформления" onClick={()=>{setDirection(null);setModal({type:'theme'});}}><Palette size={18}/></button><button className="header-icon help-trigger" aria-label="Как читать карту" title="Как читать карту" onClick={()=>setModal({type:'help'})}><CircleHelp size={18}/></button><button className="header-icon mobile-menu-trigger" aria-label="Настройки" onClick={()=>{setDirection(null);setModal({type:'settings'});}}><Menu size={21}/></button></header>
+    <div className="phone-switch" inert={modal ? true : undefined}>
+      <button aria-pressed={mobileIndex} onClick={()=>{if(!mobileIndex){overview();setDirection(null);setMobileIndex(true);}}}>Направления</button>
+      <button aria-pressed={!mobileIndex} onClick={()=>setMobileIndex(false)}>Весь атлас</button>
+    </div>
+    {mobileIndex && <section className="phone-index" inert={modal ? true : undefined}>
+      <div className="phone-index-title"><small> XIII–XVIII </small><h1>Живопись</h1></div>
+      {visibleMovements.map(m=>{
+        const cover=paintings.find(p=>p.id===keyWorks[m.id][0]);
+        return <button key={m.id} className="phone-period" style={{'--color':m.color}} onClick={()=>focusMovement(m.id)}>
+          <ArtworkImage painting={cover}/><span><small>{m.start}–{m.end}</small><strong>{m.title}</strong><em>{m.subtitle}</em></span><ChevronRight size={18}/>
+        </button>;
+      })}
+      {!visibleMovements.length && <div><h2>Ничего не найдено</h2><button onClick={reset}>Показать всё</button></div>}
+    </section>}
     <div className={`atlas-workspace ${filtersOpen?'filters-visible':'filters-hidden'}`}><aside className="filter-dock" inert={modal||!filtersOpen?true:undefined} aria-label={translate('Фильтры карты',locale)}><div className="dock-heading"><SlidersHorizontal size={17}/><span>Фильтры карты</span><button aria-label="Скрыть фильтры" onClick={()=>setFiltersOpen(false)}><ChevronDown size={18}/></button></div>{content('filters')}</aside><button className="filter-dock-tab" aria-label="Открыть фильтры" onClick={()=>setFiltersOpen(true)} inert={modal||filtersOpen?true:undefined}><SlidersHorizontal size={16}/><span>Фильтры</span><ChevronUp size={16}/></button><main className={`canvas-viewport ${dragging?'dragging':''} level-${level}`} ref={stage} tabIndex="0" role="region" aria-label="Холст хронологии. Колесо меняет масштаб, перетаскивание двигает карту" inert={modal ? true : undefined} onPointerDown={pointerDown} onPointerMove={pointerMove} onPointerUp={pointerUp} onPointerCancel={pointerUp} onKeyDown={canvasKey}>
       <div className="canvas-topbar"><div className="breadcrumb"><button onClick={overview}>Весь атлас</button>{focused&&<><ChevronRight size={13}/><strong style={{color:movementById(focused).color}}>{movementById(focused).title}</strong><button className="back-overview" aria-label="Вернуться к общему виду" onClick={overview}><X size={13}/></button></>}</div><span className="level-indicator"><i/>{level==='overview'?'Общий вид':level==='artists'?'Линии художников':'Картины крупным планом'}</span></div>
       <svg className="canvas-lines" width={size.width} height={size.height} aria-hidden="true"><defs><marker id="arrow-training" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="none" stroke="#ccb88c"/></marker><marker id="arrow-workshop" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="none" stroke="#88accc"/></marker></defs>{ticks.map(year=><line key={year} x1={x(year)} x2={x(year)} y1="77" y2={size.height-25} stroke={year%100===0?'var(--grid-major)':'var(--grid-minor)'} strokeDasharray={year%100===0?undefined:'2 6'}/>)}{layout.groups.map(g=><g key={g.movement.id}>{g.openness<.999&&<SpectrumTrack group={g} density={density.groups.get(g.movement.id)} x={x} y={y}/>}{g.openness>.001&&<line x1="24" x2={size.width-24} y1={y(g.header)-10} y2={y(g.header)-10} stroke={g.movement.color} strokeOpacity={g.openness*.15}/>}</g>)}{visibleArtists.map(a=>{if(!layout.rows.has(a.id))return null;const row=y(layout.rows.get(a.id));const m=movementById(a.movement);return <g key={a.id} opacity={artistOpenness(a.movement)}><line x1={x(a.start)} x2={x(a.end)} y1={row} y2={row} stroke={m.color} strokeOpacity={selected===a.id?'.95':'.35'} strokeWidth={selected===a.id?'2':'1'}/><circle cx={x(a.start)} cy={row} r="2" fill={m.color}/><circle cx={x(a.end)} cy={row} r="2" fill={m.color}/></g>;})}</svg>
