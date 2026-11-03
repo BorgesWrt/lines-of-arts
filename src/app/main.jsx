@@ -241,6 +241,13 @@ function App() {
   }
   function pointerDown(e) {
     if (e.button !== 0 || e.target.closest('button,a,input,[role="button"],.direction-preview')) return;
+    const g = gesture.current;
+    const touch = e.pointerType === 'touch' && !g.points.size;
+    const tap = g.lastTap;
+    g.dragZoom = touch && tap && e.timeStamp - tap.time < 340 &&
+      Math.hypot(e.clientX - tap.x, e.clientY - tap.y) < 30;
+    g.lastTap = null;
+    g.tapStart = touch && !g.dragZoom ? {x:e.clientX,y:e.clientY,time:e.timeStamp} : null;
     setDirection(null); setCamera(camera);
     e.currentTarget.setPointerCapture(e.pointerId);
     gesture.current.points.set(e.pointerId, { x:e.clientX, y:e.clientY });
@@ -251,7 +258,16 @@ function App() {
   function pointerMove(e) {
     const g = gesture.current;
     if (!g.points.has(e.pointerId)) return;
+    if (g.tapStart && Math.hypot(e.clientX-g.tapStart.x,e.clientY-g.tapStart.y)>9) g.tapStart=null;
     g.points.set(e.pointerId,{ x:e.clientX,y:e.clientY });
+    if (g.dragZoom) {
+      const origin = g.start.points[0];
+      const delta = e.clientY-origin.y;
+      const rect = e.currentTarget.getBoundingClientRect();
+      const next = zoomAt(g.start.camera,g.start.camera.zoom * 2 ** (delta / 140),origin.x-rect.left,rect.width);
+      applyZoom({...next,panY:latest.current.targetCamera.panY},origin.y-rect.top);
+      return;
+    }
     const points = [...g.points.values()]; const { camera: c, size:s, layout:l } = latest.current;
     if (points.length > 1 && g.start.points.length > 1) {
       const distance = Math.hypot(points[1].x-points[0].x,points[1].y-points[0].y);
@@ -266,6 +282,12 @@ function App() {
     }
   }
   function pointerUp(e) {
+    const g = gesture.current;
+    if (!g.points.has(e.pointerId)) return;
+    if (e.type === 'pointerup' && g.tapStart && e.timeStamp-g.tapStart.time<250)
+      g.lastTap={x:e.clientX,y:e.clientY,time:e.timeStamp};
+    g.tapStart=null;
+    g.dragZoom=false;
     gesture.current.points.delete(e.pointerId);
     const remaining = [...gesture.current.points.values()];
     if (remaining.length) gesture.current.start = { camera: latest.current.camera, points:remaining.map(p => ({ ...p })), distance:0 };
