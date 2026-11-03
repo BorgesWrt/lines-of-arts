@@ -149,3 +149,4 @@
  .phone-period span{display:grid;gap:5px}.phone-period strong{font:18px/1.35 Prata,Georgia,serif;color:var(--text)}.phone-period small{border-left:3px solid var(--color);padding-left:7px}.phone-period em{line-height:1.4;font-style:normal;font-size:12px;color:var(--quiet)}.phone-period svg{color:var(--quiet)}
  .canvas-bottom{display:none}.zoom-control{bottom:calc(12px + env(safe-area-inset-bottom))}.vertical-control{bottom:84px}
 }
+@media(max-width:650px){.canvas-topbar::before{inset:-10px -20px auto;height:50px}.year-ruler{z-index:5}}
