@@ -16,6 +16,7 @@ import { FAVORITES_KEY, emptyFavorites, cleanFavorites, toggleFavorite } from '.
 import images from '../data/image-manifest.json';
 import '../styles/global.css';
 import MuseumWorks from './museum-works.jsx';
+import LearningHome from './learning-home.jsx';
 import Feedback from './feedback.jsx';
 import ArtworkPresentation from './artwork-presentation.jsx';
 import {allPaintings,timelinePaintings,museumPaintings,catalogueDate} from '../utils/museum-catalog.js';
@@ -374,4 +375,4 @@ function App() {
   </div>,locale)}</LocaleContext.Provider>;
 }
 
-createRoot(document.getElementById('root')).render(<App/>);
+createRoot(document.getElementById('root')).render(location.pathname.replace(/\/$/,'') === '/atlas' || (location.pathname==='/' && new URLSearchParams(location.search).has('work')) ? <App/> : <LearningHome/>);

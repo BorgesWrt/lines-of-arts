@@ -4,3 +4,10 @@
 
 [build.environment]
   NODE_VERSION = "22"
+
+# Serve generated pages first, then fall back to the client app.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+

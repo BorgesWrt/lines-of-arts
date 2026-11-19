@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
-    "build": "vite build",
+    "build": "vite build && node scripts/prerender-pages.mjs",
     "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
     "check:data": "node scripts/check-data.mjs",
     "assets": "node scripts/fetch-artworks.mjs",
