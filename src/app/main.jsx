@@ -33,7 +33,7 @@ function ArtworkImage({ painting, ...props }) {
   const [failed, setFailed] = useState(false);
   const image=painting.remoteImage||images[painting.id]?.file;
   if (failed || !image) return <span className="image-fallback">{translate(painting.external&&!failed?'Репродукция доступна на сайте музея':'Репродукция недоступна',locale)}</span>;
-  return <img src={image} referrerPolicy="no-referrer" decoding="async" alt={translate(`${painting.artist} — «${painting.title}»`,locale)} onError={() => setFailed(true)} {...props}/>;
+  return <img src={image} loading="lazy" referrerPolicy="no-referrer" decoding="async" alt={translate(`${painting.artist} — «${painting.title}»`,locale)} onError={() => setFailed(true)} {...props}/>;
 }
 
 function Dialog({ modal, onClose, children }) {
@@ -110,6 +110,12 @@ function App() {
     catch { setStorageError(true); }
   }, [favorites]);
   useEffect(() => () => clearTimeout(directionTimer.current), []);
+  useEffect(() => {
+    if (!modal) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = previousOverflow; };
+  }, [modal]);
   const stage = useRef(null);
   const gesture = useRef({ points: new Map(), start: null });
   const latest = useRef({});
@@ -336,7 +342,7 @@ function App() {
 
   return <LocaleContext.Provider value={locale}>{localizeTree(<div className="atlas-app">
     <header className="atlas-header" inert={modal ? true : undefined}><button className="brand" onClick={overview} aria-label="lines-of-arts — общий вид"><span className="brand-icon"><i/><i/><i/></span><span className="brand-wordmark">lines-of-arts</span></button><div className="header-divider"/><span className="header-title">Живопись <small>XIII–XVIII века</small></span><div className="search-box"><Search size={16}/><input aria-label="Поиск художников и картин" placeholder="Найти художника или картину" value={query} onChange={e=>{setQuery(e.target.value);setFocused(null);setCamera(c=>({...c,panY:0}));}}/>{query&&<button aria-label="Очистить поиск" onClick={()=>setQuery('')}><X size={14}/></button>}</div><button className="filter-button" aria-label={`Фильтры: ${active.length} направлений`} onClick={()=>window.matchMedia('(min-width: 1100px)').matches?setFiltersOpen(v=>!v):setModal({type:'filters'})}><SlidersHorizontal size={17}/><span>Фильтры</span><b>{active.length}</b></button><button className="header-icon" aria-label="Избранное" title="Избранное" onClick={()=>{setDirection(null);setModal({type:'favorites'});}}><Star size={18}/></button><button className="header-icon gallery-trigger" aria-label="Галерея картин" title="Галерея картин" onClick={()=>setModal({type:'gallery'})}><Grid2X2 size={18}/></button><button className="header-icon language-trigger" aria-label="Язык сайта" title="Язык сайта" onClick={()=>{setDirection(null);setModal({type:'language'});}}><Languages size={18}/><span>{locale.toUpperCase()}</span></button><button className="header-icon theme-trigger" aria-label="Тема оформления" title="Тема оформления" onClick={()=>{setDirection(null);setModal({type:'theme'});}}><Palette size={18}/></button><button className="header-icon help-trigger" aria-label="Как читать карту" title="Как читать карту" onClick={()=>setModal({type:'help'})}><CircleHelp size={18}/></button><button className="header-icon mobile-menu-trigger" aria-label="Настройки" onClick={()=>{setDirection(null);setModal({type:'settings'});}}><Menu size={21}/></button></header>
-    <div className="phone-switch" inert={modal ? true : undefined}>
+    <div className="phone-switch" role="group" aria-label="Мобильная навигация" inert={modal ? true : undefined}>
       <button aria-pressed={mobileIndex} onClick={()=>{if(!mobileIndex){overview();setDirection(null);setMobileIndex(true);}}}>Направления</button>
       <button aria-pressed={!mobileIndex} onClick={()=>setMobileIndex(false)}>Весь атлас</button>
     </div>
@@ -348,7 +354,7 @@ function App() {
           <ArtworkImage painting={cover}/><span><small>{m.start}–{m.end}</small><strong>{m.title}</strong><em>{m.subtitle}</em></span><ChevronRight size={18}/>
         </button>;
       })}
-      {!visibleMovements.length && <div><h2>Ничего не найдено</h2><button onClick={reset}>Показать всё</button></div>}
+      {!visibleMovements.length && <div className="phone-empty"><Search size={24}/><h2>Ничего не найдено</h2><p>Попробуй другой запрос или сбрось фильтры.</p><button onClick={reset}>Показать всё</button></div>}
     </section>}
     <div className={`atlas-workspace ${filtersOpen?'filters-visible':'filters-hidden'}`}><aside className="filter-dock" inert={modal||!filtersOpen?true:undefined} aria-label={translate('Фильтры карты',locale)}><div className="dock-heading"><SlidersHorizontal size={17}/><span>Фильтры карты</span><button aria-label="Скрыть фильтры" onClick={()=>setFiltersOpen(false)}><ChevronDown size={18}/></button></div>{content('filters')}</aside><button className="filter-dock-tab" aria-label="Открыть фильтры" onClick={()=>setFiltersOpen(true)} inert={modal||filtersOpen?true:undefined}><SlidersHorizontal size={16}/><span>Фильтры</span><ChevronUp size={16}/></button><main className={`canvas-viewport ${dragging?'dragging':''} level-${level}`} ref={stage} tabIndex="0" role="region" aria-label="Холст хронологии. Колесо меняет масштаб, перетаскивание двигает карту" inert={modal ? true : undefined} onPointerDown={pointerDown} onPointerMove={pointerMove} onPointerUp={pointerUp} onPointerCancel={pointerUp} onKeyDown={canvasKey}>
       <div className="canvas-topbar"><div className="breadcrumb"><button onClick={overview}>Весь атлас</button>{focused&&<><ChevronRight size={13}/><strong style={{color:movementById(focused).color}}>{movementById(focused).title}</strong><button className="back-overview" aria-label="Вернуться к общему виду" onClick={overview}><X size={13}/></button></>}</div><span className="level-indicator"><i/>{level==='overview'?'Общий вид':level==='artists'?'Линии художников':'Картины крупным планом'}</span></div>
